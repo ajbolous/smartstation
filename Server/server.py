@@ -5,8 +5,7 @@ app = Flask(__name__)
 #HI
 # hello
 @app.route("/sayHello")
-def hello(req):
-    print(req)
+def hello():
     return "Hello World!"
 
 @app.route("/getStations")
