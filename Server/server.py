@@ -1,38 +1,18 @@
 from flask import Flask
 import json
+from database_handler import DatabaseHandler
 
 app = Flask(__name__)
-#HI
-# hello
-@app.route("/sayHello")
-def hello():
-    return "Hello World!"
+app.debug = True
+
+dbHandler = DatabaseHandler()
 
 @app.route("/getStations")
-def addNumbers():
-
-    json.loads()
-    stations = [
-        {
-            "id": 1,
-            "name": "sfafri",
-            "location": {
-                "lat": 12323,
-                "lng": 123213
-            }
-        },
-        {
-            "id": 2,
-            "name": "sfafri",
-            "location": {
-                "lat": 12323,
-                "lng": 123213
-            }
-        }
-    ]
-    
-    j = json.dumps(stations, indent=4)
-    return j
+def getStations():
+    jsonObjects = []
+    for station in dbHandler.stations:
+        jsonObjects.append(station.toJson())
+    return json.dumps(jsonObjects)
 
 
 app.run()
