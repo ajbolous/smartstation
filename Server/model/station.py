@@ -1,17 +1,25 @@
 class Station:
-    def __init__(self, id, name, lat, lng):
+    def __init__(self, makat, id, name, distance, arrivaltime, timefromorigin, lng, lat):
+        self.makat = makat
         self.id = id
         self.name = name
-        self.lat = lat
+        self.distance = distance
+        self.arrivaltime = arrivaltime
+        self.timefromorigin = timefromorigin
         self.lng = lng
+        self.lat = lat
 
     def toJson(self):
         return {
-            "id": self.id,
-            "name": self.name,
-            "lat": self.lat,
-            "lng": self.lng
+            "Makat": self.makat,
+            "Id": self.id,
+            "Name": self.name,
+            "Distance": self.distance,
+            "ArrivalTime": self.arrivaltime,
+            "TimeFromOrigin": self.timefromorigin,
+            "Longitude": self.lng,
+            "Latitude": self.lat
         }
 
 def fromJson(jsonObj):
-    return Station(jsonObj['id'], jsonObj['name'], jsonObj['lat'], jsonObj['lng'])
+    return Station(jsonObj['Makat'], jsonObj['Id'], jsonObj['Name'], jsonObj['Distance'], jsonObj['ArrivalTime'], jsonObj['TimeFromOrigin'], jsonObj['Longitude'], jsonObj['Latitude'])

@@ -8,7 +8,7 @@ class DatabaseHandler():
 
     def getStations(self):
         stationObjects = []
-        file = open("/Users/lilian/smartstation/Server/data/stations.json", mode="r")
+        file = open("/SS-Git/smartstation/Server/data/30.json", mode="r", encoding="utf8")
         stations = json.load(file)
         for station in stations:
             stationObjects.append(fromJson(station))
