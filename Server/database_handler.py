@@ -9,8 +9,9 @@ class DatabaseHandler():
 
     def getStations(self):
         stationObjects = []
-        stations = self.client.main.stations.find()
+        file = open("/SS-Git/smartstation/Server/data/30.json", mode="r", encoding="utf8")
+        stations = json.load(file)
         for station in stations:
-            stationObjects.append(Station.fromJson(station))
+            stationObjects.append(fromJson(station))
         return stationObjects
 

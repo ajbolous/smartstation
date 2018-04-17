@@ -14,5 +14,5 @@ def getStations():
         jsonObjects.append(station.toJson())
     return json.dumps(jsonObjects)
 
-
+    
 app.run()
