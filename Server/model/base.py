@@ -8,7 +8,6 @@ class SerializableBase():
     @classmethod
     def fromJson(cls, jsonObj):
         obj = cls()
-        jsonObj.__delitem__("_id")
+        #jsonObj.__delitem__("_id")
         obj.__dict__.update(jsonObj)
-        print(jsonObj)
         return obj

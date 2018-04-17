@@ -10,7 +10,7 @@ dbHandler = DatabaseHandler()
 @app.route("/getStations")
 def getStations():
     jsonObjects = []
-    for station in dbHandler.stations:
+    for station in dbHandler.getStations():
         jsonObjects.append(station.toJson())
     return json.dumps(jsonObjects)
 

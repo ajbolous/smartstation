@@ -1,0 +1,1182 @@
+[
+    {
+        "number": 30,
+        "stops": [
+            {
+                "stationId": 51858,
+                "timeToNext": "0",
+                "distanceToNext": "0"
+            },
+            {
+                "stationId": 50840,
+                "timeToNext": "1",
+                "distanceToNext": "0.32"
+            },
+            {
+                "stationId": 53926,
+                "timeToNext": "1",
+                "distanceToNext": "0.64"
+            },
+            {
+                "stationId": 55419,
+                "timeToNext": "2",
+                "distanceToNext": "0.89"
+            },
+            {
+                "stationId": 54228,
+                "timeToNext": "3",
+                "distanceToNext": "1.11"
+            },
+            {
+                "stationId": 53950,
+                "timeToNext": "3",
+                "distanceToNext": "1.34"
+            },
+            {
+                "stationId": 51095,
+                "timeToNext": "6",
+                "distanceToNext": "2.15"
+            },
+            {
+                "stationId": 55254,
+                "timeToNext": "6",
+                "distanceToNext": "2.39"
+            },
+            {
+                "stationId": 52182,
+                "timeToNext": "7",
+                "distanceToNext": "2.76"
+            },
+            {
+                "stationId": 52178,
+                "timeToNext": "9",
+                "distanceToNext": "3.27"
+            },
+            {
+                "stationId": 52175,
+                "timeToNext": "10",
+                "distanceToNext": "3.87"
+            },
+            {
+                "stationId": 51057,
+                "timeToNext": "12",
+                "distanceToNext": "4.76"
+            },
+            {
+                "stationId": 53999,
+                "timeToNext": "13",
+                "distanceToNext": "5.05"
+            },
+            {
+                "stationId": 51200,
+                "timeToNext": "14",
+                "distanceToNext": "5.29"
+            },
+            {
+                "stationId": 51201,
+                "timeToNext": "14",
+                "distanceToNext": "5.47"
+            },
+            {
+                "stationId": 55632,
+                "timeToNext": "15",
+                "distanceToNext": "5.73"
+            },
+            {
+                "stationId": 55633,
+                "timeToNext": "15",
+                "distanceToNext": "6.09"
+            },
+            {
+                "stationId": 55256,
+                "timeToNext": "16",
+                "distanceToNext": "6.43"
+            },
+            {
+                "stationId": 55158,
+                "timeToNext": "17",
+                "distanceToNext": "6.74"
+            },
+            {
+                "stationId": 51096,
+                "timeToNext": "18",
+                "distanceToNext": "7.13"
+            },
+            {
+                "stationId": 51097,
+                "timeToNext": "19",
+                "distanceToNext": "7.43"
+            },
+            {
+                "stationId": 54059,
+                "timeToNext": "19",
+                "distanceToNext": "7.85"
+            },
+            {
+                "stationId": 54180,
+                "timeToNext": "20",
+                "distanceToNext": "8.30"
+            },
+            {
+                "stationId": 54179,
+                "timeToNext": "21",
+                "distanceToNext": "8.52"
+            },
+            {
+                "stationId": 54181,
+                "timeToNext": "22",
+                "distanceToNext": "8.95"
+            },
+            {
+                "stationId": 54042,
+                "timeToNext": "23",
+                "distanceToNext": "9.30"
+            },
+            {
+                "stationId": 51103,
+                "timeToNext": "23",
+                "distanceToNext": "9.61"
+            },
+            {
+                "stationId": 54054,
+                "timeToNext": "24",
+                "distanceToNext": "9.77"
+            },
+            {
+                "stationId": 51105,
+                "timeToNext": "24",
+                "distanceToNext": "10.02"
+            },
+            {
+                "stationId": 54136,
+                "timeToNext": "25",
+                "distanceToNext": "10.28"
+            },
+            {
+                "stationId": 54030,
+                "timeToNext": "25",
+                "distanceToNext": "10.51"
+            },
+            {
+                "stationId": 51108,
+                "timeToNext": "26",
+                "distanceToNext": "10.91"
+            },
+            {
+                "stationId": 51109,
+                "timeToNext": "28",
+                "distanceToNext": "11.66"
+            },
+            {
+                "stationId": 54016,
+                "timeToNext": "30",
+                "distanceToNext": "12.73"
+            },
+            {
+                "stationId": 58609,
+                "timeToNext": "30",
+                "distanceToNext": "13.02"
+            },
+            {
+                "stationId": 52226,
+                "timeToNext": "32",
+                "distanceToNext": "13.73"
+            },
+            {
+                "stationId": 54037,
+                "timeToNext": "33",
+                "distanceToNext": "13.94"
+            },
+            {
+                "stationId": 58324,
+                "timeToNext": "34",
+                "distanceToNext": "14.41"
+            },
+            {
+                "stationId": 54051,
+                "timeToNext": "34",
+                "distanceToNext": "14.49"
+            },
+            {
+                "stationId": 58325,
+                "timeToNext": "35",
+                "distanceToNext": "14.96"
+            },
+            {
+                "stationId": 50422,
+                "timeToNext": "35",
+                "distanceToNext": "15.22"
+            },
+            {
+                "stationId": 54077,
+                "timeToNext": "37",
+                "distanceToNext": "15.77"
+            },
+            {
+                "stationId": 58323,
+                "timeToNext": "38",
+                "distanceToNext": "16.44"
+            },
+            {
+                "stationId": 50075,
+                "timeToNext": "39",
+                "distanceToNext": "16.66"
+            },
+            {
+                "stationId": 50332,
+                "timeToNext": "41",
+                "distanceToNext": "19.53"
+            },
+            {
+                "stationId": 54251,
+                "timeToNext": "42",
+                "distanceToNext": "21.26"
+            },
+            {
+                "stationId": 54247,
+                "timeToNext": "48",
+                "distanceToNext": "22.75"
+            },
+            {
+                "stationId": 50607,
+                "timeToNext": "50",
+                "distanceToNext": "25.76"
+            },
+            {
+                "stationId": 51441,
+                "timeToNext": "52",
+                "distanceToNext": "27.46"
+            },
+            {
+                "stationId": 51832,
+                "timeToNext": "54",
+                "distanceToNext": "30.32"
+            },
+            {
+                "stationId": 54117,
+                "timeToNext": "58",
+                "distanceToNext": "31.81"
+            },
+            {
+                "stationId": 58166,
+                "timeToNext": "59",
+                "distanceToNext": "32.48"
+            },
+            {
+                "stationId": 58165,
+                "timeToNext": "64",
+                "distanceToNext": "34.68"
+            },
+            {
+                "stationId": 58687,
+                "timeToNext": "71",
+                "distanceToNext": "37.60"
+            },
+            {
+                "stationId": 58164,
+                "timeToNext": "71",
+                "distanceToNext": "37.80"
+            },
+            {
+                "stationId": 52048,
+                "timeToNext": "72",
+                "distanceToNext": "38.22"
+            },
+            {
+                "stationId": 52028,
+                "timeToNext": "74",
+                "distanceToNext": "38.82"
+            },
+            {
+                "stationId": 54129,
+                "timeToNext": "74",
+                "distanceToNext": "38.98"
+            },
+            {
+                "stationId": 54209,
+                "timeToNext": "76",
+                "distanceToNext": "39.73"
+            },
+            {
+                "stationId": 54211,
+                "timeToNext": "78",
+                "distanceToNext": "40.59"
+            },
+            {
+                "stationId": 54212,
+                "timeToNext": "82",
+                "distanceToNext": "42.77"
+            },
+            {
+                "stationId": 54210,
+                "timeToNext": "84",
+                "distanceToNext": "43.32"
+            },
+            {
+                "stationId": 54146,
+                "timeToNext": "85",
+                "distanceToNext": "44.62"
+            },
+            {
+                "stationId": 50560,
+                "timeToNext": "86",
+                "distanceToNext": "45.80"
+            },
+            {
+                "stationId": 51620,
+                "timeToNext": "89",
+                "distanceToNext": "48.46"
+            },
+            {
+                "stationId": 52619,
+                "timeToNext": "90",
+                "distanceToNext": "48.95"
+            },
+            {
+                "stationId": 50900,
+                "timeToNext": "90",
+                "distanceToNext": "49.05"
+            },
+            {
+                "stationId": 51613,
+                "timeToNext": "91",
+                "distanceToNext": "49.55"
+            },
+            {
+                "stationId": 51600,
+                "timeToNext": "92",
+                "distanceToNext": "49.83"
+            },
+            {
+                "stationId": 50879,
+                "timeToNext": "92",
+                "distanceToNext": "50.38"
+            },
+            {
+                "stationId": 50835,
+                "timeToNext": "94",
+                "distanceToNext": "52.99"
+            },
+            {
+                "stationId": 50483,
+                "timeToNext": "95",
+                "distanceToNext": "53.41"
+            },
+            {
+                "stationId": 55139,
+                "timeToNext": "99",
+                "distanceToNext": "55.82"
+            },
+            {
+                "stationId": 50731,
+                "timeToNext": "104",
+                "distanceToNext": "57.58"
+            },
+            {
+                "stationId": 52272,
+                "timeToNext": "105",
+                "distanceToNext": "58.13"
+            },
+            {
+                "stationId": 53503,
+                "timeToNext": "106",
+                "distanceToNext": "58.48"
+            },
+            {
+                "stationId": 50702,
+                "timeToNext": "106",
+                "distanceToNext": "58.66"
+            },
+            {
+                "stationId": 50683,
+                "timeToNext": "107",
+                "distanceToNext": "59.14"
+            },
+            {
+                "stationId": 50651,
+                "timeToNext": "108",
+                "distanceToNext": "59.48"
+            },
+            {
+                "stationId": 50634,
+                "timeToNext": "108",
+                "distanceToNext": "59.63"
+            },
+            {
+                "stationId": 50592,
+                "timeToNext": "109",
+                "distanceToNext": "59.95"
+            }
+        ]
+    },
+    {
+        "number": 242,
+        "stops": [
+            {
+                "stationId": 55637,
+                "timeToNext": "0",
+                "distanceToNext": "0"
+            },
+            {
+                "stationId": 55210,
+                "timeToNext": "2",
+                "distanceToNext": "0.74"
+            },
+            {
+                "stationId": 55115,
+                "timeToNext": "2",
+                "distanceToNext": "0.96"
+            },
+            {
+                "stationId": 55253,
+                "timeToNext": "3",
+                "distanceToNext": "1.47"
+            },
+            {
+                "stationId": 54166,
+                "timeToNext": "5",
+                "distanceToNext": "2.30"
+            },
+            {
+                "stationId": 55320,
+                "timeToNext": "6",
+                "distanceToNext": "2.96"
+            },
+            {
+                "stationId": 51587,
+                "timeToNext": "7",
+                "distanceToNext": "4.63"
+            },
+            {
+                "stationId": 55362,
+                "timeToNext": "8",
+                "distanceToNext": "5.13"
+            },
+            {
+                "stationId": 55263,
+                "timeToNext": "8",
+                "distanceToNext": "5.46"
+            },
+            {
+                "stationId": 55417,
+                "timeToNext": "9",
+                "distanceToNext": "5.92"
+            },
+            {
+                "stationId": 55331,
+                "timeToNext": "12",
+                "distanceToNext": "9.45"
+            },
+            {
+                "stationId": 52617,
+                "timeToNext": "14",
+                "distanceToNext": "11.43"
+            },
+            {
+                "stationId": 59617,
+                "timeToNext": "15",
+                "distanceToNext": "11.99"
+            },
+            {
+                "stationId": 52391,
+                "timeToNext": "15",
+                "distanceToNext": "12.37"
+            },
+            {
+                "stationId": 51589,
+                "timeToNext": "16",
+                "distanceToNext": "13.77"
+            },
+            {
+                "stationId": 51590,
+                "timeToNext": "17",
+                "distanceToNext": "14.65"
+            },
+            {
+                "stationId": 51591,
+                "timeToNext": "17",
+                "distanceToNext": "15.27"
+            },
+            {
+                "stationId": 52585,
+                "timeToNext": "19",
+                "distanceToNext": "17.25"
+            },
+            {
+                "stationId": 53755,
+                "timeToNext": "20",
+                "distanceToNext": "17.79"
+            },
+            {
+                "stationId": 51915,
+                "timeToNext": "21",
+                "distanceToNext": "19.20"
+            },
+            {
+                "stationId": 51893,
+                "timeToNext": "21",
+                "distanceToNext": "20"
+            },
+            {
+                "stationId": 53764,
+                "timeToNext": "22",
+                "distanceToNext": "20.45"
+            },
+            {
+                "stationId": 53768,
+                "timeToNext": "22",
+                "distanceToNext": "20.94"
+            },
+            {
+                "stationId": 53772,
+                "timeToNext": "23",
+                "distanceToNext": "21.40"
+            },
+            {
+                "stationId": 51924,
+                "timeToNext": "23",
+                "distanceToNext": "21.69"
+            },
+            {
+                "stationId": 53771,
+                "timeToNext": "23",
+                "distanceToNext": "22.02"
+            },
+            {
+                "stationId": 57424,
+                "timeToNext": "24",
+                "distanceToNext": "22.50"
+            },
+            {
+                "stationId": 58874,
+                "timeToNext": "25",
+                "distanceToNext": "23.49"
+            },
+            {
+                "stationId": 53257,
+                "timeToNext": "29",
+                "distanceToNext": "27.10"
+            },
+            {
+                "stationId": 52905,
+                "timeToNext": "29",
+                "distanceToNext": "27.42"
+            },
+            {
+                "stationId": 53463,
+                "timeToNext": "31",
+                "distanceToNext": "29.86"
+            },
+            {
+                "stationId": 50192,
+                "timeToNext": "33",
+                "distanceToNext": "32.99"
+            },
+            {
+                "stationId": 53777,
+                "timeToNext": "36",
+                "distanceToNext": "36.67"
+            },
+            {
+                "stationId": 53784,
+                "timeToNext": "37",
+                "distanceToNext": "38.66"
+            },
+            {
+                "stationId": 50391,
+                "timeToNext": "38",
+                "distanceToNext": "40.35"
+            },
+            {
+                "stationId": 50193,
+                "timeToNext": "39",
+                "distanceToNext": "41.27"
+            },
+            {
+                "stationId": 54208,
+                "timeToNext": "40",
+                "distanceToNext": "41.81"
+            },
+            {
+                "stationId": 52721,
+                "timeToNext": "41",
+                "distanceToNext": "43.75"
+            },
+            {
+                "stationId": 58941,
+                "timeToNext": "42",
+                "distanceToNext": "44.23"
+            },
+            {
+                "stationId": 54145,
+                "timeToNext": "43",
+                "distanceToNext": "44.87"
+            },
+            {
+                "stationId": 53797,
+                "timeToNext": "44",
+                "distanceToNext": "45.59"
+            },
+            {
+                "stationId": 54149,
+                "timeToNext": "44",
+                "distanceToNext": "46.17"
+            },
+            {
+                "stationId": 51671,
+                "timeToNext": "46",
+                "distanceToNext": "48.92"
+            },
+            {
+                "stationId": 50591,
+                "timeToNext": "50",
+                "distanceToNext": "52.60"
+            },
+            {
+                "stationId": 50650,
+                "timeToNext": "51",
+                "distanceToNext": "53.08"
+            },
+            {
+                "stationId": 50673,
+                "timeToNext": "51",
+                "distanceToNext": "53.33"
+            },
+            {
+                "stationId": 50695,
+                "timeToNext": "52",
+                "distanceToNext": "53.73"
+            },
+            {
+                "stationId": 50699,
+                "timeToNext": "53",
+                "distanceToNext": "53.90"
+            },
+            {
+                "stationId": 53707,
+                "timeToNext": "53",
+                "distanceToNext": "54.22"
+            },
+            {
+                "stationId": 50719,
+                "timeToNext": "54",
+                "distanceToNext": "54.49"
+            },
+            {
+                "stationId": 50729,
+                "timeToNext": "55",
+                "distanceToNext": "54.90"
+            },
+            {
+                "stationId": 52159,
+                "timeToNext": "56",
+                "distanceToNext": "55.24"
+            },
+            {
+                "stationId": 55139,
+                "timeToNext": "60",
+                "distanceToNext": "56.43"
+            }
+        ]
+    },
+    {
+        "number": 331,
+        "stops": [
+            {
+                "stationId": 53901,
+                "timeToNext": "0",
+                "distanceToNext": "0"
+            },
+            {
+                "stationId": 55484,
+                "timeToNext": "1",
+                "distanceToNext": "0.20"
+            },
+            {
+                "stationId": 52146,
+                "timeToNext": "2",
+                "distanceToNext": "0.58"
+            },
+            {
+                "stationId": 52417,
+                "timeToNext": "3",
+                "distanceToNext": "0.87"
+            },
+            {
+                "stationId": 54225,
+                "timeToNext": "3",
+                "distanceToNext": "1.16"
+            },
+            {
+                "stationId": 50880,
+                "timeToNext": "4",
+                "distanceToNext": "1.41"
+            },
+            {
+                "stationId": 54153,
+                "timeToNext": "4",
+                "distanceToNext": "1.66"
+            },
+            {
+                "stationId": 53818,
+                "timeToNext": "4",
+                "distanceToNext": "2.02"
+            },
+            {
+                "stationId": 54152,
+                "timeToNext": "5",
+                "distanceToNext": "2.77"
+            },
+            {
+                "stationId": 52156,
+                "timeToNext": "5",
+                "distanceToNext": "3.02"
+            },
+            {
+                "stationId": 54138,
+                "timeToNext": "6",
+                "distanceToNext": "3.37"
+            },
+            {
+                "stationId": 52154,
+                "timeToNext": "6",
+                "distanceToNext": "3.87"
+            },
+            {
+                "stationId": 55385,
+                "timeToNext": "9",
+                "distanceToNext": "6.09"
+            },
+            {
+                "stationId": 55444,
+                "timeToNext": "9",
+                "distanceToNext": "6.75"
+            },
+            {
+                "stationId": 55208,
+                "timeToNext": "10",
+                "distanceToNext": "7.30"
+            },
+            {
+                "stationId": 51849,
+                "timeToNext": "11",
+                "distanceToNext": "7.81"
+            },
+            {
+                "stationId": 50601,
+                "timeToNext": "11",
+                "distanceToNext": "8.14"
+            },
+            {
+                "stationId": 54239,
+                "timeToNext": "12",
+                "distanceToNext": "8.52"
+            },
+            {
+                "stationId": 54227,
+                "timeToNext": "13",
+                "distanceToNext": "9.63"
+            },
+            {
+                "stationId": 51717,
+                "timeToNext": "14",
+                "distanceToNext": "10.95"
+            },
+            {
+                "stationId": 54172,
+                "timeToNext": "15",
+                "distanceToNext": "11.61"
+            },
+            {
+                "stationId": 51752,
+                "timeToNext": "16",
+                "distanceToNext": "13.13"
+            },
+            {
+                "stationId": 50078,
+                "timeToNext": "17",
+                "distanceToNext": "14.27"
+            },
+            {
+                "stationId": 51656,
+                "timeToNext": "18",
+                "distanceToNext": "15.04"
+            },
+            {
+                "stationId": 51657,
+                "timeToNext": "19",
+                "distanceToNext": "16.11"
+            },
+            {
+                "stationId": 51658,
+                "timeToNext": "20",
+                "distanceToNext": "16.87"
+            },
+            {
+                "stationId": 54198,
+                "timeToNext": "21",
+                "distanceToNext": "17.98"
+            },
+            {
+                "stationId": 43024,
+                "timeToNext": "21",
+                "distanceToNext": "18.57"
+            },
+            {
+                "stationId": 43025,
+                "timeToNext": "22",
+                "distanceToNext": "19.16"
+            },
+            {
+                "stationId": 47051,
+                "timeToNext": "23",
+                "distanceToNext": "19.61"
+            },
+            {
+                "stationId": 40553,
+                "timeToNext": "24",
+                "distanceToNext": "21.55"
+            },
+            {
+                "stationId": 40455,
+                "timeToNext": "26",
+                "distanceToNext": "23.38"
+            },
+            {
+                "stationId": 40319,
+                "timeToNext": "27",
+                "distanceToNext": "24.06"
+            },
+            {
+                "stationId": 40320,
+                "timeToNext": "28",
+                "distanceToNext": "26.14"
+            },
+            {
+                "stationId": 46955,
+                "timeToNext": "31",
+                "distanceToNext": "29.07"
+            },
+            {
+                "stationId": 40345,
+                "timeToNext": "31",
+                "distanceToNext": "29.84"
+            },
+            {
+                "stationId": 43072,
+                "timeToNext": "33",
+                "distanceToNext": "30.23"
+            },
+            {
+                "stationId": 43038,
+                "timeToNext": "34",
+                "distanceToNext": "30.64"
+            },
+            {
+                "stationId": 43013,
+                "timeToNext": "35",
+                "distanceToNext": "31.13"
+            },
+            {
+                "stationId": 42987,
+                "timeToNext": "35",
+                "distanceToNext": "31.33"
+            },
+            {
+                "stationId": 43071,
+                "timeToNext": "36",
+                "distanceToNext": "31.77"
+            },
+            {
+                "stationId": 43068,
+                "timeToNext": "37",
+                "distanceToNext": "32.10"
+            },
+            {
+                "stationId": 40352,
+                "timeToNext": "38",
+                "distanceToNext": "32.51"
+            },
+            {
+                "stationId": 41525,
+                "timeToNext": "39",
+                "distanceToNext": "33.40"
+            },
+            {
+                "stationId": 41260,
+                "timeToNext": "41",
+                "distanceToNext": "34.41"
+            },
+            {
+                "stationId": 43136,
+                "timeToNext": "44",
+                "distanceToNext": "36.51"
+            },
+            {
+                "stationId": 43096,
+                "timeToNext": "46",
+                "distanceToNext": "37.52"
+            },
+            {
+                "stationId": 42979,
+                "timeToNext": "47",
+                "distanceToNext": "37.92"
+            },
+            {
+                "stationId": 42976,
+                "timeToNext": "49",
+                "distanceToNext": "38.43"
+            },
+            {
+                "stationId": 43111,
+                "timeToNext": "49",
+                "distanceToNext": "38.72"
+            },
+            {
+                "stationId": 40257,
+                "timeToNext": "50",
+                "distanceToNext": "39.30"
+            }
+        ]
+    },
+    {
+        "number": 353,
+        "stops": [
+            {
+                "stationId": 53925,
+                "timeToNext": "0",
+                "distanceToNext": "0"
+            },
+            {
+                "stationId": 50840,
+                "timeToNext": "3",
+                "distanceToNext": "1.05"
+            },
+            {
+                "stationId": 53926,
+                "timeToNext": "4",
+                "distanceToNext": "1.37"
+            },
+            {
+                "stationId": 55419,
+                "timeToNext": "5",
+                "distanceToNext": "1.62"
+            },
+            {
+                "stationId": 54228,
+                "timeToNext": "6",
+                "distanceToNext": "1.84"
+            },
+            {
+                "stationId": 53950,
+                "timeToNext": "6",
+                "distanceToNext": "2.07"
+            },
+            {
+                "stationId": 53961,
+                "timeToNext": "7",
+                "distanceToNext": "2.53"
+            },
+            {
+                "stationId": 50844,
+                "timeToNext": "8",
+                "distanceToNext": "3.02"
+            },
+            {
+                "stationId": 53944,
+                "timeToNext": "9",
+                "distanceToNext": "3.26"
+            },
+            {
+                "stationId": 53938,
+                "timeToNext": "10",
+                "distanceToNext": "3.67"
+            },
+            {
+                "stationId": 52319,
+                "timeToNext": "11",
+                "distanceToNext": "4.37"
+            },
+            {
+                "stationId": 50893,
+                "timeToNext": "14",
+                "distanceToNext": "5.33"
+            },
+            {
+                "stationId": 53822,
+                "timeToNext": "17",
+                "distanceToNext": "6.45"
+            },
+            {
+                "stationId": 53802,
+                "timeToNext": "17",
+                "distanceToNext": "7.31"
+            },
+            {
+                "stationId": 54243,
+                "timeToNext": "18",
+                "distanceToNext": "7.77"
+            },
+            {
+                "stationId": 54160,
+                "timeToNext": "21",
+                "distanceToNext": "11.39"
+            },
+            {
+                "stationId": 53257,
+                "timeToNext": "23",
+                "distanceToNext": "12.80"
+            },
+            {
+                "stationId": 51755,
+                "timeToNext": "23",
+                "distanceToNext": "13.18"
+            },
+            {
+                "stationId": 51443,
+                "timeToNext": "25",
+                "distanceToNext": "15.52"
+            },
+            {
+                "stationId": 58850,
+                "timeToNext": "27",
+                "distanceToNext": "18.21"
+            },
+            {
+                "stationId": 51703,
+                "timeToNext": "28",
+                "distanceToNext": "19.90"
+            },
+            {
+                "stationId": 51704,
+                "timeToNext": "29",
+                "distanceToNext": "20.70"
+            },
+            {
+                "stationId": 41462,
+                "timeToNext": "31",
+                "distanceToNext": "23.27"
+            },
+            {
+                "stationId": 50051,
+                "timeToNext": "35",
+                "distanceToNext": "28.07"
+            },
+            {
+                "stationId": 42363,
+                "timeToNext": "38",
+                "distanceToNext": "30.78"
+            },
+            {
+                "stationId": 41609,
+                "timeToNext": "38",
+                "distanceToNext": "31.13"
+            },
+            {
+                "stationId": 41633,
+                "timeToNext": "39",
+                "distanceToNext": "31.71"
+            },
+            {
+                "stationId": 42536,
+                "timeToNext": "40",
+                "distanceToNext": "32.02"
+            },
+            {
+                "stationId": 41790,
+                "timeToNext": "40",
+                "distanceToNext": "32.37"
+            },
+            {
+                "stationId": 41504,
+                "timeToNext": "41",
+                "distanceToNext": "32.88"
+            },
+            {
+                "stationId": 52579,
+                "timeToNext": "42",
+                "distanceToNext": "33.65"
+            },
+            {
+                "stationId": 52370,
+                "timeToNext": "44",
+                "distanceToNext": "34.65"
+            },
+            {
+                "stationId": 52371,
+                "timeToNext": "46",
+                "distanceToNext": "35.38"
+            },
+            {
+                "stationId": 52703,
+                "timeToNext": "46",
+                "distanceToNext": "35.82"
+            },
+            {
+                "stationId": 52566,
+                "timeToNext": "47",
+                "distanceToNext": "36.49"
+            },
+            {
+                "stationId": 59704,
+                "timeToNext": "47",
+                "distanceToNext": "36.93"
+            },
+            {
+                "stationId": 53720,
+                "timeToNext": "48",
+                "distanceToNext": "37.50"
+            },
+            {
+                "stationId": 52702,
+                "timeToNext": "48",
+                "distanceToNext": "37.94"
+            },
+            {
+                "stationId": 53549,
+                "timeToNext": "49",
+                "distanceToNext": "39.04"
+            },
+            {
+                "stationId": 53129,
+                "timeToNext": "50",
+                "distanceToNext": "39.36"
+            },
+            {
+                "stationId": 52325,
+                "timeToNext": "51",
+                "distanceToNext": "39.85"
+            },
+            {
+                "stationId": 59444,
+                "timeToNext": "52",
+                "distanceToNext": "40.17"
+            },
+            {
+                "stationId": 52688,
+                "timeToNext": "53",
+                "distanceToNext": "40.46"
+            },
+            {
+                "stationId": 59420,
+                "timeToNext": "54",
+                "distanceToNext": "40.77"
+            },
+            {
+                "stationId": 57664,
+                "timeToNext": "54",
+                "distanceToNext": "40.97"
+            },
+            {
+                "stationId": 52331,
+                "timeToNext": "55",
+                "distanceToNext": "41.74"
+            },
+            {
+                "stationId": 58359,
+                "timeToNext": "56",
+                "distanceToNext": "42.37"
+            }
+        ]
+    }
+]
