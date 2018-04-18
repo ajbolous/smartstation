@@ -6,7 +6,7 @@ import pymongo
 
 class DatabaseHandler():
     def __init__(self):
-        self.client = pymongo.MongoClient("")
+        pass
 
     def getStations(self):
         stations = []
