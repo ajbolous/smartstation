@@ -24,7 +24,7 @@ for rnumber in routeNumbers:
     for obj in jsonContent:
         stop = BusStop()
 
-        id = obj["Makat"]
+        id = str(obj["Makat"])
 
         if id in stations:
             station = stations[id]
@@ -44,8 +44,8 @@ for rnumber in routeNumbers:
             stations[id] = station
 
         stop.stationId = station.id
-        stop.timeToNext = obj["TimeFromOrigin"]
-        stop.distanceToNext = obj["Distance"]
+        stop.timeFromOrigin = float(obj["TimeFromOrigin"])
+        stop.distanceFromOrigin = float(obj["Distance"])
 
         route.stops.append(stop)
 

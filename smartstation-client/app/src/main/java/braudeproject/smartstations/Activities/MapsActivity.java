@@ -9,6 +9,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.PolylineOptions;
 
 import java.util.List;
 
@@ -26,7 +27,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+        SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager()
+                .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
 
@@ -38,13 +40,22 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         service.getStations(new RequestCallback<List<Station>>() {
             @Override
             public void onSuccess(List<Station> stations) {
+
+                PolylineOptions line = new PolylineOptions();
+
                 for (Station station : stations) {
+
+                    LatLng coordinates = new LatLng(station.lat, station.lng);
+
                     mMap.addMarker(
                             new MarkerOptions()
-                                    .position(new LatLng(station.lat, station.lng))
+                                    .position(coordinates)
                                     .title(station.name)
                     );
+
                 }
+
+                mMap.addPolyline(line);
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(stations.get(0).lat, stations.get(0).lng)));
             }
         });

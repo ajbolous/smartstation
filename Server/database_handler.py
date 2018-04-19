@@ -26,5 +26,3 @@ class DatabaseHandler():
             
 
 db = DatabaseHandler()
-print(db.getStations())
-print(db.getRoutes())
