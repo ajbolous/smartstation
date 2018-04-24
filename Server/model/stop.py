@@ -2,7 +2,7 @@ from .base import SerializableBase
 
 class BusStop(SerializableBase):
     def __init__(self):
-        self.stationId = 0
-        self.timeToNext = 0
-        self.distanceToNext = 0
+        self.stationId: str= 0
+        self.timeFromOrigin: float = 0
+        self.distanceFromOrigin: float = 0
 
