@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request
 from database_handler import DatabaseHandler
 import algorithms 
+import urllib.parse as urlparse
 
 app = Flask(__name__)
 app.debug = True
@@ -26,5 +27,8 @@ def getShortestPath():
     print(path)
     return jsonify(path)
     
+@app.route('/<username>/<password>')
+def show(username, password):
+    return username + ':' + password
 
 app.run()
