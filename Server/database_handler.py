@@ -1,6 +1,7 @@
 import json
 from model.station import Station
 from model.route import Route
+from model.Login import Login
 import pymongo
 
 
@@ -24,5 +25,12 @@ class DatabaseHandler():
                 routes.append(Route.fromJson(routeObj))
         return routes
             
+    def getLogin(self):
+        login = []
+        with open("./data/Driver.json", "r") as file:
+            loginArr = json.load(file)
+            for loginObj in loginArr:
+                login.append(Login.fromJson(loginObj))
+        return login
 
 db = DatabaseHandler()

@@ -25,5 +25,6 @@ def getShortestPath():
     path = algorithms.calcShortestPaths(dbHandler.getStations(), dbHandler.getRoutes(), source, dest)
     print(path)
     return jsonify(path)
+    
 
 app.run()
