@@ -11,7 +11,7 @@ class DatabaseHandler():
 
     def getStations(self):
         stations = []
-        with open("./data/stations.json", "r") as file:
+        with open("Server/data/stations.json", "r") as file:
             stationsArr = json.load(file)
             for stationObj in stationsArr:
                 stations.append(Station.fromJson(stationObj))    
@@ -19,7 +19,7 @@ class DatabaseHandler():
 
     def getRoutes(self):
         routes = []
-        with open("./data/routes.json", "r") as file:
+        with open("Server/data/routes.json", "r") as file:
             routesArr = json.load(file)
             for routeObj in routesArr:
                 routes.append(Route.fromJson(routeObj))
@@ -27,7 +27,7 @@ class DatabaseHandler():
             
     def getLogin(self):
         login = []
-        with open("./data/Driver.json", "r") as file:
+        with open("Server/data/json/Driver.json", "r") as file:
             loginArr = json.load(file)
             for loginObj in loginArr:
                 login.append(Login.fromJson(loginObj))

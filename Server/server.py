@@ -31,4 +31,17 @@ def getShortestPath():
 def show(username, password):
     return username + ':' + password
 
+@app.route('/checkLogin/<username>/<password>')
+def checkLogin(username, password):
+    flag="Failure"
+    for loginObj in dbHandler.getLogin():
+        if loginObj.username == username and loginObj.password == password:
+            flag="Success"
+    return jsonify(flag)
+       
+ 
+    
+
+    
+
 app.run()
