@@ -8,7 +8,6 @@ app.debug = True
 
 dbHandler = DatabaseHandler()
 
-
 @app.route("/getStations")
 def getStations():
     return jsonify([station.toJson() for station in dbHandler.getStations()])
@@ -27,21 +26,20 @@ def getShortestPath():
     print(path)
     return jsonify(path)
     
-@app.route('/<username>/<password>')
-def show(username, password):
-    return username + ':' + password
+@app.route('/login')
+def checkLogin():
+    userid = request.args.get('userid')
+    password = request.args.get('password')
 
-@app.route('/checkLogin/<username>/<password>')
-def checkLogin(username, password):
-    flag="Failure"
-    for loginObj in dbHandler.getLogin():
-        if loginObj.username == username and loginObj.password == password:
-            flag="Success"
-    return jsonify(flag)
+    for user in dbHandler.getUsers():
+        if user.userid == userid and user.password == password:
+            return jsonify({
+                "success": True,
+                "message":"Login successful"
+            })
+    return jsonify({
+        "success": False,
+        "message" : "Wrong username or password"
+    })
        
- 
-    
-
-    
-
 app.run()
