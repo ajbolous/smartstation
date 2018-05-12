@@ -1,1 +1,1802 @@
-[{"id": "51858", "name": "\u05ea\u05d7\u05e0\u05d4 \u05de\u05e8\u05db\u05d6\u05d9\u05ea", "description": "Nazareth Center", "type": "Boarding Only", "lng": 35.297969, "lat": 32.701236}, {"id": "50840", "name": "Nazareth CBS", "description": "Nazareth Center", "type": "Boarding Only", "lng": 35.298860999999995, "lat": 32.70167}, {"id": "53926", "name": "\u05e4\u05d0\u05d5\u05dc\u05d5\u05e1 \u05d4\u05e9\u05d9\u05e9\u05d9", "description": "Nazareth Center", "type": "Boarding Only", "lng": 35.300049, "lat": 32.704311}, {"id": "55419", "name": "Paulus Ha-Shishi/Ha-Galil", "description": "Nazareth Ma'ayan", "type": "Boarding Only", "lng": 35.301729, "lat": 32.705957999999995}, {"id": "54228", "name": "Ha-Galil/El-Salam", "description": "Nazareth Ma'ayan", "type": "Boarding Only", "lng": 35.304017, "lat": 32.705554}, {"id": "53950", "name": "\u05d4\u05d2\u05dc\u05d9\u05dc/4000", "description": "Nazareth Italian Hospital", "type": "Boarding Only", "lng": 35.306326, "lat": 32.704944}, {"id": "51095", "name": "\u05e9\u05d3\u05e8\u05d5\u05ea \u05de\u05e2\u05dc\u05d4 \u05d9\u05e6\u05d7\u05e7/\u05d3\u05e8\u05da \u05d4\u05e6\u05d9\u05d5\u05e0\u05d5\u05ea", "description": "Natsrat Ilit Kiryat ha-Memshala", "type": "Boarding Only", "lng": 35.311862999999995, "lat": 32.701347}, {"id": "55254", "name": "Community Center/Ma'ale Yitshak", "description": "Natsrat Ilit Lev ha-Ir Mall", "type": "Boarding Only", "lng": 35.313553, "lat": 32.69981}, {"id": "52182", "name": "Sharet School/Ma'ale Yishak", "description": "Natsrat Ilit South Neighborhood", "type": "Boarding Only", "lng": 35.316424999999995, "lat": 32.699191}, {"id": "52178", "name": "\u05de\u05e8\u05db\u05d6 \u05de\u05e1\u05d7\u05e8\u05d9/\u05e9\u05d3 \u05de\u05e2\u05dc\u05d4 \u05d9\u05e6\u05d7\u05e7", "description": "Natsrat Ilit Bne Beiteha", "type": "Boarding Only", "lng": 35.320952, "lat": 32.701147}, {"id": "52175", "name": "\u05e9\u05d3\u05e8\u05d5\u05ea \u05de\u05e2\u05dc\u05d4 \u05d9\u05e6\u05d7\u05e7/\u05d4\u05e4\u05e1\u05d2\u05d5\u05ea", "description": "Natsrat Ilit Bne Beiteha", "type": "Boarding Only", "lng": 35.325829999999996, "lat": 32.704271999999996}, {"id": "51057", "name": "Tavor/Ha-Psagot", "description": "Natsrat Ilit Nof Yizre'el", "type": "Boarding Only", "lng": 35.318698999999995, "lat": 32.705313}, {"id": "53999", "name": "\u05ea\u05d1\u05d5\u05e8/\u05d4\u05e6\u05d1\u05e8", "description": "Natsrat Ilit Nof Yizre'el", "type": "Boarding Only", "lng": 35.321717, "lat": 32.70536}, {"id": "51200", "name": "\u05ea\u05d1\u05d5\u05e8", "description": "Natsrat Ilit Nof Yizre'el", "type": "Boarding Only", "lng": 35.323912, "lat": 32.706286999999996}, {"id": "51201", "name": "\u05ea\u05d1\u05d5\u05e8/\u05d2\u05d5\u05dc\u05df", "description": "Natsrat Ilit Nof Yizre'el", "type": "Boarding Only", "lng": 35.325458, "lat": 32.70728}, {"id": "55632", "name": "Tavor/Rakefet", "description": "Natsrat Ilit Nof Yizre'el", "type": "Boarding Only", "lng": 35.328015, "lat": 32.708098}, {"id": "55633", "name": "Tavor/Kishon", "description": "Natsrat Ilit Nof Yizre'el", "type": "Boarding Only", "lng": 35.33184, "lat": 32.707926}, {"id": "55256", "name": "Cemetery/Ma'ale Yitshak", "description": "Natsrat Ilit Nof Yizre'el", "type": "Boarding Only", "lng": 35.334576, "lat": 32.708309}, {"id": "55158", "name": "\u05d1\u05d9\u05ea \u05e2\u05dc\u05de\u05d9\u05df/\u05de\u05e2\u05dc\u05d4 \u05d9\u05e6\u05d7\u05e7", "description": "Natsrat Ilit Cemetery", "type": "Boarding Only", "lng": 35.336205, "lat": 32.710713999999996}, {"id": "51096", "name": "Sderot Ma'ale Yitskhak/Ha-Avoda", "description": "Natsrat Ilit Kharoshet Gimel Industrial Park ", "type": "Boarding Only", "lng": 35.337525, "lat": 32.713948}, {"id": "51097", "name": "\u05de\u05e8\u05db\u05d6 \u05de\u05e1\u05d7\u05e8\u05d9/\u05e9\u05d3\u05e8\u05d5\u05ea \u05de\u05e2\u05dc\u05d4 \u05d9\u05e6\u05d7\u05e7", "description": "Natsrat Ilit Kharoshet Gimel Industrial Park ", "type": "Boarding Only", "lng": 35.337598, "lat": 32.716649}, {"id": "54059", "name": "Ma'ale Yitshak/Ein Mahil", "description": "Natsrat Ilit Kharoshet Gimel Industrial Park ", "type": "Boarding Only", "lng": 35.338918, "lat": 32.720244}, {"id": "54180", "name": "Yakinton, Netofa Community School For Science", "description": "Natsrat Ilit Har Yona", "type": "Boarding Only", "lng": 35.336512, "lat": 32.721253}, {"id": "54179", "name": "Yakinton/Moran", "description": "Natsrat Ilit Har Yona", "type": "Boarding Only", "lng": 35.334187, "lat": 32.721213999999996}, {"id": "54181", "name": "Yakinton/Nitsan", "description": "Natsrat Ilit Har Yona", "type": "Boarding Only", "lng": 35.332501, "lat": 32.724033}, {"id": "54042", "name": "Yakinton/Moran Bet", "description": "Natsrat Ilit Har Yona", "type": "Boarding Only", "lng": 35.335937, "lat": 32.724561}, {"id": "51103", "name": "Yakinton", "description": "Natsrat Ilit Har Yona", "type": "Boarding Only", "lng": 35.338164, "lat": 32.726261}, {"id": "54054", "name": "Yakinton/Livne", "description": "Natsrat Ilit Har Yona", "type": "Boarding Only", "lng": 35.338207, "lat": 32.727737}, {"id": "51105", "name": "Dalya/Koranit", "description": "Natsrat Ilit Har Yona", "type": "Boarding Only", "lng": 35.336574999999996, "lat": 32.728628}, {"id": "54136", "name": "Dalya/Karkom", "description": "Natsrat Ilit Har Yona", "type": "Boarding Only", "lng": 35.334376, "lat": 32.72744}, {"id": "54030", "name": "Dalya/Ha-Gome", "description": "Natsrat Ilit Har Yona", "type": "Boarding Only", "lng": 35.332223, "lat": 32.728137}, {"id": "51108", "name": "Dalya (terminus", "description": "Natsrat Ilit Har Yona", "type": "Boarding Only", "lng": 35.329221, "lat": 32.730121}, {"id": "51109", "name": "\u05e0\u05e6\u05e8\u05ea \u05e2\u05d9\u05dc\u05d9\u05ea/\u05d9\u05e6\u05d9\u05d0\u05d4", "description": "Reina Entrance to Har Yona ", "type": "Boarding Only", "lng": 35.324034999999995, "lat": 32.727373}, {"id": "54016", "name": "\u05e6\u05d5\u05de\u05ea \u05de\u05e9\u05d4\u05d3", "description": "Mash'had Branching", "type": "Boarding and Alighting", "lng": 35.326142, "lat": 32.735645}, {"id": "58609", "name": "\u05e6\u05d5\u05de\u05ea \u05e9\u05db\u05d5\u05e0\u05ea \u05d1\u05e0\u05d4 \u05d1\u05d9\u05ea\u05da", "description": "Mash'had Center", "type": "Boarding and Alighting", "lng": 35.328779, "lat": 32.736753}, {"id": "52226", "name": "\u05db\u05e4\u05e8 \u05db\u05e0\u05d0 \u05d0/\u05db\u05e0\u05d9\u05e1\u05d4", "description": "Kafr Kana Center", "type": "Boarding and Alighting", "lng": 35.33441, "lat": 32.740567999999996}, {"id": "54037", "name": "\u05de\u05e2\u05dc \u05d4\u05de\u05e2\u05d9\u05d9\u05df", "description": "Kafr Kana Center", "type": "Boarding and Alighting", "lng": 35.334951, "lat": 32.742393}, {"id": "58324", "name": "\u05db\u05e4\u05e8 \u05db\u05e0\u05d0 \u05d2/\u05de\u05e2\u05d9\u05d9\u05df", "description": "Kafr Kana Center", "type": "Boarding and Alighting", "lng": 35.33818, "lat": 32.744994999999996}, {"id": "54051", "name": "\u05db\u05e0\u05e1\u05d9\u05d4", "description": "Kafr Kana Center", "type": "Boarding and Alighting", "lng": 35.33804, "lat": 32.745623}, {"id": "58325", "name": "\u05db\u05e0\u05d9\u05e1\u05ea \u05e8\u05d7\u05d5\u05d1 \u05d4\u05db\u05e0\u05e1\u05d9\u05d5\u05ea", "description": "Kafr Kana Center", "type": "Boarding and Alighting", "lng": 35.338375, "lat": 32.749237}, {"id": "50422", "name": "\u05e7\u05d0\u05e0\u05d0 \u05d0\u05dc\u05d2\u05dc\u05d9\u05dc", "description": "Kafr Kana Center", "type": "Boarding and Alighting", "lng": 35.340461, "lat": 32.750803999999995}, {"id": "54077", "name": "\u05db\u05e4\u05e8 \u05db\u05e0\u05d0 \u05d6/\u05d1\u05d9\u05e1 \u05d7\u05d8\u05d1 \u05d0", "description": "Kafr Kana Center", "type": "Boarding and Alighting", "lng": 35.343984, "lat": 32.754546}, {"id": "58323", "name": "\u05db\u05e4\u05e8 \u05db\u05e0\u05d0 \u05d7/\u05de\u05e2\u05d5\u05df", "description": "Kafr Kana Center", "type": "Boarding and Alighting", "lng": 35.345841, "lat": 32.760187}, {"id": "50075", "name": "Beit Rimon Junction", "description": "Beit Rimon Junction", "type": "Boarding and Alighting", "lng": 35.346880999999996, "lat": 32.761390999999996}, {"id": "50332", "name": "Tur'an Junction", "description": "Tur'an Branching", "type": "Boarding and Alighting", "lng": 35.376765, "lat": 32.764117999999996}, {"id": "54251", "name": "Shimshon Base Junction", "description": "Makhane Shimshon Branching", "type": "Boarding and Alighting", "lng": 35.392607, "lat": 32.771578999999996}, {"id": "54247", "name": "Golani Junction", "description": "Golani Junction Center", "type": "Boarding and Alighting", "lng": 35.40727, "lat": 32.772884}, {"id": "50607", "name": "Netafim  Base", "description": "Makhane Netafim Branching", "type": "Boarding and Alighting", "lng": 35.403934, "lat": 32.799837}, {"id": "51441", "name": "Netofa Junction", "description": "Biane Junction", "type": "Boarding and Alighting", "lng": 35.402653, "lat": 32.810064}, {"id": "51832", "name": "\u05e6\u05d5\u05de\u05ea \u05e2\u05d9\u05dc\u05d1\u05d5\u05df \u05d3\u05e8\u05d5\u05dd", "description": "Eilabun Junction", "type": "Boarding and Alighting", "lng": 35.407323, "lat": 32.829963}, {"id": "54117", "name": "\u05e6\u05d5\u05de\u05ea \u05e2\u05d9\u05dc\u05d1\u05d5\u05df \u05de\u05e8\u05db\u05d6", "description": "Eilabun Center", "type": "Boarding and Alighting", "lng": 35.396314, "lat": 32.833697}, {"id": "58166", "name": "\u05e6\u05d5\u05de\u05ea \u05e2\u05d9\u05dc\u05d1\u05d5\u05df \u05e6\u05e4\u05d5\u05df", "description": "Eilabun Branching", "type": "Boarding and Alighting", "lng": 35.398005999999995, "lat": 32.839456999999996}, {"id": "58165", "name": "\u05e6\u05d5\u05de\u05ea \u05e6\u05dc\u05de\u05d5\u05df/\u05d0\u05dc\u05d7\u05de\u05e8\u05d4", "description": "Deir Hana Junction", "type": "Boarding and Alighting", "lng": 35.400678, "lat": 32.857855}, {"id": "58687", "name": "\u05de\u05d2\u05d0\u05e8 \u05d0/\u05db\u05e0\u05d9\u05e1\u05d4 \u05d3\u05e8\u05d5\u05de\u05d9\u05ea", "description": "Mghar Road No.806", "type": "Boarding and Alighting", "lng": 35.407447, "lat": 32.881842}, {"id": "58164", "name": "\u05de\u05d2\u05d0\u05e8 \u05d1/\u05de\u05e1\u05e2\u05e3 \u05d8\u05e4\u05d7\u05d5\u05ea", "description": "Mghar Road No.806", "type": "Boarding and Alighting", "lng": 35.409251999999995, "lat": 32.88279}, {"id": "52048", "name": "\u05de\u05e1\u05e2\u05e3 \u05de\u05d2\u05d0\u05e8", "description": "Mghar Junction", "type": "Boarding and Alighting", "lng": 35.411819, "lat": 32.885346}, {"id": "52028", "name": "\u05de\u05d5\u05e2\u05e6\u05d4 \u05de\u05e7\u05d5\u05de\u05d9\u05ea \u05de\u05d2\u05d0\u05e8", "description": "Mghar Center", "type": "Boarding and Alighting", "lng": 35.408667, "lat": 32.887902}, {"id": "54129", "name": "Maghar Vav/Primary School Bet", "description": "Mghar Center", "type": "Boarding and Alighting", "lng": 35.408163, "lat": 32.889298}, {"id": "54209", "name": "Maghar/Exit", "description": "Mghar Center", "type": "Boarding and Alighting", "lng": 35.413289, "lat": 32.893299}, {"id": "54211", "name": "Mihve Alon/Hazon", "description": "Giv'at Khananya Branching", "type": "Boarding and Alighting", "lng": 35.415068999999995, "lat": 32.900182}, {"id": "54212", "name": "Kfar Hananya Junction", "description": "Kfar Khananya Branching", "type": "Boarding and Alighting", "lng": 35.41695, "lat": 32.917747999999996}, {"id": "54210", "name": "Rd 85/Halafta Junction", "description": "Khalfata Junction Junction", "type": "Boarding and Alighting", "lng": 35.417376, "lat": 32.922441}, {"id": "54146", "name": "Rd 85/Hananya Sheva", "description": "Khananya Junction Center", "type": "Boarding and Alighting", "lng": 35.405148, "lat": 32.927724}, {"id": "50560", "name": "Moran Junction", "description": "Moran Branching", "type": "Boarding and Alighting", "lng": 35.392571, "lat": 32.927971}, {"id": "51620", "name": "Rameh", "description": "Rama Junction", "type": "Boarding and Alighting", "lng": 35.367464999999996, "lat": 32.934332}, {"id": "52619", "name": "Rameh/Center", "description": "Rama Center", "type": "Boarding and Alighting", "lng": 35.363655, "lat": 32.937221}, {"id": "50900", "name": "\u05db\u05d9\u05db\u05e8 \u05de\u05e2\u05e8\u05d1\u05d9\u05ea", "description": "Rama Center", "type": "Boarding and Alighting", "lng": 35.362836, "lat": 32.937796999999996}, {"id": "51613", "name": "Rameh/Exit", "description": "Rama Center", "type": "Boarding and Alighting", "lng": 35.359033, "lat": 32.937357}, {"id": "51600", "name": "West Rameh Junction", "description": "Sajur Branching", "type": "Boarding and Alighting", "lng": 35.355221, "lat": 32.9364}, {"id": "50879", "name": "Shezor Junction", "description": "Shezor Branching", "type": "Boarding and Alighting", "lng": 35.349708, "lat": 32.934681999999995}, {"id": "50835", "name": "Ma'ale Kamun Junction", "description": "Karmi'el Industrial Park Branching", "type": "Boarding and Alighting", "lng": 35.323671999999995, "lat": 32.928742}, {"id": "50483", "name": "Nakhef Junction", "description": "Nahf Branching", "type": "Boarding and Alighting", "lng": 35.319305, "lat": 32.927862999999995}, {"id": "55139", "name": "\u05ea. \u05e8\u05db\u05d1\u05ea \u05db\u05e8\u05de\u05d9\u05d0\u05dc/\u05d4\u05d5\u05e8\u05d3\u05d4", "description": "Karmi'el Railway station and Intercity Bus Terminal", "type": "Alighting Only", "lng": 35.297919, "lat": 32.923792}, {"id": "50731", "name": "Sderot Nesi'ei Yisra'el/Ofira Navon Park", "description": "Karmi'el Ha-Meyasdim", "type": "Alighting Only", "lng": 35.302087, "lat": 32.914128999999996}, {"id": "52272", "name": "Sderot Nesi'ei Yisra'el/Iris", "description": "Karmi'el South Neighborhood", "type": "Alighting Only", "lng": 35.299, "lat": 32.910202}, {"id": "53503", "name": "Sderot Nesi'ei Yisra'el/Ha-Khavatselet", "description": "Karmi'el South Neighborhood", "type": "Alighting Only", "lng": 35.295612, "lat": 32.909027}, {"id": "50702", "name": "Sderot Nesi'ei Yisra'el/Mall", "description": "Karmi'el Lev Karmi'el Mall", "type": "Alighting Only", "lng": 35.29373, "lat": 32.908591}, {"id": "50683", "name": "Sderot Nesi'ei Yisra'el/Yekev", "description": "Karmi'el Nesi'ei Yisra'el/Yekev", "type": "Alighting Only", "lng": 35.288844, "lat": 32.90793}, {"id": "50651", "name": "Sderot Nesi'ei Israel/Beit Ha-Kerem", "description": "Karmi'el Ha-Shalom Square", "type": "Alighting Only", "lng": 35.285311, "lat": 32.908854999999996}, {"id": "50634", "name": "Dereh Ha-Shalom/Sderot Beit Ha-Kerem", "description": "Karmi'el Ha-Shalom Square", "type": "Alighting Only", "lng": 35.283981, "lat": 32.909361}, {"id": "50592", "name": "Sderot Nesi'ei Yisra'el/Eshkolot (Pais)", "description": "Karmi'el Ort Braude", "type": "Alighting Only", "lng": 35.280799, "lat": 32.910575}, {"id": "55637", "name": "\u05ea. \u05de\u05e8\u05db\u05d6\u05d9\u05ea \u05e2\u05e4\u05d5\u05dc\u05d4/\u05e8\u05e6\u05d9\u05e4\u05d9\u05dd", "description": "Afula Central Bus Station", "type": "Boarding Only", "lng": 35.292249999999996, "lat": 32.607864}, {"id": "55210", "name": "\u05db\u05d9\u05db\u05e8 \u05d4\u05e2\u05e6\u05de\u05d0\u05d5\u05ea", "description": "Afula The Center of Town", "type": "Boarding and Alighting", "lng": 35.288381, "lat": 32.610394}, {"id": "55115", "name": "Community Center/Hativa Tesha", "description": "Afula The Center of Town", "type": "Boarding and Alighting", "lng": 35.288044, "lat": 32.612241}, {"id": "55253", "name": "Fire Brigade/Hativa Tesha", "description": "Afula Mekhabei Esh Junction", "type": "Boarding and Alighting", "lng": 35.289105, "lat": 32.61653}, {"id": "54166", "name": "Afula bypass/Rd 60 Junction", "description": "Afula Exit from the city - to Nazareth", "type": "Boarding and Alighting", "lng": 35.28962, "lat": 32.623864}, {"id": "55320", "name": "Balfurya Junction", "description": "Balfurya Branching", "type": "Boarding and Alighting", "lng": 35.290106, "lat": 32.629811}, {"id": "51587", "name": "Kfar Gid'on Junction", "description": "Kfar Gid'on Branching", "type": "Boarding and Alighting", "lng": 35.291405, "lat": 32.644875}, {"id": "55362", "name": "Mizra Junction", "description": "Mizra Branching", "type": "Boarding and Alighting", "lng": 35.291841, "lat": 32.649395}, {"id": "55263", "name": "\u05de\u05db\u05dc\u05dc\u05ea \u05e2\u05de\u05e7 \u05d9\u05d6\u05e8\u05e2\u05d0\u05dc", "description": "Emek Yizra'el Regional Council Branching", "type": "Boarding and Alighting", "lng": 35.292193999999995, "lat": 32.652276}, {"id": "55417", "name": "Tel Adashim Junction", "description": "Tel Adashim Branching", "type": "Boarding and Alighting", "lng": 35.292457, "lat": 32.656424}, {"id": "55331", "name": "Gineigar Branching", "description": "Gineigar Branching", "type": "Boarding and Alighting", "lng": 35.256856, "lat": 32.661252999999995}, {"id": "52617", "name": "Kfar Barukh Branching", "description": "Kfar Barukh Junction", "type": "Boarding and Alighting", "lng": 35.235842, "lat": 32.661649}, {"id": "59617", "name": "\u05d4\u05d0\u05d5\u05df", "description": "Sarid Branching", "type": "Boarding and Alighting", "lng": 35.230343999999995, "lat": 32.663478}, {"id": "52391", "name": "Sarid Branching", "description": "Sarid Branching", "type": "Boarding and Alighting", "lng": 35.227273, "lat": 32.665668}, {"id": "51589", "name": "Yif'at Branching", "description": "Yif'at Branching", "type": "Boarding and Alighting", "lng": 35.219668999999996, "lat": 32.676479}, {"id": "51590", "name": "Gvat Branching", "description": "Gvat Branching", "type": "Boarding and Alighting", "lng": 35.21057, "lat": 32.678129}, {"id": "51591", "name": "Ramat David Branching", "description": "Ramat David [Kibbuts] Branching", "type": "Boarding and Alighting", "lng": 35.204781, "lat": 32.680718999999996}, {"id": "52585", "name": "Nahalal Branching", "description": "Nahalal Junction Branching", "type": "Boarding and Alighting", "lng": 35.205118, "lat": 32.697032}, {"id": "53755", "name": "\u05e6\u05d5\u05de\u05ea \u05e0\u05d4\u05dc\u05dc", "description": "Nahalal Junction Junction", "type": "Boarding and Alighting", "lng": 35.208362, "lat": 32.701049999999995}, {"id": "51915", "name": "\u05e6\u05d5\u05de\u05ea \u05de\u05d6\u05d0\u05e8\u05d9\u05d1", "description": "Zarzir Dor Alon Gas Station", "type": "Boarding and Alighting", "lng": 35.212371999999995, "lat": 32.712519}, {"id": "51893", "name": "\u05e9\u05db\u05d5\u05e0\u05ea \u05e2\u05d9\u05d0\u05d3\u05d0\u05ea \u05d3\u05e8\u05d5\u05de\u05d9\u05ea", "description": "Zarzir Center", "type": "Boarding and Alighting", "lng": 35.215365, "lat": 32.719066999999995}, {"id": "53764", "name": "\u05e6\u05d5\u05de\u05ea \u05e2\u05d9\u05d0\u05d3\u05d0\u05ea/\u05d2\u05e8\u05d9\u05e4\u05d0\u05ea", "description": "Zarzir Center", "type": "Boarding and Alighting", "lng": 35.217197999999996, "lat": 32.722514}, {"id": "53768", "name": "\u05e6\u05d5\u05de\u05ea \u05d2\u05d1\u05e2\u05ea \u05d0\u05dc\u05d4", "description": "Giv'at Ela Junction", "type": "Boarding and Alighting", "lng": 35.221554, "lat": 32.72488}, {"id": "53772", "name": "\u05de\u05d5\u05e2\u05e6\u05d4 \u05de\u05e7\u05d5\u05de\u05d9\u05ea \u05d1\u05d9\u05ea \u05d6\u05e8\u05d6\u05d9\u05e8", "description": "Zarzir Center", "type": "Boarding and Alighting", "lng": 35.225592999999996, "lat": 32.727101999999995}, {"id": "51924", "name": "\u05e6\u05d5\u05de\u05ea \u05d0\u05dc \u05d4\u05d9\u05d9\u05d1", "description": "Zarzir Center", "type": "Boarding and Alighting", "lng": 35.227136, "lat": 32.729181}, {"id": "53771", "name": "\u05d2\u05d5\u05d0\u05de\u05d9\u05e1/\u05de\u05e1\u05d2\u05d3", "description": "Zarzir Center", "type": "Boarding and Alighting", "lng": 35.224598, "lat": 32.731041999999995}, {"id": "57424", "name": "\u05e9\u05db\u05d5\u05e0\u05ea \u05d2\u05d5\u05d0\u05de\u05d9\u05e1/\u05d9\u05e6\u05d9\u05d0\u05d4", "description": "Zarzir Industrial Park", "type": "Boarding and Alighting", "lng": 35.219997, "lat": 32.732884999999996}, {"id": "58874", "name": "Zarzir Junction", "description": "Zarzir Zarzir Interchange", "type": "Boarding and Alighting", "lng": 35.211698999999996, "lat": 32.734519999999996}, {"id": "53257", "name": "Ha-Movil Junction", "description": "Ha-Movil Junction Ha-Movil Junction", "type": "Boarding and Alighting", "lng": 35.232397, "lat": 32.759271999999996}, {"id": "52905", "name": "Yiftahel/Kafr Manda Junction", "description": "Kafr Manda Junction", "type": "Boarding and Alighting", "lng": 35.23194, "lat": 32.761866999999995}, {"id": "53463", "name": "Hanaton Junction", "description": "Khanaton Junction", "type": "Boarding and Alighting", "lng": 35.245146999999996, "lat": 32.779444}, {"id": "50192", "name": "Kafr Manda Junction", "description": "Kafr Manda Center", "type": "Boarding and Alighting", "lng": 35.253184, "lat": 32.805451}, {"id": "53777", "name": "Dmeide Junction", "description": "Dmeida Branching", "type": "Boarding and Alighting", "lng": 35.229908, "lat": 32.819804}, {"id": "53784", "name": "Moreshet  Junction", "description": "Moreshet Branching", "type": "Boarding and Alighting", "lng": 35.236943, "lat": 32.831949}, {"id": "50391", "name": "Kaukab(Abu el-Hija) Junction", "description": "Kaukab[Abu el-Hija] Branching", "type": "Boarding and Alighting", "lng": 35.249527, "lat": 32.836791}, {"id": "50193", "name": "Manof Junction", "description": "Koranit Junction", "type": "Boarding and Alighting", "lng": 35.258414, "lat": 32.839742}, {"id": "54208", "name": "Yodfat/784 Junction", "description": "Yodfat Junction", "type": "Boarding and Alighting", "lng": 35.262012999999996, "lat": 32.843147}, {"id": "52721", "name": "Yodfat Kokhav", "description": "Yodfat Branching Rd.784", "type": "Boarding and Alighting", "lng": 35.269093999999996, "lat": 32.853274}, {"id": "58941", "name": "\u05e8\u05e4\u05d0\u05dc/\u05db\u05d1\u05d9\u05e9 784", "description": "Rakefet Leshem Junction", "type": "Boarding and Alighting", "lng": 35.268471999999996, "lat": 32.857155}, {"id": "54145", "name": "Misgav Branching", "description": "Misgav Junction Center", "type": "Boarding and Alighting", "lng": 35.263056999999996, "lat": 32.860469}, {"id": "53797", "name": "Yuvalim Junction", "description": "Yuvalim Junction", "type": "Boarding and Alighting", "lng": 35.268153, "lat": 32.863558999999995}, {"id": "54149", "name": "Eshbal Junction", "description": "Yuvalim Branching", "type": "Boarding and Alighting", "lng": 35.264264, "lat": 32.867485}, {"id": "51671", "name": "Shorashim Junction", "description": "Shorashim Branching", "type": "Boarding and Alighting", "lng": 35.257545, "lat": 32.889368}, {"id": "50591", "name": "Sderot Nesi'ei Yisra'el/Eshkolot (Pais)", "description": "Karmi'el Ort Braude", "type": "Boarding and Alighting", "lng": 35.280969, "lat": 32.910365999999996}, {"id": "50650", "name": "Sderot Nesi'ei Yisra'el/Derekh ha-Shalom", "description": "Karmi'el Ha-Shalom Square", "type": "Boarding and Alighting", "lng": 35.285527, "lat": 32.908626999999996}, {"id": "50673", "name": "Sderot Nesi'ei Israel/Ha-Yekev", "description": "Karmi'el Nesi'ei Yisra'el/Yekev", "type": "Boarding and Alighting", "lng": 35.287998, "lat": 32.907900999999995}, {"id": "50695", "name": "Sderot Nesi'ei Yisra'el/Morad ha-Gai", "description": "Karmi'el Lev Karmi'el Mall", "type": "Boarding and Alighting", "lng": 35.292308, "lat": 32.908125}, {"id": "50699", "name": "Sderot Nesi'ei Yisra'el/Mall", "description": "Karmi'el Lev Karmi'el Mall", "type": "Boarding and Alighting", "lng": 35.293932, "lat": 32.908505}, {"id": "53707", "name": "Sderot Nesi'ei Yisra'el/Khavatselet", "description": "Karmi'el South Neighborhood", "type": "Boarding and Alighting", "lng": 35.297233, "lat": 32.909282}, {"id": "50719", "name": "Sderot Nesi'ei Yisrael/Iris", "description": "Karmi'el South Neighborhood", "type": "Boarding and Alighting", "lng": 35.299715, "lat": 32.910401}, {"id": "50729", "name": "Sderot Nesi'ei Yisra'el/Ofira Navon Park", "description": "Karmi'el Ha-Meyasdim", "type": "Boarding and Alighting", "lng": 35.301871999999996, "lat": 32.913298999999995}, {"id": "52159", "name": "\u05e0\u05e9\u05d9\u05d0\u05d9 \u05d9\u05e9\u05e8\u05d0\u05dc/\u05d4\u05d3\u05e7\u05dc", "description": "Karmi'el Ha-Meyasdim", "type": "Boarding and Alighting", "lng": 35.302893, "lat": 32.916227}, {"id": "53901", "name": "\u05e4\u05d0\u05d5\u05dc\u05d5\u05e1 \u05d4\u05e9\u05d9\u05e9\u05d9/\u05ea\u05d5\u05e4\u05d9\u05e7 \u05d6\u05d9\u05d0\u05d3", "description": "Nazareth Center", "type": "Boarding Only", "lng": 35.296476, "lat": 32.699874}, {"id": "55484", "name": "\u05e4\u05d0\u05d5\u05dc\u05d5\u05e1 \u05d4\u05e9\u05d9\u05e9\u05d9/3033", "description": "Nazareth Diana Cinema", "type": "Boarding Only", "lng": 35.295235999999996, "lat": 32.698447}, {"id": "52146", "name": "\u05e4\u05d0\u05d5\u05dc\u05d5\u05e1 \u05d4\u05e9\u05d9\u05e9\u05d9/5083", "description": "Nazareth Diana Cinema", "type": "Boarding Only", "lng": 35.29168, "lat": 32.696861999999996}, {"id": "52417", "name": "\u05e4\u05d0\u05d5\u05dc\u05d5\u05e1 \u05d4\u05e9\u05d9\u05e9\u05d9/5089", "description": "Nazareth Diana Cinema", "type": "Boarding Only", "lng": 35.290839999999996, "lat": 32.694542999999996}, {"id": "54225", "name": "Nazareth Hotel Junction", "description": "Nazareth South Nazareth Junction", "type": "Boarding Only", "lng": 35.290102999999995, "lat": 32.693643}, {"id": "50880", "name": "Ha-Pikud Junction", "description": "Nazareth South Nazareth Junction", "type": "Boarding Only", "lng": 35.287543, "lat": 32.693996999999996}, {"id": "54153", "name": "Dereh Haifa/5104", "description": "Kfar ha-Khoresh Junction", "type": "Boarding Only", "lng": 35.285198, "lat": 32.692951}, {"id": "53818", "name": "Haifa Rd", "description": "Yafi'a Center", "type": "Boarding Only", "lng": 35.282661999999995, "lat": 32.690776}, {"id": "54152", "name": "Yafia Alef/Entrance", "description": "Yafi'a Center", "type": "Boarding Only", "lng": 35.277589, "lat": 32.687084}, {"id": "52156", "name": "Yafia Bet/Cemetery", "description": "Yafi'a Center", "type": "Boarding Only", "lng": 35.276755, "lat": 32.685187}, {"id": "54138", "name": "Yafia Gimel", "description": "Yafi'a Center", "type": "Boarding Only", "lng": 35.274488, "lat": 32.682815999999995}, {"id": "52154", "name": "Yafia Dalet/Exit", "description": "Yafi'a Center", "type": "Boarding Only", "lng": 35.269757999999996, "lat": 32.680847}, {"id": "55385", "name": "Sderot Ha-Banim/Nof Ha-Emek", "description": "Migdal ha-Emek Nof ha-Emek", "type": "Boarding and Alighting", "lng": 35.251208, "lat": 32.673515}, {"id": "55444", "name": "Police/Sderot Ha-Banim", "description": "Migdal ha-Emek Pninat ha-Emek", "type": "Boarding and Alighting", "lng": 35.246449, "lat": 32.677431}, {"id": "55208", "name": "\u05e9\u05d3\u05e8\u05d5\u05ea \u05d4\u05d1\u05e0\u05d9\u05dd/\u05d3\u05e8\u05da \u05d4\u05e2\u05de\u05e7", "description": "Migdal ha-Emek Yad la-Banim", "type": "Boarding and Alighting", "lng": 35.241084, "lat": 32.678202}, {"id": "51849", "name": "Dereh Ha-Banim/Tidhar", "description": "Migdal ha-Emek Kheimar Square", "type": "Boarding and Alighting", "lng": 35.238459, "lat": 32.681972}, {"id": "50601", "name": "Sderot Ha-Banim", "description": "Migdal ha-Emek Pinkhas Sapir", "type": "Boarding and Alighting", "lng": 35.236501, "lat": 32.684498}, {"id": "54239", "name": "Cemetery/Dereh Ha-Banim", "description": "Migdal ha-Emek Cemetery", "type": "Boarding and Alighting", "lng": 35.233945, "lat": 32.687072}, {"id": "54227", "name": "Migdal Ha-Emek Junction 75/7555", "description": "Migdal ha-Emek Branching", "type": "Boarding and Alighting", "lng": 35.22594, "lat": 32.693483}, {"id": "51717", "name": "Rd 75/Timrat Junction", "description": "Timrat Branching", "type": "Boarding and Alighting", "lng": 35.213572, "lat": 32.698771}, {"id": "54172", "name": "Rd 75/Nahalal Junction", "description": "Nahalal Junction Junction", "type": "Boarding and Alighting", "lng": 35.207094999999995, "lat": 32.700852}, {"id": "51752", "name": "Rd 75/Manshiya Zabda", "description": "Manshiyat e-Zabda Branching", "type": "Boarding and Alighting", "lng": 35.191548, "lat": 32.701828}, {"id": "50078", "name": "Neve Ya'ar/Beit She'arim", "description": "Beit She'arim Junction", "type": "Boarding and Alighting", "lng": 35.18016, "lat": 32.704527999999996}, {"id": "51656", "name": "Rd 75/Ramat Yishai Junction", "description": "Ramat Yishai East Entrance", "type": "Boarding and Alighting", "lng": 35.172539, "lat": 32.706883}, {"id": "51657", "name": "Rd 75/Ramat Yishai West Junction", "description": "Ramat Yishai West Entry", "type": "Boarding and Alighting", "lng": 35.16184, "lat": 32.706557}, {"id": "51658", "name": "Rd 75/Yishai Junction", "description": "Yishai Junction Center", "type": "Boarding and Alighting", "lng": 35.15399, "lat": 32.707895}, {"id": "54198", "name": "Rd 75/Alonim Junction", "description": "Alonim Junction Junction", "type": "Boarding and Alighting", "lng": 35.142181, "lat": 32.709165}, {"id": "43024", "name": "Ha-Shomrim Junction", "description": "Ha-Shomrim Junction Center", "type": "Boarding and Alighting", "lng": 35.136, "lat": 32.709856}, {"id": "43025", "name": "Kiryat Amal Junction", "description": "Kiryat Tiv'on Kiryat Amal Branching", "type": "Boarding and Alighting", "lng": 35.130544, "lat": 32.711692}, {"id": "47051", "name": "Kiryat Tiv'on Junction", "description": "Kiryat Tiv'on Ha-Banim Square", "type": "Boarding and Alighting", "lng": 35.125752999999996, "lat": 32.712027}, {"id": "40553", "name": "Sha'ar Ha-Amakim", "description": "Sha'ar ha-Amakim Branching", "type": "Boarding and Alighting", "lng": 35.111633, "lat": 32.721388}, {"id": "40455", "name": "Ha-Amakim Junction", "description": "Ha-Amakim/Jalame Junction Ha-Amakim Junction", "type": "Boarding and Alighting", "lng": 35.09523, "lat": 32.726579}, {"id": "40319", "name": "Kishon Detention House ", "description": "Ha-Amakim/Jalame Junction Kishon Detention House", "type": "Boarding and Alighting", "lng": 35.090374, "lat": 32.731092}, {"id": "40320", "name": "Yagur Plant Nursery", "description": "Yagur Yagur nursery", "type": "Boarding and Alighting", "lng": 35.078815, "lat": 32.746745}, {"id": "46955", "name": "Nesher Sports Center", "description": "Nesher Sports and Recreation Center", "type": "Boarding and Alighting", "lng": 35.057342, "lat": 32.760265}, {"id": "40345", "name": "Bar-Yehuda City Stadium", "description": "Nesher Municipal Stadium", "type": "Boarding and Alighting", "lng": 35.052706, "lat": 32.765907}, {"id": "43072", "name": "Derekh Moshe/Ha-Shalom ", "description": "Nesher The Center of Nesher", "type": "Boarding and Alighting", "lng": 35.050351, "lat": 32.76807}, {"id": "43038", "name": "Derekh Ha-Shalom/Tel Hanan Center", "description": "Nesher Tel Khanan", "type": "Boarding and Alighting", "lng": 35.047221, "lat": 32.770237}, {"id": "43013", "name": "Bar-Yehuda/Hayetzira", "description": "Nesher Industrial Park ", "type": "Boarding and Alighting", "lng": 35.044883999999996, "lat": 32.773404}, {"id": "42987", "name": "Bar-Yehuda/Yeshurun", "description": "Nesher Industrial Park ", "type": "Boarding and Alighting", "lng": 35.043237, "lat": 32.774598}, {"id": "43071", "name": "Dereh Bar Yehuda/Ha-Masger", "description": "Nesher Industrial Park ", "type": "Boarding and Alighting", "lng": 35.03975, "lat": 32.777271999999996}, {"id": "43068", "name": "Bar-Yehuda/Ha-Plada", "description": "Nesher Industrial Park ", "type": "Boarding and Alighting", "lng": 35.037186999999996, "lat": 32.779244999999996}, {"id": "40352", "name": "Bar-Yehuda/Ha-Shayish", "description": "Nesher Industrial Park ", "type": "Boarding and Alighting", "lng": 35.033913999999996, "lat": 32.781717}, {"id": "41525", "name": "Bar-Yehuda/Ha-Krayot Junction", "description": "Haifa Check Post", "type": "Boarding and Alighting", "lng": 35.028313, "lat": 32.788197}, {"id": "41260", "name": "Ben Yehuda/Gesher Gdud 21", "description": "Haifa Gan ha-Em", "type": "Alighting Only", "lng": 35.021981, "lat": 32.795462}, {"id": "43136", "name": "Hativat Golani/Khiram Interchange", "description": "Haifa Ha-Ir ha-Takhtit, Khiram", "type": "Alighting Only", "lng": 35.006882999999995, "lat": 32.809311}, {"id": "43096", "name": "Ha-Atsmaut/Ha-Namal", "description": "Haifa Kiryat ha-Memshala", "type": "Alighting Only", "lng": 35.002300999999996, "lat": 32.817201}, {"id": "42979", "name": "\u05d3\u05e8\u05da \u05d4\u05e2\u05e6\u05de\u05d0\u05d5\u05ea/\u05e9\u05e2\u05e8 \u05e4\u05dc\u05de\u05e8", "description": "Haifa Ha-Ir ha-Takhtit, Port", "type": "Alighting Only", "lng": 34.999024999999996, "lat": 32.819480999999996}, {"id": "42976", "name": "\u05d3\u05e8\u05da \u05d4\u05e2\u05e6\u05de\u05d0\u05d5\u05ea/\u05e1\u05dc\u05d6\u05d9\u05d0\u05df", "description": "Haifa Ha-Ir ha-Takhtit, Port", "type": "Alighting Only", "lng": 34.994944, "lat": 32.822486999999995}, {"id": "43111", "name": "Ha-Atsma'ut/Ben Gurion", "description": "Haifa German Colony", "type": "Alighting Only", "lng": 34.99245, "lat": 32.824114}, {"id": "40257", "name": "A.L. Zissu/Derech Jaffa", "description": "Haifa Bat-Galim CBS", "type": "Alighting Only", "lng": 34.987691999999996, "lat": 32.827306}, {"id": "53925", "name": "\u05de\u05e8\u05db\u05d6 \u05de\u05e1\u05d7\u05e8\u05d9 \u05d1\u05d9\u05d2", "description": "Nazareth Industrial Park Bet", "type": "Boarding Only", "lng": 35.299808999999996, "lat": 32.695876}, {"id": "53961", "name": "\u05d1\u05d9\u05e1 \u05e1\u05e0\u05d8 \u05d2\u05d5\u05d6\u05e3", "description": "Nazareth Italian Hospital", "type": "Boarding Only", "lng": 35.310517, "lat": 32.70583}, {"id": "50844", "name": "\u05d4\u05d2\u05dc\u05d9\u05dc", "description": "Nazareth Italian Hospital", "type": "Boarding Only", "lng": 35.30721, "lat": 32.707640999999995}, {"id": "53944", "name": "\u05d4\u05d2\u05dc\u05d9\u05dc/\u05e1\u05d0\u05e4\u05d5\u05e8\u05d9\u05d4", "description": "Nazareth Khanuk Junction", "type": "Boarding Only", "lng": 35.305588, "lat": 32.709011}, {"id": "53938", "name": "\u05e1\u05d0\u05e4\u05d5\u05e8\u05d9\u05d4 \u05d0", "description": "Nazareth Safuriya", "type": "Boarding Only", "lng": 35.303469, "lat": 32.712024}, {"id": "52319", "name": "Safuriya Bet", "description": "Nazareth Nazareth -Tsipori Road", "type": "Boarding Only", "lng": 35.298964, "lat": 32.715984999999996}, {"id": "50893", "name": "\u05e1\u05d0\u05e4\u05d5\u05e8\u05d9\u05d4 \u05d2/\u05e9\u05db\u05d5\u05e0\u05ea \u05d1\u05d9\u05dc\u05d0\u05dc", "description": "Nazareth Nazareth -Tsipori Road", "type": "Boarding Only", "lng": 35.291523999999995, "lat": 32.721329}, {"id": "53822", "name": "Al Mashariq Junction", "description": "Nazareth Rd 79/700 Junction", "type": "Boarding and Alighting", "lng": 35.283573, "lat": 32.727528}, {"id": "53802", "name": "Ilut Junction", "description": "Ilut Junction", "type": "Boarding and Alighting", "lng": 35.275043, "lat": 32.730112}, {"id": "54243", "name": "Tsipori Park", "description": "Tsipori Branching", "type": "Boarding and Alighting", "lng": 35.270773, "lat": 32.732121}, {"id": "54160", "name": "Solelim Junction", "description": "Ha-Solelim Branching", "type": "Boarding and Alighting", "lng": 35.24425, "lat": 32.752345}, {"id": "51755", "name": "Alon Ha-Galil Branching", "description": "Kafr Manda Junction", "type": "Boarding and Alighting", "lng": 35.231291, "lat": 32.762485999999996}, {"id": "51443", "name": "Bir el-Maksur Junction", "description": "Bir el-Maksur Branching", "type": "Boarding and Alighting", "lng": 35.213051, "lat": 32.774958999999996}, {"id": "58850", "name": "Ha-Mahtseva Eastward/Rd 79 Branching", "description": "Shfar'am Ha-Mahtseva Branching", "type": "Boarding and Alighting", "lng": 35.193402999999996, "lat": 32.787977}, {"id": "51703", "name": "Adi Interchange", "description": "Adi Junction", "type": "Boarding and Alighting", "lng": 35.176513, "lat": 32.792021}, {"id": "51704", "name": "Shefar'am Junction", "description": "Shfar'am Junction", "type": "Boarding and Alighting", "lng": 35.169712, "lat": 32.796351}, {"id": "41462", "name": "Someh Junction", "description": "Somekh Junction Center", "type": "Boarding and Alighting", "lng": 35.145662, "lat": 32.80696}, {"id": "50051", "name": "Kibbutz Afek Branching", "description": "Afek Branching", "type": "Boarding and Alighting", "lng": 35.117627999999996, "lat": 32.838847}, {"id": "42363", "name": "Derekh Akko/road No.79", "description": "Kiryat Bialik Derekh Akko -Road No.79", "type": "Boarding and Alighting", "lng": 35.092267, "lat": 32.847648}, {"id": "41609", "name": "Dereh Acre Haifa/Tsiporen ", "description": "Kiryat Bialik Afek Junction", "type": "Boarding and Alighting", "lng": 35.093613, "lat": 32.850524}, {"id": "41633", "name": "Derekh Akko-Tsur Shalom", "description": "Kiryat Bialik Tsur Shalom - Derekh Akko", "type": "Boarding and Alighting", "lng": 35.094272, "lat": 32.855728}, {"id": "42536", "name": "Dereh Acre Haifa/Yerushalayim", "description": "Kiryat Bialik Tsur Shalom", "type": "Boarding and Alighting", "lng": 35.094577, "lat": 32.858577}, {"id": "41790", "name": "Derekh Akko/Sderot Khen", "description": "Kiryat Bialik Kiryat Bialik Industrial Park ", "type": "Boarding and Alighting", "lng": 35.09496, "lat": 32.861702}, {"id": "41504", "name": "Acco Haifa Rd/Rafael", "description": "Rafa'el, Makhon 3 Branching", "type": "Boarding and Alighting", "lng": 35.095512, "lat": 32.866240999999995}, {"id": "52579", "name": "Nahal Ne'eman Junction", "description": "Kiryat Bialik Kiryat Bialik Industrial Park ", "type": "Boarding and Alighting", "lng": 35.096379, "lat": 32.873146}, {"id": "52370", "name": "Milu'ot Branching", "description": "Kfar Masaryk Milu'ot", "type": "Boarding and Alighting", "lng": 35.096764, "lat": 32.881045}, {"id": "52371", "name": "Kfar Masaryk Junction", "description": "Kfar Masaryk Branching", "type": "Boarding and Alighting", "lng": 35.095679, "lat": 32.887561}, {"id": "52703", "name": "Steel works", "description": "Acre Na'aman Industrial Park ", "type": "Boarding and Alighting", "lng": 35.09449, "lat": 32.891200999999995}, {"id": "52566", "name": "Ne'eman Local Council", "description": "Acre Na'aman Industrial Park ", "type": "Boarding and Alighting", "lng": 35.093323, "lat": 32.897207}, {"id": "59704", "name": "Ein Ha-Mifrats Branching ", "description": "Ein ha-Mifrats Branching", "type": "Boarding and Alighting", "lng": 35.091425, "lat": 32.900760999999996}, {"id": "53720", "name": "Ein ha-Mifrats Junction", "description": "Ein ha-Mifrats Junction", "type": "Boarding and Alighting", "lng": 35.089110999999995, "lat": 32.905094}, {"id": "52702", "name": "Acre Industrial Zone, South", "description": "Acre South Industrial Park ", "type": "Boarding and Alighting", "lng": 35.087713, "lat": 32.908474}, {"id": "53549", "name": "Yonatan ha-Khashmonai, Gas Station", "description": "Acre Argaman Beach", "type": "Alighting Only", "lng": 35.081663999999996, "lat": 32.916558}, {"id": "53129", "name": "Argaman Beach", "description": "Acre Argaman Beach", "type": "Alighting Only", "lng": 35.079645, "lat": 32.91887}, {"id": "52325", "name": "Navy Officers School, Acre", "description": "Acre Argaman Beach", "type": "Alighting Only", "lng": 35.077166999999996, "lat": 32.922125}, {"id": "59444", "name": "Dereh Ha-Arba'a/Derech Ha-Melaha", "description": "Acre Industrial Park ", "type": "Alighting Only", "lng": 35.078331999999996, "lat": 32.924803}, {"id": "52688", "name": "Acre CBS/Derekh ha-Arba'a", "description": "Acre Central Bus Station", "type": "Alighting Only", "lng": 35.079578999999995, "lat": 32.927216}, {"id": "59420", "name": "\u05ea. \u05e8\u05db\u05d1\u05ea \u05e2\u05db\u05d5/\u05d4\u05e8\u05e6\u05dc", "description": "Acre Central Bus Station", "type": "Alighting Only", "lng": 35.08173, "lat": 32.92767}, {"id": "57664", "name": "\u05ea. \u05e8\u05db\u05d1\u05ea \u05e2\u05db\u05d5", "description": "Acre Central Bus Station", "type": "Alighting Only", "lng": 35.082462, "lat": 32.928554}, {"id": "52331", "name": "Ahva Institute Branching", "description": "Acre Ha-Galil College", "type": "Alighting Only", "lng": 35.082611, "lat": 32.934466}, {"id": "58359", "name": "Galil Ma'aravi College", "description": "Acre Ha-Galil College", "type": "Alighting Only", "lng": 35.086011, "lat": 32.935368}]
+[
+    {
+        "id": "51858",
+        "name": "\u05ea\u05d7\u05e0\u05d4 \u05de\u05e8\u05db\u05d6\u05d9\u05ea",
+        "description": "Nazareth Center",
+        "type": "Boarding Only",
+        "lng": 35.297969,
+        "lat": 32.701236
+    },
+    {
+        "id": "50840",
+        "name": "Nazareth CBS",
+        "description": "Nazareth Center",
+        "type": "Boarding Only",
+        "lng": 35.298860999999995,
+        "lat": 32.70167
+    },
+    {
+        "id": "53926",
+        "name": "\u05e4\u05d0\u05d5\u05dc\u05d5\u05e1 \u05d4\u05e9\u05d9\u05e9\u05d9",
+        "description": "Nazareth Center",
+        "type": "Boarding Only",
+        "lng": 35.300049,
+        "lat": 32.704311
+    },
+    {
+        "id": "55419",
+        "name": "Paulus Ha-Shishi/Ha-Galil",
+        "description": "Nazareth Ma'ayan",
+        "type": "Boarding Only",
+        "lng": 35.301729,
+        "lat": 32.705957999999995
+    },
+    {
+        "id": "54228",
+        "name": "Ha-Galil/El-Salam",
+        "description": "Nazareth Ma'ayan",
+        "type": "Boarding Only",
+        "lng": 35.304017,
+        "lat": 32.705554
+    },
+    {
+        "id": "53950",
+        "name": "\u05d4\u05d2\u05dc\u05d9\u05dc/4000",
+        "description": "Nazareth Italian Hospital",
+        "type": "Boarding Only",
+        "lng": 35.306326,
+        "lat": 32.704944
+    },
+    {
+        "id": "51095",
+        "name": "\u05e9\u05d3\u05e8\u05d5\u05ea \u05de\u05e2\u05dc\u05d4 \u05d9\u05e6\u05d7\u05e7/\u05d3\u05e8\u05da \u05d4\u05e6\u05d9\u05d5\u05e0\u05d5\u05ea",
+        "description": "Natsrat Ilit Kiryat ha-Memshala",
+        "type": "Boarding Only",
+        "lng": 35.311862999999995,
+        "lat": 32.701347
+    },
+    {
+        "id": "55254",
+        "name": "Community Center/Ma'ale Yitshak",
+        "description": "Natsrat Ilit Lev ha-Ir Mall",
+        "type": "Boarding Only",
+        "lng": 35.313553,
+        "lat": 32.69981
+    },
+    {
+        "id": "52182",
+        "name": "Sharet School/Ma'ale Yishak",
+        "description": "Natsrat Ilit South Neighborhood",
+        "type": "Boarding Only",
+        "lng": 35.316424999999995,
+        "lat": 32.699191
+    },
+    {
+        "id": "52178",
+        "name": "\u05de\u05e8\u05db\u05d6 \u05de\u05e1\u05d7\u05e8\u05d9/\u05e9\u05d3 \u05de\u05e2\u05dc\u05d4 \u05d9\u05e6\u05d7\u05e7",
+        "description": "Natsrat Ilit Bne Beiteha",
+        "type": "Boarding Only",
+        "lng": 35.320952,
+        "lat": 32.701147
+    },
+    {
+        "id": "52175",
+        "name": "\u05e9\u05d3\u05e8\u05d5\u05ea \u05de\u05e2\u05dc\u05d4 \u05d9\u05e6\u05d7\u05e7/\u05d4\u05e4\u05e1\u05d2\u05d5\u05ea",
+        "description": "Natsrat Ilit Bne Beiteha",
+        "type": "Boarding Only",
+        "lng": 35.325829999999996,
+        "lat": 32.704271999999996
+    },
+    {
+        "id": "51057",
+        "name": "Tavor/Ha-Psagot",
+        "description": "Natsrat Ilit Nof Yizre'el",
+        "type": "Boarding Only",
+        "lng": 35.318698999999995,
+        "lat": 32.705313
+    },
+    {
+        "id": "53999",
+        "name": "\u05ea\u05d1\u05d5\u05e8/\u05d4\u05e6\u05d1\u05e8",
+        "description": "Natsrat Ilit Nof Yizre'el",
+        "type": "Boarding Only",
+        "lng": 35.321717,
+        "lat": 32.70536
+    },
+    {
+        "id": "51200",
+        "name": "\u05ea\u05d1\u05d5\u05e8",
+        "description": "Natsrat Ilit Nof Yizre'el",
+        "type": "Boarding Only",
+        "lng": 35.323912,
+        "lat": 32.706286999999996
+    },
+    {
+        "id": "51201",
+        "name": "\u05ea\u05d1\u05d5\u05e8/\u05d2\u05d5\u05dc\u05df",
+        "description": "Natsrat Ilit Nof Yizre'el",
+        "type": "Boarding Only",
+        "lng": 35.325458,
+        "lat": 32.70728
+    },
+    {
+        "id": "55632",
+        "name": "Tavor/Rakefet",
+        "description": "Natsrat Ilit Nof Yizre'el",
+        "type": "Boarding Only",
+        "lng": 35.328015,
+        "lat": 32.708098
+    },
+    {
+        "id": "55633",
+        "name": "Tavor/Kishon",
+        "description": "Natsrat Ilit Nof Yizre'el",
+        "type": "Boarding Only",
+        "lng": 35.33184,
+        "lat": 32.707926
+    },
+    {
+        "id": "55256",
+        "name": "Cemetery/Ma'ale Yitshak",
+        "description": "Natsrat Ilit Nof Yizre'el",
+        "type": "Boarding Only",
+        "lng": 35.334576,
+        "lat": 32.708309
+    },
+    {
+        "id": "55158",
+        "name": "\u05d1\u05d9\u05ea \u05e2\u05dc\u05de\u05d9\u05df/\u05de\u05e2\u05dc\u05d4 \u05d9\u05e6\u05d7\u05e7",
+        "description": "Natsrat Ilit Cemetery",
+        "type": "Boarding Only",
+        "lng": 35.336205,
+        "lat": 32.710713999999996
+    },
+    {
+        "id": "51096",
+        "name": "Sderot Ma'ale Yitskhak/Ha-Avoda",
+        "description": "Natsrat Ilit Kharoshet Gimel Industrial Park ",
+        "type": "Boarding Only",
+        "lng": 35.337525,
+        "lat": 32.713948
+    },
+    {
+        "id": "51097",
+        "name": "\u05de\u05e8\u05db\u05d6 \u05de\u05e1\u05d7\u05e8\u05d9/\u05e9\u05d3\u05e8\u05d5\u05ea \u05de\u05e2\u05dc\u05d4 \u05d9\u05e6\u05d7\u05e7",
+        "description": "Natsrat Ilit Kharoshet Gimel Industrial Park ",
+        "type": "Boarding Only",
+        "lng": 35.337598,
+        "lat": 32.716649
+    },
+    {
+        "id": "54059",
+        "name": "Ma'ale Yitshak/Ein Mahil",
+        "description": "Natsrat Ilit Kharoshet Gimel Industrial Park ",
+        "type": "Boarding Only",
+        "lng": 35.338918,
+        "lat": 32.720244
+    },
+    {
+        "id": "54180",
+        "name": "Yakinton, Netofa Community School For Science",
+        "description": "Natsrat Ilit Har Yona",
+        "type": "Boarding Only",
+        "lng": 35.336512,
+        "lat": 32.721253
+    },
+    {
+        "id": "54179",
+        "name": "Yakinton/Moran",
+        "description": "Natsrat Ilit Har Yona",
+        "type": "Boarding Only",
+        "lng": 35.334187,
+        "lat": 32.721213999999996
+    },
+    {
+        "id": "54181",
+        "name": "Yakinton/Nitsan",
+        "description": "Natsrat Ilit Har Yona",
+        "type": "Boarding Only",
+        "lng": 35.332501,
+        "lat": 32.724033
+    },
+    {
+        "id": "54042",
+        "name": "Yakinton/Moran Bet",
+        "description": "Natsrat Ilit Har Yona",
+        "type": "Boarding Only",
+        "lng": 35.335937,
+        "lat": 32.724561
+    },
+    {
+        "id": "51103",
+        "name": "Yakinton",
+        "description": "Natsrat Ilit Har Yona",
+        "type": "Boarding Only",
+        "lng": 35.338164,
+        "lat": 32.726261
+    },
+    {
+        "id": "54054",
+        "name": "Yakinton/Livne",
+        "description": "Natsrat Ilit Har Yona",
+        "type": "Boarding Only",
+        "lng": 35.338207,
+        "lat": 32.727737
+    },
+    {
+        "id": "51105",
+        "name": "Dalya/Koranit",
+        "description": "Natsrat Ilit Har Yona",
+        "type": "Boarding Only",
+        "lng": 35.336574999999996,
+        "lat": 32.728628
+    },
+    {
+        "id": "54136",
+        "name": "Dalya/Karkom",
+        "description": "Natsrat Ilit Har Yona",
+        "type": "Boarding Only",
+        "lng": 35.334376,
+        "lat": 32.72744
+    },
+    {
+        "id": "54030",
+        "name": "Dalya/Ha-Gome",
+        "description": "Natsrat Ilit Har Yona",
+        "type": "Boarding Only",
+        "lng": 35.332223,
+        "lat": 32.728137
+    },
+    {
+        "id": "51108",
+        "name": "Dalya (terminus",
+        "description": "Natsrat Ilit Har Yona",
+        "type": "Boarding Only",
+        "lng": 35.329221,
+        "lat": 32.730121
+    },
+    {
+        "id": "51109",
+        "name": "\u05e0\u05e6\u05e8\u05ea \u05e2\u05d9\u05dc\u05d9\u05ea/\u05d9\u05e6\u05d9\u05d0\u05d4",
+        "description": "Reina Entrance to Har Yona ",
+        "type": "Boarding Only",
+        "lng": 35.324034999999995,
+        "lat": 32.727373
+    },
+    {
+        "id": "54016",
+        "name": "\u05e6\u05d5\u05de\u05ea \u05de\u05e9\u05d4\u05d3",
+        "description": "Mash'had Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.326142,
+        "lat": 32.735645
+    },
+    {
+        "id": "58609",
+        "name": "\u05e6\u05d5\u05de\u05ea \u05e9\u05db\u05d5\u05e0\u05ea \u05d1\u05e0\u05d4 \u05d1\u05d9\u05ea\u05da",
+        "description": "Mash'had Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.328779,
+        "lat": 32.736753
+    },
+    {
+        "id": "52226",
+        "name": "\u05db\u05e4\u05e8 \u05db\u05e0\u05d0 \u05d0/\u05db\u05e0\u05d9\u05e1\u05d4",
+        "description": "Kafr Kana Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.33441,
+        "lat": 32.740567999999996
+    },
+    {
+        "id": "54037",
+        "name": "\u05de\u05e2\u05dc \u05d4\u05de\u05e2\u05d9\u05d9\u05df",
+        "description": "Kafr Kana Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.334951,
+        "lat": 32.742393
+    },
+    {
+        "id": "58324",
+        "name": "\u05db\u05e4\u05e8 \u05db\u05e0\u05d0 \u05d2/\u05de\u05e2\u05d9\u05d9\u05df",
+        "description": "Kafr Kana Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.33818,
+        "lat": 32.744994999999996
+    },
+    {
+        "id": "54051",
+        "name": "\u05db\u05e0\u05e1\u05d9\u05d4",
+        "description": "Kafr Kana Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.33804,
+        "lat": 32.745623
+    },
+    {
+        "id": "58325",
+        "name": "\u05db\u05e0\u05d9\u05e1\u05ea \u05e8\u05d7\u05d5\u05d1 \u05d4\u05db\u05e0\u05e1\u05d9\u05d5\u05ea",
+        "description": "Kafr Kana Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.338375,
+        "lat": 32.749237
+    },
+    {
+        "id": "50422",
+        "name": "\u05e7\u05d0\u05e0\u05d0 \u05d0\u05dc\u05d2\u05dc\u05d9\u05dc",
+        "description": "Kafr Kana Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.340461,
+        "lat": 32.750803999999995
+    },
+    {
+        "id": "54077",
+        "name": "\u05db\u05e4\u05e8 \u05db\u05e0\u05d0 \u05d6/\u05d1\u05d9\u05e1 \u05d7\u05d8\u05d1 \u05d0",
+        "description": "Kafr Kana Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.343984,
+        "lat": 32.754546
+    },
+    {
+        "id": "58323",
+        "name": "\u05db\u05e4\u05e8 \u05db\u05e0\u05d0 \u05d7/\u05de\u05e2\u05d5\u05df",
+        "description": "Kafr Kana Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.345841,
+        "lat": 32.760187
+    },
+    {
+        "id": "50075",
+        "name": "Beit Rimon Junction",
+        "description": "Beit Rimon Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.346880999999996,
+        "lat": 32.761390999999996
+    },
+    {
+        "id": "50332",
+        "name": "Tur'an Junction",
+        "description": "Tur'an Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.376765,
+        "lat": 32.764117999999996
+    },
+    {
+        "id": "54251",
+        "name": "Shimshon Base Junction",
+        "description": "Makhane Shimshon Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.392607,
+        "lat": 32.771578999999996
+    },
+    {
+        "id": "54247",
+        "name": "Golani Junction",
+        "description": "Golani Junction Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.40727,
+        "lat": 32.772884
+    },
+    {
+        "id": "50607",
+        "name": "Netafim  Base",
+        "description": "Makhane Netafim Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.403934,
+        "lat": 32.799837
+    },
+    {
+        "id": "51441",
+        "name": "Netofa Junction",
+        "description": "Biane Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.402653,
+        "lat": 32.810064
+    },
+    {
+        "id": "51832",
+        "name": "\u05e6\u05d5\u05de\u05ea \u05e2\u05d9\u05dc\u05d1\u05d5\u05df \u05d3\u05e8\u05d5\u05dd",
+        "description": "Eilabun Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.407323,
+        "lat": 32.829963
+    },
+    {
+        "id": "54117",
+        "name": "\u05e6\u05d5\u05de\u05ea \u05e2\u05d9\u05dc\u05d1\u05d5\u05df \u05de\u05e8\u05db\u05d6",
+        "description": "Eilabun Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.396314,
+        "lat": 32.833697
+    },
+    {
+        "id": "58166",
+        "name": "\u05e6\u05d5\u05de\u05ea \u05e2\u05d9\u05dc\u05d1\u05d5\u05df \u05e6\u05e4\u05d5\u05df",
+        "description": "Eilabun Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.398005999999995,
+        "lat": 32.839456999999996
+    },
+    {
+        "id": "58165",
+        "name": "\u05e6\u05d5\u05de\u05ea \u05e6\u05dc\u05de\u05d5\u05df/\u05d0\u05dc\u05d7\u05de\u05e8\u05d4",
+        "description": "Deir Hana Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.400678,
+        "lat": 32.857855
+    },
+    {
+        "id": "58687",
+        "name": "\u05de\u05d2\u05d0\u05e8 \u05d0/\u05db\u05e0\u05d9\u05e1\u05d4 \u05d3\u05e8\u05d5\u05de\u05d9\u05ea",
+        "description": "Mghar Road No.806",
+        "type": "Boarding and Alighting",
+        "lng": 35.407447,
+        "lat": 32.881842
+    },
+    {
+        "id": "58164",
+        "name": "\u05de\u05d2\u05d0\u05e8 \u05d1/\u05de\u05e1\u05e2\u05e3 \u05d8\u05e4\u05d7\u05d5\u05ea",
+        "description": "Mghar Road No.806",
+        "type": "Boarding and Alighting",
+        "lng": 35.409251999999995,
+        "lat": 32.88279
+    },
+    {
+        "id": "52048",
+        "name": "\u05de\u05e1\u05e2\u05e3 \u05de\u05d2\u05d0\u05e8",
+        "description": "Mghar Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.411819,
+        "lat": 32.885346
+    },
+    {
+        "id": "52028",
+        "name": "\u05de\u05d5\u05e2\u05e6\u05d4 \u05de\u05e7\u05d5\u05de\u05d9\u05ea \u05de\u05d2\u05d0\u05e8",
+        "description": "Mghar Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.408667,
+        "lat": 32.887902
+    },
+    {
+        "id": "54129",
+        "name": "Maghar Vav/Primary School Bet",
+        "description": "Mghar Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.408163,
+        "lat": 32.889298
+    },
+    {
+        "id": "54209",
+        "name": "Maghar/Exit",
+        "description": "Mghar Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.413289,
+        "lat": 32.893299
+    },
+    {
+        "id": "54211",
+        "name": "Mihve Alon/Hazon",
+        "description": "Giv'at Khananya Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.415068999999995,
+        "lat": 32.900182
+    },
+    {
+        "id": "54212",
+        "name": "Kfar Hananya Junction",
+        "description": "Kfar Khananya Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.41695,
+        "lat": 32.917747999999996
+    },
+    {
+        "id": "54210",
+        "name": "Rd 85/Halafta Junction",
+        "description": "Khalfata Junction Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.417376,
+        "lat": 32.922441
+    },
+    {
+        "id": "54146",
+        "name": "Rd 85/Hananya Sheva",
+        "description": "Khananya Junction Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.405148,
+        "lat": 32.927724
+    },
+    {
+        "id": "50560",
+        "name": "Moran Junction",
+        "description": "Moran Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.392571,
+        "lat": 32.927971
+    },
+    {
+        "id": "51620",
+        "name": "Rameh",
+        "description": "Rama Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.367464999999996,
+        "lat": 32.934332
+    },
+    {
+        "id": "52619",
+        "name": "Rameh/Center",
+        "description": "Rama Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.363655,
+        "lat": 32.937221
+    },
+    {
+        "id": "50900",
+        "name": "\u05db\u05d9\u05db\u05e8 \u05de\u05e2\u05e8\u05d1\u05d9\u05ea",
+        "description": "Rama Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.362836,
+        "lat": 32.937796999999996
+    },
+    {
+        "id": "51613",
+        "name": "Rameh/Exit",
+        "description": "Rama Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.359033,
+        "lat": 32.937357
+    },
+    {
+        "id": "51600",
+        "name": "West Rameh Junction",
+        "description": "Sajur Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.355221,
+        "lat": 32.9364
+    },
+    {
+        "id": "50879",
+        "name": "Shezor Junction",
+        "description": "Shezor Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.349708,
+        "lat": 32.934681999999995
+    },
+    {
+        "id": "50835",
+        "name": "Ma'ale Kamun Junction",
+        "description": "Karmi'el Industrial Park Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.323671999999995,
+        "lat": 32.928742
+    },
+    {
+        "id": "50483",
+        "name": "Nakhef Junction",
+        "description": "Nahf Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.319305,
+        "lat": 32.927862999999995
+    },
+    {
+        "id": "55139",
+        "name": "\u05ea. \u05e8\u05db\u05d1\u05ea \u05db\u05e8\u05de\u05d9\u05d0\u05dc/\u05d4\u05d5\u05e8\u05d3\u05d4",
+        "description": "Karmi'el Railway station and Intercity Bus Terminal",
+        "type": "Alighting Only",
+        "lng": 35.297919,
+        "lat": 32.923792
+    },
+    {
+        "id": "50731",
+        "name": "Sderot Nesi'ei Yisra'el/Ofira Navon Park",
+        "description": "Karmi'el Ha-Meyasdim",
+        "type": "Alighting Only",
+        "lng": 35.302087,
+        "lat": 32.914128999999996
+    },
+    {
+        "id": "52272",
+        "name": "Sderot Nesi'ei Yisra'el/Iris",
+        "description": "Karmi'el South Neighborhood",
+        "type": "Alighting Only",
+        "lng": 35.299,
+        "lat": 32.910202
+    },
+    {
+        "id": "53503",
+        "name": "Sderot Nesi'ei Yisra'el/Ha-Khavatselet",
+        "description": "Karmi'el South Neighborhood",
+        "type": "Alighting Only",
+        "lng": 35.295612,
+        "lat": 32.909027
+    },
+    {
+        "id": "50702",
+        "name": "Sderot Nesi'ei Yisra'el/Mall",
+        "description": "Karmi'el Lev Karmi'el Mall",
+        "type": "Alighting Only",
+        "lng": 35.29373,
+        "lat": 32.908591
+    },
+    {
+        "id": "50683",
+        "name": "Sderot Nesi'ei Yisra'el/Yekev",
+        "description": "Karmi'el Nesi'ei Yisra'el/Yekev",
+        "type": "Alighting Only",
+        "lng": 35.288844,
+        "lat": 32.90793
+    },
+    {
+        "id": "50651",
+        "name": "Sderot Nesi'ei Israel/Beit Ha-Kerem",
+        "description": "Karmi'el Ha-Shalom Square",
+        "type": "Alighting Only",
+        "lng": 35.285311,
+        "lat": 32.908854999999996
+    },
+    {
+        "id": "50634",
+        "name": "Dereh Ha-Shalom/Sderot Beit Ha-Kerem",
+        "description": "Karmi'el Ha-Shalom Square",
+        "type": "Alighting Only",
+        "lng": 35.283981,
+        "lat": 32.909361
+    },
+    {
+        "id": "50592",
+        "name": "Sderot Nesi'ei Yisra'el/Eshkolot (Pais)",
+        "description": "Karmi'el Ort Braude",
+        "type": "Alighting Only",
+        "lng": 35.280799,
+        "lat": 32.910575
+    },
+    {
+        "id": "55637",
+        "name": "\u05ea. \u05de\u05e8\u05db\u05d6\u05d9\u05ea \u05e2\u05e4\u05d5\u05dc\u05d4/\u05e8\u05e6\u05d9\u05e4\u05d9\u05dd",
+        "description": "Afula Central Bus Station",
+        "type": "Boarding Only",
+        "lng": 35.292249999999996,
+        "lat": 32.607864
+    },
+    {
+        "id": "55210",
+        "name": "\u05db\u05d9\u05db\u05e8 \u05d4\u05e2\u05e6\u05de\u05d0\u05d5\u05ea",
+        "description": "Afula The Center of Town",
+        "type": "Boarding and Alighting",
+        "lng": 35.288381,
+        "lat": 32.610394
+    },
+    {
+        "id": "55115",
+        "name": "Community Center/Hativa Tesha",
+        "description": "Afula The Center of Town",
+        "type": "Boarding and Alighting",
+        "lng": 35.288044,
+        "lat": 32.612241
+    },
+    {
+        "id": "55253",
+        "name": "Fire Brigade/Hativa Tesha",
+        "description": "Afula Mekhabei Esh Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.289105,
+        "lat": 32.61653
+    },
+    {
+        "id": "54166",
+        "name": "Afula bypass/Rd 60 Junction",
+        "description": "Afula Exit from the city - to Nazareth",
+        "type": "Boarding and Alighting",
+        "lng": 35.28962,
+        "lat": 32.623864
+    },
+    {
+        "id": "55320",
+        "name": "Balfurya Junction",
+        "description": "Balfurya Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.290106,
+        "lat": 32.629811
+    },
+    {
+        "id": "51587",
+        "name": "Kfar Gid'on Junction",
+        "description": "Kfar Gid'on Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.291405,
+        "lat": 32.644875
+    },
+    {
+        "id": "55362",
+        "name": "Mizra Junction",
+        "description": "Mizra Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.291841,
+        "lat": 32.649395
+    },
+    {
+        "id": "55263",
+        "name": "\u05de\u05db\u05dc\u05dc\u05ea \u05e2\u05de\u05e7 \u05d9\u05d6\u05e8\u05e2\u05d0\u05dc",
+        "description": "Emek Yizra'el Regional Council Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.292193999999995,
+        "lat": 32.652276
+    },
+    {
+        "id": "55417",
+        "name": "Tel Adashim Junction",
+        "description": "Tel Adashim Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.292457,
+        "lat": 32.656424
+    },
+    {
+        "id": "55331",
+        "name": "Gineigar Branching",
+        "description": "Gineigar Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.256856,
+        "lat": 32.661252999999995
+    },
+    {
+        "id": "52617",
+        "name": "Kfar Barukh Branching",
+        "description": "Kfar Barukh Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.235842,
+        "lat": 32.661649
+    },
+    {
+        "id": "59617",
+        "name": "\u05d4\u05d0\u05d5\u05df",
+        "description": "Sarid Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.230343999999995,
+        "lat": 32.663478
+    },
+    {
+        "id": "52391",
+        "name": "Sarid Branching",
+        "description": "Sarid Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.227273,
+        "lat": 32.665668
+    },
+    {
+        "id": "51589",
+        "name": "Yif'at Branching",
+        "description": "Yif'at Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.219668999999996,
+        "lat": 32.676479
+    },
+    {
+        "id": "51590",
+        "name": "Gvat Branching",
+        "description": "Gvat Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.21057,
+        "lat": 32.678129
+    },
+    {
+        "id": "51591",
+        "name": "Ramat David Branching",
+        "description": "Ramat David [Kibbuts] Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.204781,
+        "lat": 32.680718999999996
+    },
+    {
+        "id": "52585",
+        "name": "Nahalal Branching",
+        "description": "Nahalal Junction Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.205118,
+        "lat": 32.697032
+    },
+    {
+        "id": "53755",
+        "name": "\u05e6\u05d5\u05de\u05ea \u05e0\u05d4\u05dc\u05dc",
+        "description": "Nahalal Junction Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.208362,
+        "lat": 32.701049999999995
+    },
+    {
+        "id": "51915",
+        "name": "\u05e6\u05d5\u05de\u05ea \u05de\u05d6\u05d0\u05e8\u05d9\u05d1",
+        "description": "Zarzir Dor Alon Gas Station",
+        "type": "Boarding and Alighting",
+        "lng": 35.212371999999995,
+        "lat": 32.712519
+    },
+    {
+        "id": "51893",
+        "name": "\u05e9\u05db\u05d5\u05e0\u05ea \u05e2\u05d9\u05d0\u05d3\u05d0\u05ea \u05d3\u05e8\u05d5\u05de\u05d9\u05ea",
+        "description": "Zarzir Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.215365,
+        "lat": 32.719066999999995
+    },
+    {
+        "id": "53764",
+        "name": "\u05e6\u05d5\u05de\u05ea \u05e2\u05d9\u05d0\u05d3\u05d0\u05ea/\u05d2\u05e8\u05d9\u05e4\u05d0\u05ea",
+        "description": "Zarzir Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.217197999999996,
+        "lat": 32.722514
+    },
+    {
+        "id": "53768",
+        "name": "\u05e6\u05d5\u05de\u05ea \u05d2\u05d1\u05e2\u05ea \u05d0\u05dc\u05d4",
+        "description": "Giv'at Ela Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.221554,
+        "lat": 32.72488
+    },
+    {
+        "id": "53772",
+        "name": "\u05de\u05d5\u05e2\u05e6\u05d4 \u05de\u05e7\u05d5\u05de\u05d9\u05ea \u05d1\u05d9\u05ea \u05d6\u05e8\u05d6\u05d9\u05e8",
+        "description": "Zarzir Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.225592999999996,
+        "lat": 32.727101999999995
+    },
+    {
+        "id": "51924",
+        "name": "\u05e6\u05d5\u05de\u05ea \u05d0\u05dc \u05d4\u05d9\u05d9\u05d1",
+        "description": "Zarzir Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.227136,
+        "lat": 32.729181
+    },
+    {
+        "id": "53771",
+        "name": "\u05d2\u05d5\u05d0\u05de\u05d9\u05e1/\u05de\u05e1\u05d2\u05d3",
+        "description": "Zarzir Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.224598,
+        "lat": 32.731041999999995
+    },
+    {
+        "id": "57424",
+        "name": "\u05e9\u05db\u05d5\u05e0\u05ea \u05d2\u05d5\u05d0\u05de\u05d9\u05e1/\u05d9\u05e6\u05d9\u05d0\u05d4",
+        "description": "Zarzir Industrial Park",
+        "type": "Boarding and Alighting",
+        "lng": 35.219997,
+        "lat": 32.732884999999996
+    },
+    {
+        "id": "58874",
+        "name": "Zarzir Junction",
+        "description": "Zarzir Zarzir Interchange",
+        "type": "Boarding and Alighting",
+        "lng": 35.211698999999996,
+        "lat": 32.734519999999996
+    },
+    {
+        "id": "53257",
+        "name": "Ha-Movil Junction",
+        "description": "Ha-Movil Junction Ha-Movil Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.232397,
+        "lat": 32.759271999999996
+    },
+    {
+        "id": "52905",
+        "name": "Yiftahel/Kafr Manda Junction",
+        "description": "Kafr Manda Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.23194,
+        "lat": 32.761866999999995
+    },
+    {
+        "id": "53463",
+        "name": "Hanaton Junction",
+        "description": "Khanaton Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.245146999999996,
+        "lat": 32.779444
+    },
+    {
+        "id": "50192",
+        "name": "Kafr Manda Junction",
+        "description": "Kafr Manda Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.253184,
+        "lat": 32.805451
+    },
+    {
+        "id": "53777",
+        "name": "Dmeide Junction",
+        "description": "Dmeida Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.229908,
+        "lat": 32.819804
+    },
+    {
+        "id": "53784",
+        "name": "Moreshet  Junction",
+        "description": "Moreshet Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.236943,
+        "lat": 32.831949
+    },
+    {
+        "id": "50391",
+        "name": "Kaukab(Abu el-Hija) Junction",
+        "description": "Kaukab[Abu el-Hija] Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.249527,
+        "lat": 32.836791
+    },
+    {
+        "id": "50193",
+        "name": "Manof Junction",
+        "description": "Koranit Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.258414,
+        "lat": 32.839742
+    },
+    {
+        "id": "54208",
+        "name": "Yodfat/784 Junction",
+        "description": "Yodfat Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.262012999999996,
+        "lat": 32.843147
+    },
+    {
+        "id": "52721",
+        "name": "Yodfat Kokhav",
+        "description": "Yodfat Branching Rd.784",
+        "type": "Boarding and Alighting",
+        "lng": 35.269093999999996,
+        "lat": 32.853274
+    },
+    {
+        "id": "58941",
+        "name": "\u05e8\u05e4\u05d0\u05dc/\u05db\u05d1\u05d9\u05e9 784",
+        "description": "Rakefet Leshem Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.268471999999996,
+        "lat": 32.857155
+    },
+    {
+        "id": "54145",
+        "name": "Misgav Branching",
+        "description": "Misgav Junction Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.263056999999996,
+        "lat": 32.860469
+    },
+    {
+        "id": "53797",
+        "name": "Yuvalim Junction",
+        "description": "Yuvalim Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.268153,
+        "lat": 32.863558999999995
+    },
+    {
+        "id": "54149",
+        "name": "Eshbal Junction",
+        "description": "Yuvalim Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.264264,
+        "lat": 32.867485
+    },
+    {
+        "id": "51671",
+        "name": "Shorashim Junction",
+        "description": "Shorashim Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.257545,
+        "lat": 32.889368
+    },
+    {
+        "id": "50591",
+        "name": "Sderot Nesi'ei Yisra'el/Eshkolot (Pais)",
+        "description": "Karmi'el Ort Braude",
+        "type": "Boarding and Alighting",
+        "lng": 35.280969,
+        "lat": 32.910365999999996
+    },
+    {
+        "id": "50650",
+        "name": "Sderot Nesi'ei Yisra'el/Derekh ha-Shalom",
+        "description": "Karmi'el Ha-Shalom Square",
+        "type": "Boarding and Alighting",
+        "lng": 35.285527,
+        "lat": 32.908626999999996
+    },
+    {
+        "id": "50673",
+        "name": "Sderot Nesi'ei Israel/Ha-Yekev",
+        "description": "Karmi'el Nesi'ei Yisra'el/Yekev",
+        "type": "Boarding and Alighting",
+        "lng": 35.287998,
+        "lat": 32.907900999999995
+    },
+    {
+        "id": "50695",
+        "name": "Sderot Nesi'ei Yisra'el/Morad ha-Gai",
+        "description": "Karmi'el Lev Karmi'el Mall",
+        "type": "Boarding and Alighting",
+        "lng": 35.292308,
+        "lat": 32.908125
+    },
+    {
+        "id": "50699",
+        "name": "Sderot Nesi'ei Yisra'el/Mall",
+        "description": "Karmi'el Lev Karmi'el Mall",
+        "type": "Boarding and Alighting",
+        "lng": 35.293932,
+        "lat": 32.908505
+    },
+    {
+        "id": "53707",
+        "name": "Sderot Nesi'ei Yisra'el/Khavatselet",
+        "description": "Karmi'el South Neighborhood",
+        "type": "Boarding and Alighting",
+        "lng": 35.297233,
+        "lat": 32.909282
+    },
+    {
+        "id": "50719",
+        "name": "Sderot Nesi'ei Yisrael/Iris",
+        "description": "Karmi'el South Neighborhood",
+        "type": "Boarding and Alighting",
+        "lng": 35.299715,
+        "lat": 32.910401
+    },
+    {
+        "id": "50729",
+        "name": "Sderot Nesi'ei Yisra'el/Ofira Navon Park",
+        "description": "Karmi'el Ha-Meyasdim",
+        "type": "Boarding and Alighting",
+        "lng": 35.301871999999996,
+        "lat": 32.913298999999995
+    },
+    {
+        "id": "52159",
+        "name": "\u05e0\u05e9\u05d9\u05d0\u05d9 \u05d9\u05e9\u05e8\u05d0\u05dc/\u05d4\u05d3\u05e7\u05dc",
+        "description": "Karmi'el Ha-Meyasdim",
+        "type": "Boarding and Alighting",
+        "lng": 35.302893,
+        "lat": 32.916227
+    },
+    {
+        "id": "53901",
+        "name": "\u05e4\u05d0\u05d5\u05dc\u05d5\u05e1 \u05d4\u05e9\u05d9\u05e9\u05d9/\u05ea\u05d5\u05e4\u05d9\u05e7 \u05d6\u05d9\u05d0\u05d3",
+        "description": "Nazareth Center",
+        "type": "Boarding Only",
+        "lng": 35.296476,
+        "lat": 32.699874
+    },
+    {
+        "id": "55484",
+        "name": "\u05e4\u05d0\u05d5\u05dc\u05d5\u05e1 \u05d4\u05e9\u05d9\u05e9\u05d9/3033",
+        "description": "Nazareth Diana Cinema",
+        "type": "Boarding Only",
+        "lng": 35.295235999999996,
+        "lat": 32.698447
+    },
+    {
+        "id": "52146",
+        "name": "\u05e4\u05d0\u05d5\u05dc\u05d5\u05e1 \u05d4\u05e9\u05d9\u05e9\u05d9/5083",
+        "description": "Nazareth Diana Cinema",
+        "type": "Boarding Only",
+        "lng": 35.29168,
+        "lat": 32.696861999999996
+    },
+    {
+        "id": "52417",
+        "name": "\u05e4\u05d0\u05d5\u05dc\u05d5\u05e1 \u05d4\u05e9\u05d9\u05e9\u05d9/5089",
+        "description": "Nazareth Diana Cinema",
+        "type": "Boarding Only",
+        "lng": 35.290839999999996,
+        "lat": 32.694542999999996
+    },
+    {
+        "id": "54225",
+        "name": "Nazareth Hotel Junction",
+        "description": "Nazareth South Nazareth Junction",
+        "type": "Boarding Only",
+        "lng": 35.290102999999995,
+        "lat": 32.693643
+    },
+    {
+        "id": "50880",
+        "name": "Ha-Pikud Junction",
+        "description": "Nazareth South Nazareth Junction",
+        "type": "Boarding Only",
+        "lng": 35.287543,
+        "lat": 32.693996999999996
+    },
+    {
+        "id": "54153",
+        "name": "Dereh Haifa/5104",
+        "description": "Kfar ha-Khoresh Junction",
+        "type": "Boarding Only",
+        "lng": 35.285198,
+        "lat": 32.692951
+    },
+    {
+        "id": "53818",
+        "name": "Haifa Rd",
+        "description": "Yafi'a Center",
+        "type": "Boarding Only",
+        "lng": 35.282661999999995,
+        "lat": 32.690776
+    },
+    {
+        "id": "54152",
+        "name": "Yafia Alef/Entrance",
+        "description": "Yafi'a Center",
+        "type": "Boarding Only",
+        "lng": 35.277589,
+        "lat": 32.687084
+    },
+    {
+        "id": "52156",
+        "name": "Yafia Bet/Cemetery",
+        "description": "Yafi'a Center",
+        "type": "Boarding Only",
+        "lng": 35.276755,
+        "lat": 32.685187
+    },
+    {
+        "id": "54138",
+        "name": "Yafia Gimel",
+        "description": "Yafi'a Center",
+        "type": "Boarding Only",
+        "lng": 35.274488,
+        "lat": 32.682815999999995
+    },
+    {
+        "id": "52154",
+        "name": "Yafia Dalet/Exit",
+        "description": "Yafi'a Center",
+        "type": "Boarding Only",
+        "lng": 35.269757999999996,
+        "lat": 32.680847
+    },
+    {
+        "id": "55385",
+        "name": "Sderot Ha-Banim/Nof Ha-Emek",
+        "description": "Migdal ha-Emek Nof ha-Emek",
+        "type": "Boarding and Alighting",
+        "lng": 35.251208,
+        "lat": 32.673515
+    },
+    {
+        "id": "55444",
+        "name": "Police/Sderot Ha-Banim",
+        "description": "Migdal ha-Emek Pninat ha-Emek",
+        "type": "Boarding and Alighting",
+        "lng": 35.246449,
+        "lat": 32.677431
+    },
+    {
+        "id": "55208",
+        "name": "\u05e9\u05d3\u05e8\u05d5\u05ea \u05d4\u05d1\u05e0\u05d9\u05dd/\u05d3\u05e8\u05da \u05d4\u05e2\u05de\u05e7",
+        "description": "Migdal ha-Emek Yad la-Banim",
+        "type": "Boarding and Alighting",
+        "lng": 35.241084,
+        "lat": 32.678202
+    },
+    {
+        "id": "51849",
+        "name": "Dereh Ha-Banim/Tidhar",
+        "description": "Migdal ha-Emek Kheimar Square",
+        "type": "Boarding and Alighting",
+        "lng": 35.238459,
+        "lat": 32.681972
+    },
+    {
+        "id": "50601",
+        "name": "Sderot Ha-Banim",
+        "description": "Migdal ha-Emek Pinkhas Sapir",
+        "type": "Boarding and Alighting",
+        "lng": 35.236501,
+        "lat": 32.684498
+    },
+    {
+        "id": "54239",
+        "name": "Cemetery/Dereh Ha-Banim",
+        "description": "Migdal ha-Emek Cemetery",
+        "type": "Boarding and Alighting",
+        "lng": 35.233945,
+        "lat": 32.687072
+    },
+    {
+        "id": "54227",
+        "name": "Migdal Ha-Emek Junction 75/7555",
+        "description": "Migdal ha-Emek Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.22594,
+        "lat": 32.693483
+    },
+    {
+        "id": "51717",
+        "name": "Rd 75/Timrat Junction",
+        "description": "Timrat Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.213572,
+        "lat": 32.698771
+    },
+    {
+        "id": "54172",
+        "name": "Rd 75/Nahalal Junction",
+        "description": "Nahalal Junction Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.207094999999995,
+        "lat": 32.700852
+    },
+    {
+        "id": "51752",
+        "name": "Rd 75/Manshiya Zabda",
+        "description": "Manshiyat e-Zabda Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.191548,
+        "lat": 32.701828
+    },
+    {
+        "id": "50078",
+        "name": "Neve Ya'ar/Beit She'arim",
+        "description": "Beit She'arim Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.18016,
+        "lat": 32.704527999999996
+    },
+    {
+        "id": "51656",
+        "name": "Rd 75/Ramat Yishai Junction",
+        "description": "Ramat Yishai East Entrance",
+        "type": "Boarding and Alighting",
+        "lng": 35.172539,
+        "lat": 32.706883
+    },
+    {
+        "id": "51657",
+        "name": "Rd 75/Ramat Yishai West Junction",
+        "description": "Ramat Yishai West Entry",
+        "type": "Boarding and Alighting",
+        "lng": 35.16184,
+        "lat": 32.706557
+    },
+    {
+        "id": "51658",
+        "name": "Rd 75/Yishai Junction",
+        "description": "Yishai Junction Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.15399,
+        "lat": 32.707895
+    },
+    {
+        "id": "54198",
+        "name": "Rd 75/Alonim Junction",
+        "description": "Alonim Junction Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.142181,
+        "lat": 32.709165
+    },
+    {
+        "id": "43024",
+        "name": "Ha-Shomrim Junction",
+        "description": "Ha-Shomrim Junction Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.136,
+        "lat": 32.709856
+    },
+    {
+        "id": "43025",
+        "name": "Kiryat Amal Junction",
+        "description": "Kiryat Tiv'on Kiryat Amal Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.130544,
+        "lat": 32.711692
+    },
+    {
+        "id": "47051",
+        "name": "Kiryat Tiv'on Junction",
+        "description": "Kiryat Tiv'on Ha-Banim Square",
+        "type": "Boarding and Alighting",
+        "lng": 35.125752999999996,
+        "lat": 32.712027
+    },
+    {
+        "id": "40553",
+        "name": "Sha'ar Ha-Amakim",
+        "description": "Sha'ar ha-Amakim Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.111633,
+        "lat": 32.721388
+    },
+    {
+        "id": "40455",
+        "name": "Ha-Amakim Junction",
+        "description": "Ha-Amakim/Jalame Junction Ha-Amakim Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.09523,
+        "lat": 32.726579
+    },
+    {
+        "id": "40319",
+        "name": "Kishon Detention House ",
+        "description": "Ha-Amakim/Jalame Junction Kishon Detention House",
+        "type": "Boarding and Alighting",
+        "lng": 35.090374,
+        "lat": 32.731092
+    },
+    {
+        "id": "40320",
+        "name": "Yagur Plant Nursery",
+        "description": "Yagur Yagur nursery",
+        "type": "Boarding and Alighting",
+        "lng": 35.078815,
+        "lat": 32.746745
+    },
+    {
+        "id": "46955",
+        "name": "Nesher Sports Center",
+        "description": "Nesher Sports and Recreation Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.057342,
+        "lat": 32.760265
+    },
+    {
+        "id": "40345",
+        "name": "Bar-Yehuda City Stadium",
+        "description": "Nesher Municipal Stadium",
+        "type": "Boarding and Alighting",
+        "lng": 35.052706,
+        "lat": 32.765907
+    },
+    {
+        "id": "43072",
+        "name": "Derekh Moshe/Ha-Shalom ",
+        "description": "Nesher The Center of Nesher",
+        "type": "Boarding and Alighting",
+        "lng": 35.050351,
+        "lat": 32.76807
+    },
+    {
+        "id": "43038",
+        "name": "Derekh Ha-Shalom/Tel Hanan Center",
+        "description": "Nesher Tel Khanan",
+        "type": "Boarding and Alighting",
+        "lng": 35.047221,
+        "lat": 32.770237
+    },
+    {
+        "id": "43013",
+        "name": "Bar-Yehuda/Hayetzira",
+        "description": "Nesher Industrial Park ",
+        "type": "Boarding and Alighting",
+        "lng": 35.044883999999996,
+        "lat": 32.773404
+    },
+    {
+        "id": "42987",
+        "name": "Bar-Yehuda/Yeshurun",
+        "description": "Nesher Industrial Park ",
+        "type": "Boarding and Alighting",
+        "lng": 35.043237,
+        "lat": 32.774598
+    },
+    {
+        "id": "43071",
+        "name": "Dereh Bar Yehuda/Ha-Masger",
+        "description": "Nesher Industrial Park ",
+        "type": "Boarding and Alighting",
+        "lng": 35.03975,
+        "lat": 32.777271999999996
+    },
+    {
+        "id": "43068",
+        "name": "Bar-Yehuda/Ha-Plada",
+        "description": "Nesher Industrial Park ",
+        "type": "Boarding and Alighting",
+        "lng": 35.037186999999996,
+        "lat": 32.779244999999996
+    },
+    {
+        "id": "40352",
+        "name": "Bar-Yehuda/Ha-Shayish",
+        "description": "Nesher Industrial Park ",
+        "type": "Boarding and Alighting",
+        "lng": 35.033913999999996,
+        "lat": 32.781717
+    },
+    {
+        "id": "41525",
+        "name": "Bar-Yehuda/Ha-Krayot Junction",
+        "description": "Haifa Check Post",
+        "type": "Boarding and Alighting",
+        "lng": 35.028313,
+        "lat": 32.788197
+    },
+    {
+        "id": "41260",
+        "name": "Ben Yehuda/Gesher Gdud 21",
+        "description": "Haifa Gan ha-Em",
+        "type": "Alighting Only",
+        "lng": 35.021981,
+        "lat": 32.795462
+    },
+    {
+        "id": "43136",
+        "name": "Hativat Golani/Khiram Interchange",
+        "description": "Haifa Ha-Ir ha-Takhtit, Khiram",
+        "type": "Alighting Only",
+        "lng": 35.006882999999995,
+        "lat": 32.809311
+    },
+    {
+        "id": "43096",
+        "name": "Ha-Atsmaut/Ha-Namal",
+        "description": "Haifa Kiryat ha-Memshala",
+        "type": "Alighting Only",
+        "lng": 35.002300999999996,
+        "lat": 32.817201
+    },
+    {
+        "id": "42979",
+        "name": "\u05d3\u05e8\u05da \u05d4\u05e2\u05e6\u05de\u05d0\u05d5\u05ea/\u05e9\u05e2\u05e8 \u05e4\u05dc\u05de\u05e8",
+        "description": "Haifa Ha-Ir ha-Takhtit, Port",
+        "type": "Alighting Only",
+        "lng": 34.999024999999996,
+        "lat": 32.819480999999996
+    },
+    {
+        "id": "42976",
+        "name": "\u05d3\u05e8\u05da \u05d4\u05e2\u05e6\u05de\u05d0\u05d5\u05ea/\u05e1\u05dc\u05d6\u05d9\u05d0\u05df",
+        "description": "Haifa Ha-Ir ha-Takhtit, Port",
+        "type": "Alighting Only",
+        "lng": 34.994944,
+        "lat": 32.822486999999995
+    },
+    {
+        "id": "43111",
+        "name": "Ha-Atsma'ut/Ben Gurion",
+        "description": "Haifa German Colony",
+        "type": "Alighting Only",
+        "lng": 34.99245,
+        "lat": 32.824114
+    },
+    {
+        "id": "40257",
+        "name": "A.L. Zissu/Derech Jaffa",
+        "description": "Haifa Bat-Galim CBS",
+        "type": "Alighting Only",
+        "lng": 34.987691999999996,
+        "lat": 32.827306
+    },
+    {
+        "id": "53925",
+        "name": "\u05de\u05e8\u05db\u05d6 \u05de\u05e1\u05d7\u05e8\u05d9 \u05d1\u05d9\u05d2",
+        "description": "Nazareth Industrial Park Bet",
+        "type": "Boarding Only",
+        "lng": 35.299808999999996,
+        "lat": 32.695876
+    },
+    {
+        "id": "53961",
+        "name": "\u05d1\u05d9\u05e1 \u05e1\u05e0\u05d8 \u05d2\u05d5\u05d6\u05e3",
+        "description": "Nazareth Italian Hospital",
+        "type": "Boarding Only",
+        "lng": 35.310517,
+        "lat": 32.70583
+    },
+    {
+        "id": "50844",
+        "name": "\u05d4\u05d2\u05dc\u05d9\u05dc",
+        "description": "Nazareth Italian Hospital",
+        "type": "Boarding Only",
+        "lng": 35.30721,
+        "lat": 32.707640999999995
+    },
+    {
+        "id": "53944",
+        "name": "\u05d4\u05d2\u05dc\u05d9\u05dc/\u05e1\u05d0\u05e4\u05d5\u05e8\u05d9\u05d4",
+        "description": "Nazareth Khanuk Junction",
+        "type": "Boarding Only",
+        "lng": 35.305588,
+        "lat": 32.709011
+    },
+    {
+        "id": "53938",
+        "name": "\u05e1\u05d0\u05e4\u05d5\u05e8\u05d9\u05d4 \u05d0",
+        "description": "Nazareth Safuriya",
+        "type": "Boarding Only",
+        "lng": 35.303469,
+        "lat": 32.712024
+    },
+    {
+        "id": "52319",
+        "name": "Safuriya Bet",
+        "description": "Nazareth Nazareth -Tsipori Road",
+        "type": "Boarding Only",
+        "lng": 35.298964,
+        "lat": 32.715984999999996
+    },
+    {
+        "id": "50893",
+        "name": "\u05e1\u05d0\u05e4\u05d5\u05e8\u05d9\u05d4 \u05d2/\u05e9\u05db\u05d5\u05e0\u05ea \u05d1\u05d9\u05dc\u05d0\u05dc",
+        "description": "Nazareth Nazareth -Tsipori Road",
+        "type": "Boarding Only",
+        "lng": 35.291523999999995,
+        "lat": 32.721329
+    },
+    {
+        "id": "53822",
+        "name": "Al Mashariq Junction",
+        "description": "Nazareth Rd 79/700 Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.283573,
+        "lat": 32.727528
+    },
+    {
+        "id": "53802",
+        "name": "Ilut Junction",
+        "description": "Ilut Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.275043,
+        "lat": 32.730112
+    },
+    {
+        "id": "54243",
+        "name": "Tsipori Park",
+        "description": "Tsipori Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.270773,
+        "lat": 32.732121
+    },
+    {
+        "id": "54160",
+        "name": "Solelim Junction",
+        "description": "Ha-Solelim Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.24425,
+        "lat": 32.752345
+    },
+    {
+        "id": "51755",
+        "name": "Alon Ha-Galil Branching",
+        "description": "Kafr Manda Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.231291,
+        "lat": 32.762485999999996
+    },
+    {
+        "id": "51443",
+        "name": "Bir el-Maksur Junction",
+        "description": "Bir el-Maksur Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.213051,
+        "lat": 32.774958999999996
+    },
+    {
+        "id": "58850",
+        "name": "Ha-Mahtseva Eastward/Rd 79 Branching",
+        "description": "Shfar'am Ha-Mahtseva Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.193402999999996,
+        "lat": 32.787977
+    },
+    {
+        "id": "51703",
+        "name": "Adi Interchange",
+        "description": "Adi Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.176513,
+        "lat": 32.792021
+    },
+    {
+        "id": "51704",
+        "name": "Shefar'am Junction",
+        "description": "Shfar'am Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.169712,
+        "lat": 32.796351
+    },
+    {
+        "id": "41462",
+        "name": "Someh Junction",
+        "description": "Somekh Junction Center",
+        "type": "Boarding and Alighting",
+        "lng": 35.145662,
+        "lat": 32.80696
+    },
+    {
+        "id": "50051",
+        "name": "Kibbutz Afek Branching",
+        "description": "Afek Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.117627999999996,
+        "lat": 32.838847
+    },
+    {
+        "id": "42363",
+        "name": "Derekh Akko/road No.79",
+        "description": "Kiryat Bialik Derekh Akko -Road No.79",
+        "type": "Boarding and Alighting",
+        "lng": 35.092267,
+        "lat": 32.847648
+    },
+    {
+        "id": "41609",
+        "name": "Dereh Acre Haifa/Tsiporen ",
+        "description": "Kiryat Bialik Afek Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.093613,
+        "lat": 32.850524
+    },
+    {
+        "id": "41633",
+        "name": "Derekh Akko-Tsur Shalom",
+        "description": "Kiryat Bialik Tsur Shalom - Derekh Akko",
+        "type": "Boarding and Alighting",
+        "lng": 35.094272,
+        "lat": 32.855728
+    },
+    {
+        "id": "42536",
+        "name": "Dereh Acre Haifa/Yerushalayim",
+        "description": "Kiryat Bialik Tsur Shalom",
+        "type": "Boarding and Alighting",
+        "lng": 35.094577,
+        "lat": 32.858577
+    },
+    {
+        "id": "41790",
+        "name": "Derekh Akko/Sderot Khen",
+        "description": "Kiryat Bialik Kiryat Bialik Industrial Park ",
+        "type": "Boarding and Alighting",
+        "lng": 35.09496,
+        "lat": 32.861702
+    },
+    {
+        "id": "41504",
+        "name": "Acco Haifa Rd/Rafael",
+        "description": "Rafa'el, Makhon 3 Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.095512,
+        "lat": 32.866240999999995
+    },
+    {
+        "id": "52579",
+        "name": "Nahal Ne'eman Junction",
+        "description": "Kiryat Bialik Kiryat Bialik Industrial Park ",
+        "type": "Boarding and Alighting",
+        "lng": 35.096379,
+        "lat": 32.873146
+    },
+    {
+        "id": "52370",
+        "name": "Milu'ot Branching",
+        "description": "Kfar Masaryk Milu'ot",
+        "type": "Boarding and Alighting",
+        "lng": 35.096764,
+        "lat": 32.881045
+    },
+    {
+        "id": "52371",
+        "name": "Kfar Masaryk Junction",
+        "description": "Kfar Masaryk Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.095679,
+        "lat": 32.887561
+    },
+    {
+        "id": "52703",
+        "name": "Steel works",
+        "description": "Acre Na'aman Industrial Park ",
+        "type": "Boarding and Alighting",
+        "lng": 35.09449,
+        "lat": 32.891200999999995
+    },
+    {
+        "id": "52566",
+        "name": "Ne'eman Local Council",
+        "description": "Acre Na'aman Industrial Park ",
+        "type": "Boarding and Alighting",
+        "lng": 35.093323,
+        "lat": 32.897207
+    },
+    {
+        "id": "59704",
+        "name": "Ein Ha-Mifrats Branching ",
+        "description": "Ein ha-Mifrats Branching",
+        "type": "Boarding and Alighting",
+        "lng": 35.091425,
+        "lat": 32.900760999999996
+    },
+    {
+        "id": "53720",
+        "name": "Ein ha-Mifrats Junction",
+        "description": "Ein ha-Mifrats Junction",
+        "type": "Boarding and Alighting",
+        "lng": 35.089110999999995,
+        "lat": 32.905094
+    },
+    {
+        "id": "52702",
+        "name": "Acre Industrial Zone, South",
+        "description": "Acre South Industrial Park ",
+        "type": "Boarding and Alighting",
+        "lng": 35.087713,
+        "lat": 32.908474
+    },
+    {
+        "id": "53549",
+        "name": "Yonatan ha-Khashmonai, Gas Station",
+        "description": "Acre Argaman Beach",
+        "type": "Alighting Only",
+        "lng": 35.081663999999996,
+        "lat": 32.916558
+    },
+    {
+        "id": "53129",
+        "name": "Argaman Beach",
+        "description": "Acre Argaman Beach",
+        "type": "Alighting Only",
+        "lng": 35.079645,
+        "lat": 32.91887
+    },
+    {
+        "id": "52325",
+        "name": "Navy Officers School, Acre",
+        "description": "Acre Argaman Beach",
+        "type": "Alighting Only",
+        "lng": 35.077166999999996,
+        "lat": 32.922125
+    },
+    {
+        "id": "59444",
+        "name": "Dereh Ha-Arba'a/Derech Ha-Melaha",
+        "description": "Acre Industrial Park ",
+        "type": "Alighting Only",
+        "lng": 35.078331999999996,
+        "lat": 32.924803
+    },
+    {
+        "id": "52688",
+        "name": "Acre CBS/Derekh ha-Arba'a",
+        "description": "Acre Central Bus Station",
+        "type": "Alighting Only",
+        "lng": 35.079578999999995,
+        "lat": 32.927216
+    },
+    {
+        "id": "59420",
+        "name": "\u05ea. \u05e8\u05db\u05d1\u05ea \u05e2\u05db\u05d5/\u05d4\u05e8\u05e6\u05dc",
+        "description": "Acre Central Bus Station",
+        "type": "Alighting Only",
+        "lng": 35.08173,
+        "lat": 32.92767
+    },
+    {
+        "id": "57664",
+        "name": "\u05ea. \u05e8\u05db\u05d1\u05ea \u05e2\u05db\u05d5",
+        "description": "Acre Central Bus Station",
+        "type": "Alighting Only",
+        "lng": 35.082462,
+        "lat": 32.928554
+    },
+    {
+        "id": "52331",
+        "name": "Ahva Institute Branching",
+        "description": "Acre Ha-Galil College",
+        "type": "Alighting Only",
+        "lng": 35.082611,
+        "lat": 32.934466
+    },
+    {
+        "id": "58359",
+        "name": "Galil Ma'aravi College",
+        "description": "Acre Ha-Galil College",
+        "type": "Alighting Only",
+        "lng": 35.086011,
+        "lat": 32.935368
+    }
+]

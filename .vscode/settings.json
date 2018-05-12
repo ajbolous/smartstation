@@ -1,3 +1,12 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3"
+
+    "python.pythonPath": "C:\\Users\\Walid\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./Server",
+        "-p",
+        "test*.py"
+    ],
+    "python.unitTest.unittestEnabled": true
 }
