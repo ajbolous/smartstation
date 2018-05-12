@@ -39,6 +39,7 @@ public class MapsService {
 
     public void getStations(final RequestCallback<List<Station>> callback) {
         String url = baseUrl + "/getStations";
+
         JsonArrayRequest req = new JsonArrayRequest(Request.Method.GET, url, null, new Response.Listener<JSONArray>() {
             @Override
             public void onResponse(JSONArray response) {
@@ -49,5 +50,4 @@ public class MapsService {
 
         requestQueue.add(req);
     }
-
 }

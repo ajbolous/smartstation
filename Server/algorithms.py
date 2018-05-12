@@ -31,7 +31,6 @@ def drawGraph():
     dbHandler = database_handler.DatabaseHandler()
     stations = dbHandler.getStations()
     graph = buildGraph(stations, dbHandler.getRoutes())
-
     pos = {station.id: (station.lat, station.lng) for station in stations}
     nx.draw(graph, pos=pos)
     plt.show()
