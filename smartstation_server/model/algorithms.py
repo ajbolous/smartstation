@@ -1,9 +1,9 @@
 import networkx as nx
 from typing import List
 
-from model.route import Route
-from model.station import Station
-from model.stop import BusStop
+from .route import Route
+from .station import Station
+from .stop import BusStop
 
 import matplotlib.pyplot as plt
 
@@ -27,7 +27,7 @@ def buildGraph(stations: List[Station], routes: List[Route]) -> nx.Graph:
 
 
 def drawGraph():
-    import database_handler
+    from ..database import database_handler
     dbHandler = database_handler.DatabaseHandler()
     stations = dbHandler.getStations()
     graph = buildGraph(stations, dbHandler.getRoutes())

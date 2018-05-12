@@ -1,10 +1,10 @@
 
 import json
-from model.route import Route
-from model.station import Station
-from model.stop import BusStop
-from model.bus import Bus
-
+from ..model.route import Route
+from ..model.station import Station
+from ..model.stop import BusStop
+from ..model.bus import Bus
+ 
 
 routeNumbers = [30, 242, 331, 353]
 

@@ -1,6 +1,6 @@
 from flask import request, jsonify
-from server import app
-from database_handler import dbHandler
+from .. import app
+from ..database.database_handler import dbHandler
 
 @app.route('/login')
 def login():

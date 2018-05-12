@@ -3,8 +3,6 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 app.debug = True  
 
-import view_routes
-import view_stations
-import view_users
-
-app.run()
+from .views.routes import *
+from .views.users import *
+from .views.stations import *

@@ -1,7 +1,7 @@
 from flask import request, jsonify
-from server import app
-from database_handler import dbHandler
-import algorithms
+from .. import app
+from ..database.database_handler import dbHandler
+from ..model.algorithms import calcShortestPaths
 
 @app.route("/getRoutes")
 def getRoutes():
@@ -12,6 +12,6 @@ def getShortestPath():
     source = request.args.get('source')
     dest = request.args.get('dest')
 
-    path = algorithms.calcShortestPaths(dbHandler.getStations(), dbHandler.getRoutes(), source, dest)
+    path = calcShortestPaths(dbHandler.getStations(), dbHandler.getRoutes(), source, dest)
     print(path)
     return jsonify(path)
