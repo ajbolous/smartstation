@@ -11,25 +11,23 @@ def login():
         if user.userid == userid and user.password == password:
             return jsonify({
                 "success": True,
-                "message":"Login successful"
+                "message": "Login successful"
             })
     return jsonify({
         "success": False,
-        "message" : "Wrong username or password"
+        "message": "Wrong username or password"
     })
 
+# Get all users in the database return array of users
 @app.route('/getUsers')
 def getUsers():
-    '''
-        Get all users in the database return array of users
-    '''
-    pass
-
+    return jsonify([user.toJson() for user in dbHandler.getUsers()])
+    
 @app.route('/assignUserToRoute')
 def assignUserToRoute():
     '''
         Assign a User (Driver) to route
         input: userid, routeid, startStation
         return successs or fail
-    '''
+    '''    
     pass

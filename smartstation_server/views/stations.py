@@ -9,8 +9,14 @@ def getStations():
 
 @app.route('/getStationById')
 def getStationById():
-    '''
-        Returns a station by its id. 
-        if not found returns None
-    '''
-    pass
+    stationId = request.args.get('stationId')
+
+    for station in dbHandler.getStations():
+        if station.id == stationId:
+            return jsonify(station.toJson())
+                
+    return jsonify({
+        "success": False,
+        "message": "None"
+    })  
+    

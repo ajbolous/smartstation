@@ -53,8 +53,8 @@ for rnumber in routeNumbers:
 
     file.close()
 
-stationsFilePath = "Server/data/stations.json"
-routesFilePath = "Server/data/routes.json"
+stationsFilePath = "smartstation_server/data/stations.json"
+routesFilePath = "smartstation_server/data/routes.json"
 
 with open(stationsFilePath, "w",encoding="UTF-8") as file:
     arr = []

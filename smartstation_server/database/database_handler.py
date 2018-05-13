@@ -14,13 +14,13 @@ class DatabaseHandler():
             return [classType.fromJson(obj) for obj in json.load(file)]
 
     def getStations(self):
-        return self.loadAsObjects('Server/data/stations.json', Station)
+        return self.loadAsObjects('smartstation_server/data/stations.json', Station)
 
     def getRoutes(self):
-        return self.loadAsObjects('Server/data/routes.json', Station)
+        return self.loadAsObjects('smartstation_server/data/routes.json', Route)
 
     def getUsers(self):
-        return self.loadAsObjects('Server/data/users.json', Station)
+        return self.loadAsObjects('smartstation_server/data/users.json', User)
 
 
 dbHandler = DatabaseHandler()
