@@ -2,6 +2,7 @@
     {
         "userid": "user1",
         "password": "user1",
+        "userType": "Driver",
         "firstName": "User 1",
         "lastName": "Manyak",
         "age": 21,
@@ -10,6 +11,7 @@
     {
         "userid": "user2",
         "password": "user2",
+        "userType": "Driver",
         "firstName": "User 2",
         "lastName": "Manyak",
         "age": 22,
@@ -18,6 +20,7 @@
     {
         "userid": "user3",
         "password": "user3",
+        "userType": "Driver",
         "firstName": "User 3",
         "lastName": "Manyak",
         "age": 23,
@@ -26,6 +29,7 @@
     {
         "userid": "user4",
         "password": "user4",
+        "userType": "Driver",
         "firstName": "User 4",
         "lastName": "Manyak",
         "age": 24,
@@ -34,6 +38,7 @@
     {
         "userid": "user5",
         "password": "user5",
+        "userType": "Driver",
         "firstName": "User 5",
         "lastName": "Manyak",
         "age": 25,
@@ -42,6 +47,7 @@
     {
         "userid": "user6",
         "password": "user6",
+        "userType": "Driver",
         "firstName": "User 6",
         "lastName": "Manyak",
         "age": 26,
@@ -50,6 +56,7 @@
     {
         "userid": "user7",
         "password": "user7",
+        "userType": "Driver",
         "firstName": "User 7",
         "lastName": "Manyak",
         "age": 27,
@@ -58,6 +65,7 @@
     {
         "userid": "user8",
         "password": "user8",
+        "userType": "Driver",
         "firstName": "User 8",
         "lastName": "Manyak",
         "age": 28,
@@ -66,6 +74,7 @@
     {
         "userid": "user9",
         "password": "user9",
+        "userType": "Driver",
         "firstName": "User 9",
         "lastName": "Manyak",
         "age": 29,

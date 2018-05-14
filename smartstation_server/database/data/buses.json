@@ -1,0 +1,83 @@
+[
+    {
+        "id": "bus1",
+        "isActive": false,
+        "licensePlate": "123-bus-1",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0
+    },
+    {
+        "id": "bus2",
+        "isActive": false,
+        "licensePlate": "123-bus-2",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0
+    },
+    {
+        "id": "bus3",
+        "isActive": false,
+        "licensePlate": "123-bus-3",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0
+    },
+    {
+        "id": "bus4",
+        "isActive": false,
+        "licensePlate": "123-bus-4",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0
+    },
+    {
+        "id": "bus5",
+        "isActive": false,
+        "licensePlate": "123-bus-5",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0
+    },
+    {
+        "id": "bus6",
+        "isActive": false,
+        "licensePlate": "123-bus-6",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0
+    },
+    {
+        "id": "bus7",
+        "isActive": false,
+        "licensePlate": "123-bus-7",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0
+    },
+    {
+        "id": "bus8",
+        "isActive": false,
+        "licensePlate": "123-bus-8",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0
+    },
+    {
+        "id": "bus9",
+        "isActive": false,
+        "licensePlate": "123-bus-9",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0
+    }
+]

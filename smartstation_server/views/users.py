@@ -6,17 +6,10 @@ from ..database.database_handler import dbHandler
 def login():
     userid = request.args.get('userid')
     password = request.args.get('password')
-
-    for user in dbHandler.getUsers():
-        if user.userid == userid and user.password == password:
-            return jsonify({
-                "success": True,
-                "message":"Login successful"
-            })
-    return jsonify({
-        "success": False,
-        "message" : "Wrong username or password"
-    })
+    user = dbHandler.users.find(userid)
+    if user and user.userid == userid and user.password == password:
+        return jsonify({'success': True,'message':'Login successful'})
+    return jsonify({'success': False,'message' : 'Wrong username or password'})
 
 @app.route('/getUsers')
 def getUsers():

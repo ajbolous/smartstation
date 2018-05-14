@@ -3,14 +3,17 @@ from .. import app
 from ..database.database_handler import dbHandler
 
 
-@app.route("/getStations")
+@app.route('/stations/getStations')
 def getStations():
-    return jsonify([station.toJson() for station in dbHandler.getStations()])
+    return jsonify(dbHandler.stations.all())
 
-@app.route('/getStationById')
+
+@app.route('/stations/getStationById')
 def getStationById():
     '''
         Returns a station by its id. 
         if not found returns None
     '''
-    pass
+    stationId = request.args.get('stationId')
+    
+    return jsonify(dbHandler.stations.findById(stationId))
