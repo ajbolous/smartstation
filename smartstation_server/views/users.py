@@ -1,15 +1,15 @@
 from flask import request, jsonify
 from .. import app
-from ..database.database_handler import dbHandler
+from ..database.database import users, jsonify  
 
 @app.route('/login')
 def login():
     userid = request.args.get('userid')
     password = request.args.get('password')
-    user = dbHandler.users.find(userid)
+    user = users.getById(userid)
     if user and user.userid == userid and user.password == password:
         return jsonify({'success': True,'message':'Login successful'})
-    return jsonify({'success': False,'message' : 'Wrong username or password'})
+    return jsonify({'fail': False,'message' : 'Wrong username or password'})
 
 @app.route('/getUsers')
 def getUsers():

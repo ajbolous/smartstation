@@ -1,18 +1,17 @@
-from flask import request, jsonify
+from flask import request
 from .. import app
-from ..database.database_handler import dbHandler
+from ..database.database import buses, jsonify
 from ..model.algorithms import calcShortestPaths
 from ..model.bus import Bus
 
-
 @app.route('/buses/getBuses')
 def getBuses():
-    return jsonify(dbHandler.buses.all())
+    return jsonify(buses.all())
 
 
 @app.route('/buses/getActiveBuses')
 def getActiveBuses():
-    return jsonify(dbHandler.buses.find(field='isActive', value=True))
+    return jsonify(buses.find(lambda bus: bus.isActive == True))
 
 
 @app.route('/buses/setBusPosition')
@@ -21,12 +20,12 @@ def setBusPosition():
     lat = request.args.get('lat')
     lng = request.args.get('lng')
 
-    bus = dbHandler.buses.getById(id)
+    bus = buses.getById(id)
     if bus is None:
         return 'Error cannot set position'
 
     bus.lat = lat
     bus.lng = lng
-    dbHandler.buses.save()
+    buses.save()
 
     return 'Bus position was set successfuly'

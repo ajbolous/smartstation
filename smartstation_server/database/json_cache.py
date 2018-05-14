@@ -20,7 +20,7 @@ class JsonCache():
 
     def isValid(self):
         timeDiff = time.time() - self.timestamp
-        return self.objects is not None and timeDiff < (60 * 5)
+        return self.objects is not None and timeDiff < (60 * 1)
 
     def save(self):
         self.isDirty = True

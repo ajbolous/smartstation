@@ -27,16 +27,14 @@ def buildGraph(stations: List[Station], routes: List[Route]) -> nx.Graph:
 
 
 def drawGraph():
-    from ..database import database_handler
-    dbHandler = database_handler.DatabaseHandler()
-    stations = dbHandler.getStations()
-    graph = buildGraph(stations, dbHandler.getRoutes())
-    pos = {station.id: (station.lat, station.lng) for station in stations}
+    from ..database import database
+    graph = buildGraph(database.stations.all(), database.routes.all())
+    pos = {station.id: (station.lat, station.lng) for station in database.stations.all()}
     nx.draw(graph, pos=pos)
     plt.show()
 
 
-def calcShortestPaths(stations: List[Station], routes: List[Route], sourceStation: Station, destStation: Station):
+def calcShortestPaths(stations: List[Station], routes: List[Route], sourceStation: Station, destStation: Station) -> List[int]:
     graph = buildGraph(stations, routes)
     path = nx.dijkstra_path(graph, sourceStation, destStation)
     return path
