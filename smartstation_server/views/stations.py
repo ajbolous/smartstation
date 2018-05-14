@@ -11,13 +11,4 @@ def getStations():
 @app.route('/stations/getStationById')
 def getStationById():
     stationId = request.args.get('stationId')
-
-    for station in dbHandler.getStations():
-        if station.id == stationId:
-    stationId = request.args.get('stationId')
-    
     return jsonify(dbHandler.stations.findById(stationId))
-
-        "message": "None"
-    })  
-    
