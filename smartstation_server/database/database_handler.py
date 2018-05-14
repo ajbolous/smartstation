@@ -20,4 +20,5 @@ class DatabaseHandler():
         self.routes = JsonCache(
             'smartstation_server/database/data/routes.json', Route)
 
+
 dbHandler = DatabaseHandler()
