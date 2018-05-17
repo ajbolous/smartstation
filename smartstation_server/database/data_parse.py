@@ -4,7 +4,7 @@ from ..model.route import Route
 from ..model.station import Station
 from ..model.stop import BusStop
 from ..model.bus import Bus
- 
+
 
 routeNumbers = [30, 242, 331, 353]
 
@@ -20,11 +20,12 @@ for rnumber in routeNumbers:
 
     route = Route()
     route.number = rnumber
+    route.id = route.number
 
     for obj in jsonContent:
         stop = BusStop()
-
         id = str(obj['Makat'])
+        stop.id = str(route.number) + "-" + id
 
         if id in stations:
             station = stations[id]
@@ -56,11 +57,11 @@ for rnumber in routeNumbers:
 stationsFilePath = 'smartstation_server/database/data/stations.json'
 routesFilePath = 'smartstation_server/database/data/routes.json'
 
-with open(stationsFilePath, 'w',encoding='UTF-8') as file:
+with open(stationsFilePath, 'w', encoding='UTF-8') as file:
     arr = []
     for key in stations:
         arr.append(stations[key].toJson())
     json.dump(arr, file)
 
-with open(routesFilePath, 'w',encoding='UTF-8') as file:
+with open(routesFilePath, 'w', encoding='UTF-8') as file:
     json.dump([route.toJson() for route in routes], file)

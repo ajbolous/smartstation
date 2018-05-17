@@ -7,7 +7,7 @@ def login():
     userid = request.args.get('userid')
     password = request.args.get('password')
     user = users.getById(userid)
-    if user and user.userid == userid and user.password == password:
+    if user and user.id == userid and user.password == password:
         return jsonify({'success': True,'message':'Login successful'})
     return jsonify({'fail': False,'message' : 'Wrong username or password'})
 

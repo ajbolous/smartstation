@@ -14,6 +14,8 @@ users = JsonCache('smartstation_server/database/data/users.json', User, hashed=T
 routes = JsonCache('smartstation_server/database/data/routes.json', Route)
 
 def jsonify(objects):
+    if type(objects) == dict:
+        return flask_jsonify(objects)
     if type(objects) == list:
         return flask_jsonify([obj.toJson() for obj in objects])
     return flask_jsonify(objects.toJson())

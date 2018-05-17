@@ -1,8 +1,9 @@
 from .base import SerializableBase
 
+
 class User(SerializableBase):
     def __init__(self):
-        self.userid: str = ''
+        self.email: str = ''
         self.password: str = ''
         self.userType: str = 'Driver'
         self.firstName: str = ''

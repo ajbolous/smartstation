@@ -57,7 +57,7 @@ class JsonCache():
         return self.find(lambda obj: obj.id == id)
 
     def get(self, field='id', value='') -> T:
-        objs = self.find(lambda obj: obj.id == id)
+        objs = self.find(lambda obj: obj.__dict__[field] == value)
         return objs[0] if len(objs) > 0 else None
 
     def getById(self, id) -> T:
