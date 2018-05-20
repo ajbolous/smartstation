@@ -1,12 +1,16 @@
 package braudeproject.smartstations.Services;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 
+import com.android.volley.NetworkResponse;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.JsonRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -18,6 +22,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import braudeproject.smartstations.Models.ServerResponse;
 import braudeproject.smartstations.Models.Station;
 
 public class MapsService {
@@ -49,5 +54,16 @@ public class MapsService {
         }, null);
 
         requestQueue.add(req);
+    }
+
+    public void login(final RequestCallback<ServerResponse> callback){
+        String url = baseUrl + "/login";
+
+        JsonRequest req = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
+                callback.onSuccess(gson.fromJson(response.toString(), ServerResponse.class));
+            }
+        }, null);
     }
 }

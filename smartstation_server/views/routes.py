@@ -1,6 +1,6 @@
-from flask import request
+from flask import request, jsonify
 from .. import app
-from ..database.database import routes, stations, jsonify
+from ..database.database import routes, stations
 from ..model.algorithms import calcShortestPaths
 from ..model.route import Route
 
