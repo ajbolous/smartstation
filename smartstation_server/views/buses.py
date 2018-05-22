@@ -1,6 +1,6 @@
-from flask import request
+from flask import request, jsonify
 from .. import app
-from ..database.database import buses, jsonify
+from ..database.database import buses
 from ..model.algorithms import calcShortestPaths
 from ..model.bus import Bus
 

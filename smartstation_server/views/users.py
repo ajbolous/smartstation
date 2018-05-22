@@ -1,6 +1,6 @@
 from flask import request, jsonify
 from .. import app
-from ..database.database import users, jsonify  
+from ..database.database import users  
 
 @app.route('/login', methods=['POST'])
 def login():
