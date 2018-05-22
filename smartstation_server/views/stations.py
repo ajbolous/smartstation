@@ -1,6 +1,6 @@
-from flask import request
+from flask import request, jsonify
 from .. import app
-from ..database.database import stations, jsonify
+from ..database.database import stations
 
 
 @app.route('/stations/getStations')
