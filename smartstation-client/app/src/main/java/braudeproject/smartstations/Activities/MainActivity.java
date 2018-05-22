@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnGetTicket.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent myIntent = new Intent(self, MapsActivity.class);
+                Intent myIntent = new Intent(self, DriverLogin.class);
                 startActivity(myIntent);
             }
         });
