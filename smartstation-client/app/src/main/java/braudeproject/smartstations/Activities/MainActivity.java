@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import braudeproject.smartstations.R;
+import braudeproject.smartstations.Services.WebServices;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        WebServices.initialize(getBaseContext());
         final Button btnGetTicket = findViewById(R.id.btnSearchRoutes);
 
 
