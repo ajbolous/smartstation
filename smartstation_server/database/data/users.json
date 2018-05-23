@@ -1,6 +1,6 @@
 [
     {
-        "email": "",
+        "email": "user1@gmail.com",
         "password": "user1",
         "userType": "Driver",
         "firstName": "User 1",
@@ -10,7 +10,7 @@
         "id": "user1"
     },
     {
-        "email": "",
+        "email": "user2@gmail.com",
         "password": "user2",
         "userType": "Driver",
         "firstName": "User 2",
@@ -20,7 +20,7 @@
         "id": "user2"
     },
     {
-        "email": "",
+        "email": "user3@gmail.com",
         "password": "user3",
         "userType": "Driver",
         "firstName": "User 3",
@@ -30,7 +30,7 @@
         "id": "user3"
     },
     {
-        "email": "",
+        "email": "user4@gmail.com",
         "password": "user4",
         "userType": "Driver",
         "firstName": "User 4",
@@ -40,7 +40,7 @@
         "id": "user4"
     },
     {
-        "email": "",
+        "email": "user5@gmail.com",
         "password": "user5",
         "userType": "Driver",
         "firstName": "User 5",
@@ -50,7 +50,7 @@
         "id": "user5"
     },
     {
-        "email": "",
+        "email": "user6@gmail.com",
         "password": "user6",
         "userType": "Driver",
         "firstName": "User 6",
@@ -60,7 +60,7 @@
         "id": "user6"
     },
     {
-        "email": "",
+        "email": "user7@gmail.com",
         "password": "user7",
         "userType": "Driver",
         "firstName": "User 7",
@@ -70,7 +70,7 @@
         "id": "user7"
     },
     {
-        "email": "",
+        "email": "user8@gmail.com",
         "password": "user8",
         "userType": "Driver",
         "firstName": "User 8",
@@ -80,7 +80,7 @@
         "id": "user8"
     },
     {
-        "email": "",
+        "email": "user9@gmail.com",
         "password": "user9",
         "userType": "Driver",
         "firstName": "User 9",
