@@ -13,10 +13,8 @@ def login():
 
 @app.route('/getUsers')
 def getUsers():
-    '''
-        Get all users in the database return array of users
-    '''
-    pass
+    return jsonify(users.all())
+    
 
 @app.route('/assignUserToRoute')
 def assignUserToRoute():
