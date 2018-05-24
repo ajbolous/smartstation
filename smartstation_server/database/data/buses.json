@@ -6,7 +6,8 @@
         "routeId": 0,
         "lat": 0,
         "lng": 0,
-        "id": "bus1"
+        "id": "bus1",
+        "company": "Superbus"
     },
     {
         "isActive": false,
@@ -15,7 +16,8 @@
         "routeId": 0,
         "lat": 0,
         "lng": 0,
-        "id": "bus2"
+        "id": "bus2",
+        "company": "Superbus"
     },
     {
         "isActive": false,
@@ -24,7 +26,8 @@
         "routeId": 0,
         "lat": 0,
         "lng": 0,
-        "id": "bus3"
+        "id": "bus3",
+        "company": "Superbus"
     },
     {
         "isActive": false,
@@ -33,7 +36,8 @@
         "routeId": 0,
         "lat": 0,
         "lng": 0,
-        "id": "bus4"
+        "id": "bus4",
+        "company": "Superbus"
     },
     {
         "isActive": false,
@@ -42,7 +46,8 @@
         "routeId": 0,
         "lat": 0,
         "lng": 0,
-        "id": "bus5"
+        "id": "bus5",
+        "company": "Superbus"
     },
     {
         "isActive": false,
@@ -51,7 +56,8 @@
         "routeId": 0,
         "lat": 0,
         "lng": 0,
-        "id": "bus6"
+        "id": "bus6",
+        "company": "Superbus"
     },
     {
         "isActive": false,
@@ -60,7 +66,8 @@
         "routeId": 0,
         "lat": 0,
         "lng": 0,
-        "id": "bus7"
+        "id": "bus7",
+        "company": "GB-Tours"
     },
     {
         "isActive": false,
@@ -69,7 +76,8 @@
         "routeId": 0,
         "lat": 0,
         "lng": 0,
-        "id": "bus8"
+        "id": "bus8",
+        "company": "GB-Tours"
     },
     {
         "isActive": false,
@@ -78,6 +86,37 @@
         "routeId": 0,
         "lat": 0,
         "lng": 0,
-        "id": "bus9"
+        "id": "bus9",
+        "company": "GB-Tours"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-10",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "id": "bus10",
+        "company": "Metropoline"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-11",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "id": "bus11",
+        "company": "Metropoline"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-12",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "id": "bus12",
+        "company": "Metropoline"
     }
 ]

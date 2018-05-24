@@ -1,5 +1,6 @@
 [
     {
+        "company": "Superbus",
         "number": 30,
         "stops": [
             {
@@ -491,6 +492,7 @@
         ]
     },
     {
+        "company":"Superbus",
         "number": 242,
         "stops": [
             {
@@ -814,6 +816,7 @@
         ]
     },
     {
+        "company": "GB-Tours",
         "number": 331,
         "stops": [
             {
@@ -1125,6 +1128,7 @@
         ]
     },
     {
+        "company": "Metropoline",
         "number": 353,
         "stops": [
             {

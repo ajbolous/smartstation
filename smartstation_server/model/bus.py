@@ -8,3 +8,4 @@ class Bus(SerializableBase):
         self.routeId: str = ''
         self.lat: float = 0
         self.lng: float = 0
+        self.company: str = ''

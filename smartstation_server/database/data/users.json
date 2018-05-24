@@ -7,7 +7,8 @@
         "lastName": "Manyak",
         "age": 21,
         "phone": "",
-        "id": "user1"
+        "id": "user1",
+        "company": "Superbus"
     },
     {
         "email": "user2@gmail.com",
@@ -17,7 +18,8 @@
         "lastName": "Manyak",
         "age": 22,
         "phone": "",
-        "id": "user2"
+        "id": "user2",
+        "company": "Superbus"
     },
     {
         "email": "user3@gmail.com",
@@ -27,7 +29,8 @@
         "lastName": "Manyak",
         "age": 23,
         "phone": "",
-        "id": "user3"
+        "id": "user3",
+        "company": "Superbus"
     },
     {
         "email": "user4@gmail.com",
@@ -37,7 +40,8 @@
         "lastName": "Manyak",
         "age": 24,
         "phone": "",
-        "id": "user4"
+        "id": "user4",
+        "company": "GB-Tours"
     },
     {
         "email": "user5@gmail.com",
@@ -47,7 +51,8 @@
         "lastName": "Manyak",
         "age": 25,
         "phone": "",
-        "id": "user5"
+        "id": "user5",
+        "company": "GB-Tours"
     },
     {
         "email": "user6@gmail.com",
@@ -57,7 +62,8 @@
         "lastName": "Manyak",
         "age": 26,
         "phone": "",
-        "id": "user6"
+        "id": "user6",
+        "company": "GB-Tours"
     },
     {
         "email": "user7@gmail.com",
@@ -67,7 +73,8 @@
         "lastName": "Manyak",
         "age": 27,
         "phone": "",
-        "id": "user7"
+        "id": "user7",
+        "company": "Metropoline"
     },
     {
         "email": "user8@gmail.com",
@@ -77,7 +84,8 @@
         "lastName": "Manyak",
         "age": 28,
         "phone": "",
-        "id": "user8"
+        "id": "user8",
+        "company": "Metropoline"
     },
     {
         "email": "user9@gmail.com",
@@ -87,6 +95,7 @@
         "lastName": "Manyak",
         "age": 29,
         "phone": "",
-        "id": "user9"
+        "id": "user9",
+        "company": "Metropoline"
     }
 ]

@@ -19,7 +19,7 @@ def generateUserData():
 
 def generateBuses():
     buses = []
-    for i in range(1,10):
+    for i in range(1,13):
         b = Bus()
         b.id = 'bus' + str(i)
         b.isActive = False
