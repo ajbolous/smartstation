@@ -20,6 +20,7 @@ for rnumber in routeNumbers:
 
     route = Route()
     route.number = rnumber
+    route.operators = ['Eged']
     route.id = route.number
 
     for obj in jsonContent:

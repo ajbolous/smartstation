@@ -12,6 +12,7 @@ def generateUserData():
         u.age = 20+i
         u.id = 'user' + str(i)
         u.password = u.id
+        u.operator = 'Eged'
         users.append(u)
     with open('smartstation_server/database/data/users.json', 'w',encoding='UTF-8') as file:
         json.dump([user.toJson() for user in users], file)

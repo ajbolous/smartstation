@@ -16,14 +16,30 @@ public class DriverLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver_login);
-        final TextView txtDriverId = (TextView) findViewById(R.id.txtDriverId);
-        final TextView txtDriverPassword = (TextView) findViewById(R.id.txtPassword);
+
+        final TextView txtDriverId = findViewById(R.id.txtDriverId);
+        final TextView txtDriverPassword = findViewById(R.id.txtPassword);
         final DriverLogin self = this;
 
-        Button fab = (Button) findViewById(R.id.btnLogin);
-        fab.setOnClickListener(new View.OnClickListener() {
+        Button fab = findViewById(R.id.btnLogin);
+
+        final Button btnDelete = findViewById(R.id.btnDelete);
+
+        btnDelete.setText("delete");
+
+        View.OnClickListener deleteHandler = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                btnDelete.setText("clicked");
+            }
+        };
+
+        btnDelete.setOnClickListener(deleteHandler);
+
+        View.OnClickListener clickHandler = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
                 WebServices.login(txtDriverId.getText().toString(), txtDriverPassword.getText().toString(), new RequestCallback<ServerResponse>() {
                     @Override
                     public void onSuccess(ServerResponse result) {
@@ -37,7 +53,10 @@ public class DriverLogin extends AppCompatActivity {
                 });
 
             }
-        });
+        };
+
+
+        fab.setOnClickListener(clickHandler);
     }
 
 }

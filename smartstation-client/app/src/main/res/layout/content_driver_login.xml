@@ -13,10 +13,10 @@
         android:layout_width="368dp"
         android:layout_height="63dp"
         android:layout_marginBottom="172dp"
+        android:background="@android:color/holo_blue_light"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
 
@@ -26,7 +26,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintBottom_toTopOf="@+id/txtPassword"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="8dp" />
@@ -38,8 +37,15 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:password="true"
-        android:text="password"
         app:layout_constraintBottom_toTopOf="@+id/btnLogin"
         app:layout_constraintTop_toBottomOf="@+id/txtDriverId"
         tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="357dp" />
 </android.support.constraint.ConstraintLayout>

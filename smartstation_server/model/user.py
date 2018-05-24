@@ -10,3 +10,4 @@ class User(SerializableBase):
         self.lastName: str = ''
         self.age: int = ''
         self.phone: str = ''
+        self.operator: str = 'Eged'
