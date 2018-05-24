@@ -13,13 +13,14 @@ def generateUserData():
         u.id = 'user' + str(i)
         u.password = u.id
         u.operator = 'Eged'
+        u.email = u.id + '@gmail.com'
         users.append(u)
     with open('smartstation_server/database/data/users.json', 'w',encoding='UTF-8') as file:
         json.dump([user.toJson() for user in users], file)
 
 def generateBuses():
     buses = []
-    for i in range(1,10):
+    for i in range(1,13):
         b = Bus()
         b.id = 'bus' + str(i)
         b.isActive = False
