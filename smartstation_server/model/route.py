@@ -14,14 +14,14 @@ class Route(SerializableBase):
         return {
             'company': self.company,
             'number': self.number,
-            'stops': [stop.toJson() for stop in self.stops]
-            'operators' : self.operators
+            'stops': [stop.toJson() for stop in self.stops],
+            'operators': self.operators
         }
 
     @classmethod
     def fromJson(cls, obj):
         route = Route()
-        route.company = obj['company']
+        #route.company = obj['company']
         route.number = obj['number']
         route.stops = [BusStop.fromJson(stop) for stop in obj['stops']]
         route.operators = obj['operators']
