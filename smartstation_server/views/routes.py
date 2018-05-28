@@ -5,6 +5,12 @@ from ..model.algorithms import calcShortestPaths
 from ..model.route import Route
 
 
+@app.route('/routes/getRoute')
+def getRoute():
+    routeId = request.args.get('routeId')
+    return jsonify(db.routes.getById(routeId))
+
+
 @app.route('/routes/getRoutes')
 def getRoutes():
     return jsonify(db.routes.all())
@@ -30,9 +36,10 @@ def getRoutesFromStation():
     return jsonify(_routes)
 
 
-@app.route('/routes/getAvailable')
+@app.route('/routes/getAvailableRoutes')
 def getAvailable():
     driverId = request.args.get('driverId')
     driver = db.users.getById(driverId)
-    _routes = db.routes.find(lambda o: driver.operator in o.operators)
+    print(driverId)
+    _routes = db.routes.find(lambda o: driver.operator in o.operator)
     return jsonify(_routes)

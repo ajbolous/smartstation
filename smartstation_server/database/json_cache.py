@@ -25,10 +25,16 @@ class JsonCache():
     def save(self):
         self.isDirty = True
 
-    def all(self) -> List[T]:
+    def all(self, hashed=False) -> List[T]:
         if not self.isValid():
             self.loadObjects()
-        return self.objects
+        if hashed:
+            if not self.hashed:
+                self.hashed = True
+                self.hashedObjects = {o.id: o for o in self.objects}
+            return self.hashedObjects
+        else:
+            return self.objects
 
     def loadObjects(self):
         print('Loading cached json ' + self.filePath)

@@ -24,9 +24,9 @@ import braudeproject.smartstations.Models.Route;
 
 public class WebServices {
 
-    private static String baseUrl = "http://10.0.2.2:5000";
+    public static String baseUrl = "http://10.0.2.2:5000";
     private static RequestQueue requestQueue;
-    private static Gson gson;
+    public static Gson gson;
 
     private WebServices() { }
 
@@ -39,45 +39,10 @@ public class WebServices {
         gson = gsonBuilder.create();
     }
 
-    public static void getRoutes(final RequestCallback<List<Route>> callback){
-        String url = baseUrl + "/routes/getRoutes";
-
-
+    public static void addRequest(JsonRequest request){
+        requestQueue.add(request);
     }
 
-    public static void getStations(final RequestCallback<List<Station>> callback) {
-        String url = baseUrl + "/stations/getStations";
 
-        JsonArrayRequest req = new JsonArrayRequest(Request.Method.GET, url, null, new Response.Listener<JSONArray>() {
-            @Override
-            public void onResponse(JSONArray response) {
-                List<Station> stations = Arrays.asList(gson.fromJson(response.toString(), Station[].class));
-                callback.onSuccess(stations);
-            }
-        }, null);
 
-        requestQueue.add(req);
-    }
-
-    public static void login(String userid, String password, final RequestCallback<ServerResponse> callback){
-
-        JSONObject credentials = new JSONObject();
-        try {
-            credentials.put("userid", userid);
-            credentials.put("password", password);
-        }catch (JSONException e) {
-
-        }
-
-        String url = baseUrl + "/login";
-
-        JsonRequest req = new JsonObjectRequest(Request.Method.POST, url, credentials, new Response.Listener<JSONObject>() {
-            @Override
-            public void onResponse(JSONObject response) {
-                callback.onSuccess(gson.fromJson(response.toString(), ServerResponse.class));
-            }
-        }, null);
-
-        requestQueue.add(req);
-    }
 }

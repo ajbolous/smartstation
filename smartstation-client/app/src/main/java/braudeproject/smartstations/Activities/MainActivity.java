@@ -20,16 +20,27 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         WebServices.initialize(getBaseContext());
-        final Button btnGetTicket = findViewById(R.id.btnSearchRoutes);
+        final Button btnShowMap = findViewById(R.id.btnShowMap);
+        final Button btnSearchRoutes = findViewById(R.id.btnSearchRoutes);
+        final Button btnFavourites = findViewById(R.id.btnFavourites);
 
 
-        btnGetTicket.setOnClickListener(new View.OnClickListener() {
+        btnShowMap.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent myIntent = new Intent(self, DriverLogin.class);
-                startActivity(myIntent);
+                startActivity(new Intent(self, MapsActivity.class));
+            }
+        });
+
+        btnSearchRoutes.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(self, RoutesListActivity.class));
+            }
+        });
+
+        btnFavourites.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                startActivity(new Intent(self, DriverLogin.class));
             }
         });
     }
-
-
 }

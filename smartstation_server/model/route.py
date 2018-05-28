@@ -5,24 +5,23 @@ from typing import List,Dict
 
 class Route(SerializableBase):
     def __init__(self):
-        self.company: str = ''
         self.number: int = 0
         self.stops: List[BusStop] = []
-        self.operators: List[str] = []
+        self.operator: str = 'Eged'
 
     def toJson(self):
         return {
-            'company': self.company,
+            'id' : self.number,
             'number': self.number,
-            'stops': [stop.toJson() for stop in self.stops]
-            'operators' : self.operators
+            'stops': [stop.toJson() for stop in self.stops],
+            'operator' : self.operator
         }
 
     @classmethod
     def fromJson(cls, obj):
         route = Route()
-        route.company = obj['company']
+        route.id = obj['number']
         route.number = obj['number']
         route.stops = [BusStop.fromJson(stop) for stop in obj['stops']]
-        route.operators = obj['operators']
+        route.operator = obj['operator']
         return route

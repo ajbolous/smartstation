@@ -16,6 +16,7 @@ import java.util.List;
 
 import braudeproject.smartstations.Models.Station;
 import braudeproject.smartstations.R;
+import braudeproject.smartstations.Services.StationsService;
 import braudeproject.smartstations.Services.WebServices;
 import braudeproject.smartstations.Services.RequestCallback;
 
@@ -29,7 +30,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         setContentView(R.layout.activity_maps);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+                .findFragmentById(R.id.usersMap);
 
         mapFragment.getMapAsync(this);
     }
@@ -37,9 +38,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        WebServices.getStations(new RequestCallback<List<Station>>() {
+        StationsService.getStations(new RequestCallback<Station[]>() {
             @Override
-            public void onSuccess(List<Station> stations) {
+            public void onSuccess(Station[] stations) {
 
                 PolylineOptions line = new PolylineOptions();
 
@@ -56,7 +57,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                 mMap.addPolyline(line);
 
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(stations.get(0).lat, stations.get(0).lng), 15));
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(stations[0].lat, stations[0].lng), 15));
             }
         });
     }

@@ -33,15 +33,23 @@
         <activity android:name=".Activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".Activities.MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Activities.DriverMapActivity"
+            android:label="Driver Control" />
         <activity
             android:name=".Activities.DriverLogin"
             android:label="@string/title_activity_driver_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.RoutesListActivity"
+            android:label="@string/title_activity_routes_list"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

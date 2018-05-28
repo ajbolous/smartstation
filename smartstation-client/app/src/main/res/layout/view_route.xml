@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/routeTextViewName"
+        android:layout_width="301dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/routeImageView"
+        android:layout_marginEnd="0dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/routeTextViewDesc"
+        android:layout_width="301dp"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/routeTextViewName"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="31dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/routeImageView"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:layout_alignBottom="@+id/routeTextViewDesc"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:background="@android:drawable/ic_menu_directions" />
+</RelativeLayout>
