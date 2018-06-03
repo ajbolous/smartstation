@@ -51,10 +51,8 @@ public class DriverLogin extends AppCompatActivity {
                         }
                     }
                 });
-
             }
         };
-
 
         fab.setOnClickListener(clickHandler);
     }

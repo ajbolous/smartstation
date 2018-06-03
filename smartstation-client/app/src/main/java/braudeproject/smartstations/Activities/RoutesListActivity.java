@@ -34,7 +34,6 @@ public class RoutesListActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
 
-
         RoutesService.getAvailableRoutes("user1", new RequestCallback<Route[]>(){
 
             @Override
@@ -49,7 +48,6 @@ public class RoutesListActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Route route = (Route)adapterView.getItemAtPosition(i);
                 Snackbar.make(view, "Assigning new Driver (Bus) to Route " + route.getRouteNumber(), Snackbar.LENGTH_LONG).setAction("Action", null).show();
-
                 startActivity(new Intent(RoutesListActivity.this, DriverMapActivity.class));
             }
         };
@@ -90,7 +88,7 @@ public class RoutesListActivity extends AppCompatActivity {
 
             Route route = getItem(position);
             ((TextView) convertView.findViewById(R.id.routeTextViewName)).setText("Route: " + route.getRouteNumber());
-            ((TextView) convertView.findViewById(R.id.routeTextViewDesc)).setText("Stops: " + route.getStops().length + " , Length: " + " KM");
+            ((TextView) convertView.findViewById(R.id.routeTextViewDesc)).setText("Stops: " + route.getStops().length + " , Length: " +  route.getStops()[route.getStops().length -1].distanceFromOrigin  + " KM");
 
             return convertView;
         }

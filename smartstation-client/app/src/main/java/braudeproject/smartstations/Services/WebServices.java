@@ -42,7 +42,4 @@ public class WebServices {
     public static void addRequest(JsonRequest request){
         requestQueue.add(request);
     }
-
-
-
 }

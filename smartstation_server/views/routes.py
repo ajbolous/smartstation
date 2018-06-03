@@ -7,9 +7,11 @@ from ..model.route import Route
 
 @app.route('/routes/getRoute')
 def getRoute():
-    routeId = request.args.get('routeId')
-    return jsonify(db.routes.getById(routeId))
-
+    routeId = int(request.args.get('routeId'))
+    route = db.routes.getById(routeId)
+    for stop in route.stops:
+        stop.station = db.stations.getById(stop.stationId)
+    return jsonify(route)
 
 @app.route('/routes/getRoutes')
 def getRoutes():
@@ -41,5 +43,4 @@ def getAvailable():
     driverId = request.args.get('driverId')
     driver = db.users.getById(driverId)
     print(driverId)
-    _routes = db.routes.find(lambda o: driver.operator in o.operator)
-    return jsonify(_routes)
+    return jsonify(db.routes.find(lambda o: driver.operator in o.operator))

@@ -15,3 +15,9 @@ def getStations():
 def getStationById():
     stationId = request.args.get('stationId')
     return jsonify(db.stations.findById(stationId))
+
+@app.route('/stations/getStationStatus')
+def getStationStatus():
+    stationId = request.args.get('stationId')
+    station = db.stations.getById(stationId)
+    return jsonify(station)

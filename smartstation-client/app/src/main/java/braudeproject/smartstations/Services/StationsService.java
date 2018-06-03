@@ -3,19 +3,18 @@ package braudeproject.smartstations.Services;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.lang.reflect.Type;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 
 import braudeproject.smartstations.Models.Station;
 
 public class StationsService {
-
 
     public static void getStations(final RequestCallback<Station[]> callback) {
         String url = WebServices.baseUrl + "/stations/getStations";
@@ -30,6 +29,21 @@ public class StationsService {
 
         WebServices.addRequest(req);
     }
+
+    public static void getStationStatus(String stationId, final RequestCallback<Station> callback) {
+        String url = WebServices.baseUrl + "/stations/getStationStatus?stationId=" + stationId;
+
+        JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
+                Station station = WebServices.gson.fromJson(response.toString(), Station.class);
+                callback.onSuccess(station);
+            }
+        }, null);
+
+        WebServices.addRequest(req);
+    }
+
 
 
     public static void getStationsHashed(final RequestCallback<HashMap<String, Station>> callback){
@@ -47,6 +61,7 @@ public class StationsService {
         }, null);
 
         WebServices.addRequest(req);
+
     }
 
 }

@@ -1,20 +1,23 @@
 package braudeproject.smartstations.Activities;
 
 import android.os.Bundle;
+import android.os.Handler;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentActivity;
+import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
-import java.util.HashMap;
-import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import braudeproject.smartstations.Models.Route;
 import braudeproject.smartstations.Models.Station;
@@ -23,18 +26,23 @@ import braudeproject.smartstations.R;
 import braudeproject.smartstations.Services.RequestCallback;
 import braudeproject.smartstations.Services.RoutesService;
 import braudeproject.smartstations.Services.StationsService;
-import braudeproject.smartstations.Services.WebServices;
 
 public class DriverMapActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
+
+    private Route driverRoute;
+    private double driverLat;
+    private double driverLng;
+    private Marker driverMarker;
+    private int nextStopIndex;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drivers_map);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager().findFragmentById(R.id.driversMap);
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.driversMap);
         mapFragment.getMapAsync(this);
     }
 
@@ -43,43 +51,111 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
         mMap = googleMap;
         int routeId = 30;
 
-        final HashMap<String, Station> hashedStations = null;
-
-
         RoutesService.getRoute(routeId, new RequestCallback<Route>() {
             @Override
-            public void onSuccess(Route _route) {
-                final Route route = _route;
+            public void onSuccess(Route route) {
+                driverRoute = route;
 
-                StationsService.getStationsHashed(new RequestCallback<HashMap<String, Station>>() {
-                    @Override
-                    public void onSuccess(HashMap<String, Station> stationsMap) {
-                        PolylineOptions line = new PolylineOptions();
-
-                        for (Stop stop : route.getStops()) {
-                            Station station = stationsMap.get(stop.stationId);
-                            LatLng coordinates = new LatLng(station.lat, station.lng);
-
-                            mMap.addMarker(
-                                    new MarkerOptions()
-                                            .position(coordinates)
-                                            .title(station.name)
-                                            .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
-                            );
-
-                            line.add(coordinates);
-                        }
-
-                        mMap.addPolyline(line);
+                driverLat = route.getStops()[0].station.getLat();
+                driverLng = route.getStops()[0].station.getLng();
 
 
-                        Station first = stationsMap.get(route.getStops()[0].stationId);
-                        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(first.lat, first.lng), 15));
-                    }
-                });
 
+                nextStopIndex = 1;
 
+                PolylineOptions line = new PolylineOptions();
+
+                for (Stop stop : route.getStops()) {
+                    LatLng coordinates = new LatLng(stop.station.lat, stop.station.lng);
+
+                    mMap.addMarker(
+                            new MarkerOptions()
+                                    .position(coordinates)
+                                    .title(stop.station.name)
+                                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
+                    );
+
+                    line.add(coordinates);
+                }
+
+                mMap.addPolyline(line);
+
+                Station first = route.getStops()[0].station;
+                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(first.lat, first.lng), 12));
+
+                driverMarker = mMap.addMarker(
+                        new MarkerOptions()
+                                .position(new LatLng(driverLat, driverLng))
+                                .title("Driver")
+                );
+                startLocationUpdates();
             }
         });
+    }
+
+
+    public void startLocationUpdates() {
+        final Handler handler = new Handler();
+        Timer timer = new Timer();
+        TimerTask doAsynchronousTask = new TimerTask() {
+            @Override
+            public void run() {
+                handler.post(new Runnable() {
+                    public void run() {
+                        try {
+                            if(updateDriverMarkers()) {
+                                final View view = findViewById(R.id.driversMap);
+
+                                if(nextStopIndex < driverRoute.getStops().length) {
+                                    StationsService.getStationStatus(driverRoute.getStops()[nextStopIndex].stationId, new RequestCallback<Station>() {
+                                        @Override
+                                        public void onSuccess(Station station) {
+                                            Snackbar.make(view, "Arriving to stop: " + station.name + " Passengers: 5",  Snackbar.LENGTH_LONG).setAction("Action", null).show();
+                                        }
+                                    });
+                                } else {
+                                    Snackbar.make(view, "Last Stop, End of Route - No Boarding",  Snackbar.LENGTH_LONG).setAction("Action", null).show();
+                                }
+                            }else{
+
+                            }
+
+                            driverMarker.setPosition(new LatLng(driverLat, driverLng));
+                            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(driverLat, driverLng), 16));
+                        } catch (Exception e) {
+                            // TODO Auto-generated catch block
+                        }
+                    }
+                });
+            }
+        };
+        timer.schedule(doAsynchronousTask, 0, 1000); //execute in every 50000 ms
+    }
+
+
+    public boolean updateDriverMarkers() {
+
+        Stop nextStop = driverRoute.getStops()[nextStopIndex];
+        Stop currStop = driverRoute.getStops()[nextStopIndex - 1];
+
+        double deltaX = nextStop.station.lat - currStop.station.lat;
+        double deltaY = nextStop.station.lng - currStop.station.lng;
+
+
+        driverLat += (deltaX / 10);
+        driverLng += (deltaY / 10);
+
+        if (Math.abs(driverLat - nextStop.station.lat) < Math.abs(deltaX / 10) && Math.abs(driverLng - nextStop.station.lng) < Math.abs(deltaY / 10)) {
+            nextStopIndex++;
+            driverLat = nextStop.station.lat;
+            driverLng = nextStop.station.lng;
+            return true;
+        }
+
+        if (Math.abs(driverLat - nextStop.station.lat) < Math.abs(deltaX / 5) && Math.abs(driverLng - nextStop.station.lng) < Math.abs(deltaY / 5)) {
+            return true;
+        }
+
+        return false;
     }
 }
