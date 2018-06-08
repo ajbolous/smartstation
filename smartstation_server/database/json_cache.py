@@ -9,7 +9,7 @@ T = TypeVar('T')
 
 
 class JsonCache():
-    def __init__(self, filePath, T=SerializableBase, hashed=False,):
+    def __init__(self, filePath, T=SerializableBase, hashed=False):
         self.filePath: str = filePath
         self.isDirty: bool = False
         self.timestamp = time.time()

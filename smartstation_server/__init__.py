@@ -18,3 +18,4 @@ from .views.routes import *
 from .views.users import *
 from .views.stations import *
 from .views.buses import *
+from .views.payments import *

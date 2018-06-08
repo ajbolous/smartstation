@@ -4,3 +4,4 @@ from smartstation_server.database.data_parse import *
 
 generateBuses()
 generateUserData()
+generateClientsData()

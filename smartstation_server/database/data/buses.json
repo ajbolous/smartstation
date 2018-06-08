@@ -1,1 +1,122 @@
-[{"isActive": false, "licensePlate": "123-bus-1", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus1"}, {"isActive": false, "licensePlate": "123-bus-2", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus2"}, {"isActive": false, "licensePlate": "123-bus-3", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus3"}, {"isActive": false, "licensePlate": "123-bus-4", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus4"}, {"isActive": false, "licensePlate": "123-bus-5", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus5"}, {"isActive": false, "licensePlate": "123-bus-6", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus6"}, {"isActive": false, "licensePlate": "123-bus-7", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus7"}, {"isActive": false, "licensePlate": "123-bus-8", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus8"}, {"isActive": false, "licensePlate": "123-bus-9", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus9"}, {"isActive": false, "licensePlate": "123-bus-10", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus10"}, {"isActive": false, "licensePlate": "123-bus-11", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus11"}, {"isActive": false, "licensePlate": "123-bus-12", "driverId": 0, "routeId": 0, "lat": 0, "lng": 0, "company": "", "id": "bus12"}]
+[
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-1",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus1"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-2",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus2"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-3",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus3"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-4",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus4"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-5",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus5"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-6",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus6"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-7",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus7"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-8",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus8"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-9",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus9"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-10",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus10"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-11",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus11"
+    },
+    {
+        "isActive": false,
+        "licensePlate": "123-bus-12",
+        "driverId": 0,
+        "routeId": 0,
+        "lat": 0,
+        "lng": 0,
+        "company": "",
+        "id": "bus12"
+    }
+]

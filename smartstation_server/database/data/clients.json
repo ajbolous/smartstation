@@ -1,0 +1,167 @@
+[
+    {
+        "id": "client1",
+        "firstName": "",
+        "lastName": "",
+        "email": "client1@gmail.com",
+        "password": "client1",
+        "CombinedCard": "",
+        "CreditCard": "",
+        "ExpDate": "",
+        "CVV": ""
+    },
+    {
+        "id": "client2",
+        "firstName": "",
+        "lastName": "",
+        "email": "client2@gmail.com",
+        "password": "client2",
+        "CombinedCard": "",
+        "CreditCard": "",
+        "ExpDate": "",
+        "CVV": ""
+    },
+    {
+        "id": "client3",
+        "firstName": "",
+        "lastName": "",
+        "email": "client3@gmail.com",
+        "password": "client3",
+        "CombinedCard": "",
+        "CreditCard": "",
+        "ExpDate": "",
+        "CVV": ""
+    },
+    {
+        "id": "client4",
+        "firstName": "",
+        "lastName": "",
+        "email": "client4@gmail.com",
+        "password": "client4",
+        "CombinedCard": "",
+        "CreditCard": "",
+        "ExpDate": "",
+        "CVV": ""
+    },
+    {
+        "id": "client5",
+        "firstName": "",
+        "lastName": "",
+        "email": "client5@gmail.com",
+        "password": "client5",
+        "CombinedCard": "",
+        "CreditCard": "",
+        "ExpDate": "",
+        "CVV": ""
+    },
+    {
+        "id": "client6",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": "",
+        "CombinedCard": "",
+        "CreditCard": "4975232282723991",
+        "ExpDate": "09/21",
+        "CVV": "698"
+    },
+    {
+        "id": "client7",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": "",
+        "CombinedCard": "",
+        "CreditCard": "3781386152252849",
+        "ExpDate": "05/22",
+        "CVV": "632"
+    },
+    {
+        "id": "client8",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": "",
+        "CombinedCard": "",
+        "CreditCard": "8722647887139522",
+        "ExpDate": "08/23",
+        "CVV": "537"
+    },
+    {
+        "id": "client9",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": "",
+        "CombinedCard": "",
+        "CreditCard": "9749477951228381",
+        "ExpDate": "01/24",
+        "CVV": "616"
+    },
+    {
+        "id": "client10",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": "",
+        "CombinedCard": "",
+        "CreditCard": "2977415367173666",
+        "ExpDate": "04/25",
+        "CVV": "449"
+    },
+    {
+        "id": "client11",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": "",
+        "CombinedCard": "9524518285",
+        "CreditCard": "",
+        "ExpDate": "",
+        "CVV": ""
+    },
+    {
+        "id": "client12",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": "",
+        "CombinedCard": "3965214988",
+        "CreditCard": "",
+        "ExpDate": "",
+        "CVV": ""
+    },
+    {
+        "id": "client13",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": "",
+        "CombinedCard": "3639545836",
+        "CreditCard": "",
+        "ExpDate": "",
+        "CVV": ""
+    },
+    {
+        "id": "client14",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": "",
+        "CombinedCard": "3492483657",
+        "CreditCard": "",
+        "ExpDate": "",
+        "CVV": ""
+    },
+    {
+        "id": "client15",
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "password": "",
+        "CombinedCard": "3236276724",
+        "CreditCard": "",
+        "ExpDate": "",
+        "CVV": ""
+    }
+]
