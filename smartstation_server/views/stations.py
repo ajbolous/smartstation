@@ -24,20 +24,26 @@ def getStationStatus():
 
 @app.route('/stations/getPossibleStations')
 def getPossibleStations():
-    stationId = request.args.get('stationId')
-    _stations = []
-    _stops = []
+    stationId = str(request.args.get('stationId'))
+    stations = {}
+
     for route in db.routes.all():
-        for stop in route.stops:
-            if stop.stationId == stationId:
-                index = route.stops.index(stop)
-                while index < (len(route.stops)-1):
-                    _stations.append(route.stops[index+1])
-                    index += 1
-                break
-    
-    for stop in _stations:
-        for station in db.stations.all():
-            if stop.stationId == station.id:
-               _stops.append(station)
-    return jsonify(_stops)
+        originStop = next(filter(lambda stop: stop.stationId == stationId, route.stops), None)
+        print(originStop)
+        if not originStop:
+            continue
+        originIndex = route.stops.index(originStop)
+
+        for stop in route.stops[originIndex : ]:
+            distance = abs(stop.distanceFromOrigin - originStop.distanceFromOrigin)
+            if distance < 10:
+                if stop.stationId not in stations:
+                    stations[stop.stationId] = {
+                        'station' : db.stations.getById(stop.stationId),
+                        'distance' : distance,
+                        'routes' : [route.id]
+                    }
+                else:
+                    stations[stop.stationId]['routes'].append(route.id)
+
+    return jsonify(stations)
