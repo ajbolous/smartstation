@@ -2,6 +2,8 @@ package braudeproject.smartstations.Models;
 
 import com.google.gson.annotations.SerializedName;
 
+import braudeproject.smartstations.Services.Utils;
+
 public class Station {
 
     @SerializedName("id")
@@ -37,6 +39,10 @@ public class Station {
 
     public double getLng() {
         return lng;
+    }
+
+    public double getDistance(double lat, double lng){
+        return Utils.haversine(lat, this.lat, lng, this.lng, 1, 1);
     }
 
 }

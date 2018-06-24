@@ -110,7 +110,7 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
                                     StationsService.getStationStatus(driverRoute.getStops()[nextStopIndex].stationId, new RequestCallback<Station>() {
                                         @Override
                                         public void onSuccess(Station station) {
-                                            Snackbar.make(view, "Arriving to stop: " + station.name + " Passengers: 5",  Snackbar.LENGTH_LONG).setAction("Action", null).show();
+                                            Snackbar.make(view, "Arriving at stop: " + station.name + " Passengers: 5",  Snackbar.LENGTH_LONG).setAction("Action", null).show();
                                         }
                                     });
                                 } else {
@@ -129,7 +129,7 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
                 });
             }
         };
-        timer.schedule(doAsynchronousTask, 0, 1000); //execute in every 50000 ms
+        timer.schedule(doAsynchronousTask, 0, 5000); //execute in every 50000 ms
     }
 
 
@@ -142,8 +142,8 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
         double deltaY = nextStop.station.lng - currStop.station.lng;
 
 
-        driverLat += (deltaX / 10);
-        driverLng += (deltaY / 10);
+        driverLat += (deltaX / 50);
+        driverLng += (deltaY / 50);
 
         if (Math.abs(driverLat - nextStop.station.lat) < Math.abs(deltaX / 10) && Math.abs(driverLng - nextStop.station.lng) < Math.abs(deltaY / 10)) {
             nextStopIndex++;

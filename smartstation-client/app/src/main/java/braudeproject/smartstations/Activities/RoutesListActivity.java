@@ -30,12 +30,8 @@ public class RoutesListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_routes_list);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-
-        setSupportActionBar(toolbar);
 
         RoutesService.getAvailableRoutes("user1", new RequestCallback<Route[]>(){
-
             @Override
             public void onSuccess(Route[] routes) {
                 BaseAdapter adapter = new MyAdapter(routes);

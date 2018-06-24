@@ -23,19 +23,6 @@ public class DriverLogin extends AppCompatActivity {
 
         Button fab = findViewById(R.id.btnLogin);
 
-        final Button btnDelete = findViewById(R.id.btnDelete);
-
-        btnDelete.setText("delete");
-
-        View.OnClickListener deleteHandler = new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                btnDelete.setText("clicked");
-            }
-        };
-
-        btnDelete.setOnClickListener(deleteHandler);
-
         View.OnClickListener clickHandler = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
