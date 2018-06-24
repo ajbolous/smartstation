@@ -45,7 +45,7 @@ public class RoutesService {
     }
 
     public static void getShortestRoutes(String destinationId, final RequestCallback<ShortestRoutes>callback){
-        String url = WebServices.baseUrl + "/routes/getShortestRoute?destinationId=" + destinationId;
+        String url = WebServices.baseUrl + "/routes/getShortestRoute?sourceId=" + Config.getInstance().stationId + "&destinationId=" + destinationId;
 
         JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
             @Override

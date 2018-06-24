@@ -69,8 +69,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     if (station.id.compareTo(Config.getInstance().stationId)==0){
                         mMap.addMarker(new MarkerOptions()
                                 .position(coordinates).snippet("You are Here")
-                                .title(station.name)).showInfoWindow();
-                                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(station.lat, station.lng), 18));
+                                .title(station.name)
+                        ).showInfoWindow();
+                        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(station.lat, station.lng), 18));
 
                     }else {
                         mMap.addMarker(new MarkerOptions()

@@ -12,6 +12,7 @@ import org.json.JSONObject;
 import java.lang.reflect.Type;
 import java.util.HashMap;
 
+import braudeproject.smartstations.Models.DestinationStation;
 import braudeproject.smartstations.Models.Station;
 
 public class StationsService {
@@ -61,7 +62,21 @@ public class StationsService {
         }, null);
 
         WebServices.addRequest(req);
+    }
 
+    public static void getPossibleStations(String stationId, final RequestCallback<DestinationStation[]> callback){
+        String url = WebServices.baseUrl + "/stations/getPossibleStations?stationId=" + stationId;
+
+        JsonArrayRequest req = new JsonArrayRequest(Request.Method.GET, url, null, new Response.Listener<JSONArray>() {
+            @Override
+            public void onResponse(JSONArray response) {
+
+                DestinationStation[] stations = WebServices.gson.fromJson(response.toString(), DestinationStation[].class);
+                callback.onSuccess(stations);
+            }
+        }, null);
+
+        WebServices.addRequest(req);
     }
 
 }

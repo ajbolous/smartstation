@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.view.View;
 
+import java.sql.Driver;
+
 import braudeproject.smartstations.R;
 import braudeproject.smartstations.Services.*;
 
@@ -31,7 +33,7 @@ public class DriverLogin extends AppCompatActivity {
                     @Override
                     public void onSuccess(ServerResponse result) {
                         if (result.success) {
-                            Intent myIntent = new Intent(self, MapsActivity.class);
+                            Intent myIntent = new Intent(self, RoutesListActivity.class);
                             startActivity(myIntent);
                         }else{
                             txtDriverId.setText(result.message);

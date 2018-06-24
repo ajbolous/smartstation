@@ -59,8 +59,6 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
                 driverLat = route.getStops()[0].station.getLat();
                 driverLng = route.getStops()[0].station.getLng();
 
-
-
                 nextStopIndex = 1;
 
                 PolylineOptions line = new PolylineOptions();
