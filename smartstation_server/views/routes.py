@@ -13,17 +13,27 @@ def getRoute():
         stop.station = db.stations.getById(stop.stationId)
     return jsonify(route)
 
+
 @app.route('/routes/getRoutes')
 def getRoutes():
     return jsonify(db.routes.all())
 
 
-@app.route('/routes/getShortestPath')
+@app.route('/routes/getShortestRoute')
 def getShortestPath():
-    source = request.args.get('source')
-    dest = request.args.get('dest')
+    source = request.args.get('sourceId')
+    dest = request.args.get('destinationId')
     path = calcShortestPaths(db.stations.all(), db.routes.all(), source, dest)
-    return jsonify(path)
+    print (path)
+    shortestRoute = {
+        'stations' : [],
+        'totalDistance' : 0
+    }
+    for stationId in path:
+        shortestRoute['stations'].append(db.stations.getById(stationId))
+        shortestRoute['totalDistance'] += 1
+        
+    return jsonify(shortestRoute)
 
 
 @app.route('/routes/getRoutesFromStation')

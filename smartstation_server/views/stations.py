@@ -46,6 +46,7 @@ def getPossibleStations():
                 else:
                     stations[stop.stationId]['routes'].append(route.id)
 
+<<<<<<< HEAD
     return jsonify(stations)
 
 @app.route('/stations/updateStatus', methods=['POST'])
@@ -88,3 +89,6 @@ def updateStatus():
 
 
 
+=======
+    return jsonify(list(stations.values()))
+>>>>>>> 6da2ec7854b06b4a6fc71e9b39a48497b01b7b1d

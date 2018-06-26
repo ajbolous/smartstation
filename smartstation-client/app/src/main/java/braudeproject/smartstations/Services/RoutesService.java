@@ -9,7 +9,10 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.util.List;
+
 import braudeproject.smartstations.Models.Route;
+import braudeproject.smartstations.Models.ShortestRoutes;
 
 public class RoutesService {
 
@@ -36,12 +39,21 @@ public class RoutesService {
                 Route route = WebServices.gson.fromJson(response.toString(), Route.class);
                 callback.onSuccess(route);
             }
-        }, new Response.ErrorListener() {
+        }, null);
+
+        WebServices.addRequest(req);
+    }
+
+    public static void getShortestRoutes(String destinationId, final RequestCallback<ShortestRoutes>callback){
+        String url = WebServices.baseUrl + "/routes/getShortestRoute?sourceId=" + Config.getInstance().stationId + "&destinationId=" + destinationId;
+
+        JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
             @Override
-            public void onErrorResponse(VolleyError error) {
-                Route route = null;
+            public void onResponse(JSONObject response) {
+                ShortestRoutes route = WebServices.gson.fromJson(response.toString(), ShortestRoutes.class);
+                callback.onSuccess(route);
             }
-        });
+        }, null);
 
         WebServices.addRequest(req);
     }

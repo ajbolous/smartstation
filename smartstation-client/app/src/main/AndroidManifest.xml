@@ -50,7 +50,15 @@
         <activity
             android:name=".Activities.RoutesListActivity"
             android:label="@string/title_activity_routes_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Activities.DestinationsListActivity"
+            android:label="TicketDestinations"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Activities.RouteChooseActivity"
+            android:label="ChooseRoutesActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
