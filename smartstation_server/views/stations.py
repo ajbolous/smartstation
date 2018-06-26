@@ -47,3 +47,44 @@ def getPossibleStations():
                     stations[stop.stationId]['routes'].append(route.id)
 
     return jsonify(stations)
+
+@app.route('/stations/updateStatus', methods=['POST'])
+def updateStatus():
+    jsonContent = request.get_json()
+    status = {}
+    
+    for jObj in jsonContent:
+        stationId = jObj["stationId"]
+        lineNumber = jObj["lineNumber"]
+        stopType = jObj["stopType"]
+      
+        route = db.routes.getById(lineNumber)
+        
+        for stop in route.stops:
+            if stop.stationId == stationId:
+                originIndex = route.stops.index(stop)
+                if stopType == 'Boarding':
+                    route.stops[originIndex].gettingOn += 1 
+                elif stopType == 'Alighting':
+                    route.stops[originIndex].gettingOff += 1
+        
+                status[stop.stationId] = {
+                    'stationId' : stationId,
+                    'lineNumber' : lineNumber,
+                    'stopType' : stopType,
+                    'gettingOn' : route.stops[originIndex].gettingOn,
+                    'gettingOff' : route.stops[originIndex].gettingOff
+                } 
+                
+                db.routes.writeObjects()
+                break
+
+    return jsonify(status)
+
+
+        
+
+
+
+
+
