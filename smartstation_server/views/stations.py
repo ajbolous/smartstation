@@ -82,8 +82,23 @@ def updateStatus():
 
     return jsonify(status)
 
+@app.route('/stations/stationReset', methods=['POST'])
+def stationReset():
+    jObj = request.get_json()
+    stationId = jObj["stationId"]
+    lineNumber = jObj["lineNumber"]
 
-        
+    route = db.routes.getById(lineNumber)
+    if route:
+        for stop in route.stops:
+            if stop.stationId == stationId:
+                stop.gettingOn = 0
+                stop.gettingOff = 0
+                db.routes.writeObjects()
+                return jsonify({'success': True, 'message': 'Boarding And Alighting Information Has Been Reset'})
+
+    return jsonify({'success': False, 'message': 'Could Not Reset The Station Information'})
+   
 
 
 
