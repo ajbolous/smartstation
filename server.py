@@ -1,3 +1,3 @@
 from smartstation_server import app
 
-app.run()
+app.run('0.0.0.0', 5000)
