@@ -22,10 +22,14 @@ public class MainActivity extends AppCompatActivity {
 
         WebServices.initialize(getBaseContext());
 
+        Intent intent;
         if (Config.getInstance().Mode == Config.AppMode.Driver)
-            startActivity(new Intent(self, DriverLogin.class));
+            intent =new Intent(self, DriverLogin.class);
         else
-            startActivity(new Intent(self, MapsActivity.class));
+            intent =new Intent(self, MapsActivity.class);
+
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
 
     }
 }

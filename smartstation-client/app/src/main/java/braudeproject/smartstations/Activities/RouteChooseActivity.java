@@ -1,10 +1,16 @@
 package braudeproject.smartstations.Activities;
 
+import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.BaseAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -16,18 +22,17 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
 
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
 
-import braudeproject.smartstations.Models.Route;
+import braudeproject.smartstations.Models.DestinationStation;
 import braudeproject.smartstations.Models.ShortestRoutes;
 import braudeproject.smartstations.Models.Station;
-import braudeproject.smartstations.Models.Stop;
 import braudeproject.smartstations.R;
 import braudeproject.smartstations.Services.Config;
 import braudeproject.smartstations.Services.RequestCallback;
 import braudeproject.smartstations.Services.RoutesService;
-import braudeproject.smartstations.Services.StationsService;
 
 public class RouteChooseActivity extends FragmentActivity implements OnMapReadyCallback {
 
@@ -47,39 +52,115 @@ public class RouteChooseActivity extends FragmentActivity implements OnMapReadyC
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        String destinationId = getIntent().getStringExtra("destinationId");
+        final String destinationId = getIntent().getStringExtra("destinationId");
+        final ListView listView = findViewById(R.id.routesMapList);
+        final RouteChooseActivity self = this;
 
-        RoutesService.getShortestRoutes(destinationId, new RequestCallback<ShortestRoutes>() {
+        final AdapterView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener() {
             @Override
-            public void onSuccess(ShortestRoutes route) {
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                ShortestRoutes route = (ShortestRoutes)adapterView.getItemAtPosition(i);
+                Intent intent = new Intent(self, PaymentActivity.class);
+
+                intent.putExtra("sourceId", Config.getInstance().stationId);
+                intent.putExtra("destinationId", destinationId);
+                intent.putExtra("stops", route.stations.length);
+                intent.putExtra("cost", route.stations.length);
+
+                startActivity(intent);
+            }
+        };
+
+        RoutesService.getShortestRoutes(destinationId, new RequestCallback<ShortestRoutes[]>() {
+            @Override
+            public void onSuccess(ShortestRoutes[] routes) {
+
+                BaseAdapter adapter = new RouteChooseActivity.MyAdapter(routes);
+                listView.setAdapter(adapter);
+
+                listView.setOnItemClickListener(onItemClickListener);
+
+                int i =0;
+                int[] colors = new int[] {Color.GREEN, Color.RED, Color.MAGENTA, Color.BLACK, Color.BLUE};
+
+                HashSet<String> idSet = new HashSet<String>();
 
 
-                PolylineOptions line = new PolylineOptions();
-                line.color(0xaa2211);
-                
-                for (Station station : route.stations) {
-                    LatLng coordinates = new LatLng(station.lat, station.lng);
+                for (ShortestRoutes route : routes) {
+                    PolylineOptions line = new PolylineOptions();
 
-                    MarkerOptions options =  new MarkerOptions()
-                            .position(coordinates)
-                            .title(station.name)
-                            .snippet(station.description);
+                    for (Station station : route.stations) {
 
-                    if (station.id.compareTo(Config.getInstance().stationId) == 0)
-                        options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
+                        LatLng coordinates = new LatLng(station.lat, station.lng);
 
-                    Marker m = mMap.addMarker(options);
+                        if (idSet.contains(station.id) == false) {
 
-                    if (station.id.compareTo(Config.getInstance().stationId) == 0)
-                        m.showInfoWindow();
+                            MarkerOptions options = new MarkerOptions()
+                                    .position(coordinates)
+                                    .title(station.name)
+                                    .snippet(station.description);
 
-                    line.add(coordinates);
+                            if (station.id.compareTo(Config.getInstance().stationId) == 0)
+                                options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
+
+                            if (station.id.compareTo(destinationId) == 0)
+                                options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW));
+
+                            Marker m = mMap.addMarker(options);
+
+                            if (station.id.compareTo(Config.getInstance().stationId) == 0)
+                                m.showInfoWindow();
+
+                            idSet.add(station.id);
+                        }
+                        line.add(coordinates);
+                    }
+                    line.color(colors[i++ % colors.length]);
+                    mMap.addPolyline(line);
+
                 }
 
-                mMap.addPolyline(line);
-
-                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(route.stations[0].lat, route.stations[0].lng), 15));
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(routes[0].stations[0].lat, routes[0].stations[0].lng), 11));
             }
         });
+    }
+
+
+    class MyAdapter extends BaseAdapter {
+
+        private ShortestRoutes[] mRoutes;
+
+        public MyAdapter(ShortestRoutes[] routes) {
+            mRoutes = routes;
+        }
+
+        @Override
+        public int getCount() {
+            return mRoutes.length;
+        }
+
+        @Override
+        public ShortestRoutes getItem(int i) {
+            return mRoutes[i];
+        }
+
+        @Override
+        public long getItemId(int i) {
+            return 0;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup container) {
+            if (convertView == null) {
+                convertView = getLayoutInflater().inflate(R.layout.view_route, container, false);
+            }
+
+            ShortestRoutes route = getItem(position);
+            ((TextView) convertView.findViewById(R.id.routeTextViewName)).setText("Route " + position);
+            ((TextView) convertView.findViewById(R.id.routeTextViewDesc)).setText(route.stations.length + " Station, " + route.totalDistance + " KM");
+
+            return convertView;
+        }
+
     }
 }

@@ -12,7 +12,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/routeImageView"
         android:layout_marginEnd="0dp"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/destinationDesc"

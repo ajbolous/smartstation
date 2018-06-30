@@ -31,6 +31,21 @@ public class StationsService {
         WebServices.addRequest(req);
     }
 
+    public static void getFavouriteStations(final RequestCallback<DestinationStation[]> callback) {
+        String url = WebServices.baseUrl + "/stations/getFavouriteStations";
+
+        JsonArrayRequest req = new JsonArrayRequest(Request.Method.GET, url, null, new Response.Listener<JSONArray>() {
+            @Override
+            public void onResponse(JSONArray response) {
+
+                DestinationStation[] stations = WebServices.gson.fromJson(response.toString(), DestinationStation[].class);
+                callback.onSuccess(stations);
+            }
+        }, null);
+
+        WebServices.addRequest(req);
+    }
+
     public static void getStationStatus(String stationId, final RequestCallback<Station> callback) {
         String url = WebServices.baseUrl + "/stations/getStationStatus?stationId=" + stationId;
 

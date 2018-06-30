@@ -119,7 +119,7 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
                             }
 
                             driverMarker.setPosition(new LatLng(driverLat, driverLng));
-                            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(driverLat, driverLng), 16));
+                            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(driverLat, driverLng), 18));
                         } catch (Exception e) {
                             // TODO Auto-generated catch block
                         }
@@ -127,7 +127,7 @@ public class DriverMapActivity extends FragmentActivity implements OnMapReadyCal
                 });
             }
         };
-        timer.schedule(doAsynchronousTask, 0, 5000); //execute in every 50000 ms
+        timer.schedule(doAsynchronousTask, 0, 2000); //execute in every 50000 ms
     }
 
 

@@ -5,6 +5,8 @@ class SerializableBase():
     def toJson(self):
         return self.__dict__
 
+    def __repr__(self):
+        return "<Base " + str (self.id) + ">"
     @classmethod
     def fromJson(cls, jsonObj):
         obj = cls()

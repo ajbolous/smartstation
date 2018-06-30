@@ -44,13 +44,13 @@ public class RoutesService {
         WebServices.addRequest(req);
     }
 
-    public static void getShortestRoutes(String destinationId, final RequestCallback<ShortestRoutes>callback){
+    public static void getShortestRoutes(String destinationId, final RequestCallback<ShortestRoutes[]>callback){
         String url = WebServices.baseUrl + "/routes/getShortestRoute?sourceId=" + Config.getInstance().stationId + "&destinationId=" + destinationId;
 
-        JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
+        JsonArrayRequest req = new JsonArrayRequest(Request.Method.GET, url, null, new Response.Listener<JSONArray>() {
             @Override
-            public void onResponse(JSONObject response) {
-                ShortestRoutes route = WebServices.gson.fromJson(response.toString(), ShortestRoutes.class);
+            public void onResponse(JSONArray response) {
+                ShortestRoutes[] route = WebServices.gson.fromJson(response.toString(), ShortestRoutes[].class);
                 callback.onSuccess(route);
             }
         }, null);

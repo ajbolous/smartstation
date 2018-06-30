@@ -59,6 +59,10 @@
             android:name=".Activities.RouteChooseActivity"
             android:label="ChooseRoutesActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".Activities.PaymentActivity"
+            android:label="ChooseRoutesActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
 
     <!-- Lots of fancy layout -->
+
+    <ListView
+        android:id="@+id/routesMapList"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:background="@android:color/background_light" />
 
     <fragment xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:map="http://schemas.android.com/apk/res-auto"
@@ -13,11 +22,7 @@
         android:id="@+id/routesMap"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        tools:context="braudeproject.smartstations.Activities.RouteChooseActivity" />
+        android:layout_height="match_parent" />
 
-
-</RelativeLayout>
+</LinearLayout>
 

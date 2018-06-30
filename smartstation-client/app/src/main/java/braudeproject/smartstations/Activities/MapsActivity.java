@@ -1,32 +1,24 @@
 package braudeproject.smartstations.Activities;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
-import android.widget.Button;
 
-import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.maps.model.PolylineOptions;
-
-import java.util.List;
 
 import braudeproject.smartstations.Models.Station;
 import braudeproject.smartstations.R;
 import braudeproject.smartstations.Services.Config;
-import braudeproject.smartstations.Services.StationsService;
-import braudeproject.smartstations.Services.WebServices;
 import braudeproject.smartstations.Services.RequestCallback;
+import braudeproject.smartstations.Services.StationsService;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
@@ -39,8 +31,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
 
         final FloatingActionButton btnBuyTicket = findViewById(R.id.buyNewTicket);
+        final FloatingActionButton btnFavouriteTicket = findViewById(R.id.buyFavouriteTicket);
 
-        SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager()
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.usersMap);
 
         mapFragment.getMapAsync(this);
@@ -49,7 +42,18 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         btnBuyTicket.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(self, DestinationsListActivity.class));
+                Intent intent = new Intent(self, DestinationsListActivity.class);
+                intent.putExtra("vtype", "normal" );
+                startActivity(intent);
+            }
+        });
+
+        btnFavouriteTicket.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(self, DestinationsListActivity.class);
+                intent.putExtra("vtype", "favourite" );
+                startActivity(intent);
             }
         });
     }
@@ -65,15 +69,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                     LatLng coordinates = new LatLng(station.lat, station.lng);
 
-
-                    if (station.id.compareTo(Config.getInstance().stationId)==0){
+                    if (station.id.compareTo(Config.getInstance().stationId) == 0) {
                         mMap.addMarker(new MarkerOptions()
                                 .position(coordinates).snippet("You are Here")
                                 .title(station.name)
                         ).showInfoWindow();
-                        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(station.lat, station.lng), 18));
+                        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(station.lat, station.lng), 15));
 
-                    }else {
+                    } else {
                         mMap.addMarker(new MarkerOptions()
                                 .position(coordinates)
                                 .title(station.name))

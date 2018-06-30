@@ -28,6 +28,8 @@ public class DestinationsListActivity extends AppCompatActivity {
         final ListView listView = findViewById(R.id.destinationsListView);
         final DestinationsListActivity self = this;
 
+        final String vtype = getIntent().getStringExtra("vtype");
+
         final AdapterView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
@@ -41,16 +43,26 @@ public class DestinationsListActivity extends AppCompatActivity {
             }
         };
 
+        if (vtype.compareTo("normal") == 0) {
 
-        StationsService.getPossibleStations(Config.getInstance().stationId,  new RequestCallback<DestinationStation[]>(){
-            @Override
-            public void onSuccess(DestinationStation[] stations) {
-                BaseAdapter adapter = new MyAdapter(stations);
-                listView.setAdapter(adapter);
-                listView.setOnItemClickListener(onItemClickListener);
-            }
-        });
-
+            StationsService.getPossibleStations(Config.getInstance().stationId, new RequestCallback<DestinationStation[]>() {
+                @Override
+                public void onSuccess(DestinationStation[] stations) {
+                    BaseAdapter adapter = new MyAdapter(stations);
+                    listView.setAdapter(adapter);
+                    listView.setOnItemClickListener(onItemClickListener);
+                }
+            });
+        }else {
+            StationsService.getFavouriteStations(new RequestCallback<DestinationStation[]>() {
+                @Override
+                public void onSuccess(DestinationStation[] stations) {
+                    BaseAdapter adapter = new MyAdapter(stations);
+                    listView.setAdapter(adapter);
+                    listView.setOnItemClickListener(onItemClickListener);
+                }
+            });
+        }
     }
 
     class MyAdapter extends BaseAdapter {
