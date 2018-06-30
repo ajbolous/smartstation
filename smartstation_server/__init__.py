@@ -11,7 +11,6 @@ class SerializableBaseJSONEncoder(JSONEncoder):
 
 
 app = Flask(__name__)
-app.debug = True
 app.json_encoder = SerializableBaseJSONEncoder
 
 from .views.routes import *

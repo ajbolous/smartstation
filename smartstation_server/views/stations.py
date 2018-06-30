@@ -56,4 +56,61 @@ def getPossibleStations():
                 else:
                     stations[stop.stationId]['routes'].append(route.id)
 
-    return jsonify(list(stations.values()))
+    
+    return jsonify(stations)
+
+@app.route('/stations/updateStatus', methods=['POST'])
+def updateStatus():
+    jsonContent = request.get_json()
+    status = {}
+    
+    for jObj in jsonContent:
+        stationId = jObj["stationId"]
+        lineNumber = jObj["lineNumber"]
+        stopType = jObj["stopType"]
+      
+        route = db.routes.getById(lineNumber)
+        
+        for stop in route.stops:
+            if stop.stationId == stationId:
+                originIndex = route.stops.index(stop)
+                if stopType == 'Boarding':
+                    route.stops[originIndex].gettingOn += 1 
+                elif stopType == 'Alighting':
+                    route.stops[originIndex].gettingOff += 1
+        
+                status[stop.stationId] = {
+                    'stationId' : stationId,
+                    'lineNumber' : lineNumber,
+                    'stopType' : stopType,
+                    'gettingOn' : route.stops[originIndex].gettingOn,
+                    'gettingOff' : route.stops[originIndex].gettingOff
+                } 
+                
+                db.routes.writeObjects()
+                break
+
+    return jsonify(status)
+
+@app.route('/stations/stationReset', methods=['POST'])
+def stationReset():
+    jObj = request.get_json()
+    stationId = jObj["stationId"]
+    lineNumber = jObj["lineNumber"]
+
+    route = db.routes.getById(lineNumber)
+    if route:
+        for stop in route.stops:
+            if stop.stationId == stationId:
+                stop.gettingOn = 0
+                stop.gettingOff = 0
+                db.routes.writeObjects()
+                return jsonify({'success': True, 'message': 'Boarding And Alighting Information Has Been Reset'})
+
+    return jsonify({'success': False, 'message': 'Could Not Reset The Station Information'})
+   
+
+
+
+
+
